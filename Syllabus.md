@@ -1,6 +1,8 @@
 ### Syllabus
 
 **Start Date**: Jan 15, 2015
+**Time & Duration**: 7-9pm, 8 weeks
+
 
 **Course 'Texts'** (online, free)
 
