@@ -7,12 +7,12 @@
 
 ### Course Texts
 
-JavaScript: 
+**JavaScript**: 
 
 Mozilla JavaScript Guide: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide
 
 Eloquent Javascript: http://eloquentjavascript.net/
 
-jQuery:
+**jQuery**:
 
 jQuery Fundamentals: http://jqfundamentals.com/chapter/jquery-basics
