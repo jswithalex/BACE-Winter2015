@@ -25,13 +25,28 @@ jQuery Fundamentals: http://jqfundamentals.com/chapter/jquery-basics
 #### Week 1
 + theme 
 
-#### Week 1
+#### Week 2
 + theme 
 + 
 
-#### Week 1
+#### Week 3
 + theme 
 + 
 
-#### Week 1
+#### Week 4
 + theme 
+
+#### Week 5
++ theme 
+
+#### Week 6
++ theme 
++ 
+
+#### Week 7
++ theme 
++ 
+
+#### Week 8
++ theme 
++   
