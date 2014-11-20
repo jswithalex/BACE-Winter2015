@@ -16,6 +16,7 @@ Websites today are no longer a collection of static pages; they behave more like
 
 
 ### Course Texts
+***
 
 **JavaScript**: 
 
