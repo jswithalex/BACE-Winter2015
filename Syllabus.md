@@ -10,7 +10,7 @@ Websites today are no longer a collection of static pages; they behave more like
 
 **Start Date**: Jan 15, 2015
 
-**Time & Duration**: 7-9pm, 8 weeks
+**Time & Duration**: Thursdays, 7-9pm. 8 weeks
 
 
 ### Course Texts
