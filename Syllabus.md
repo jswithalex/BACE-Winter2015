@@ -13,6 +13,8 @@ Websites today are no longer a collection of static pages; they behave more like
 **Time & Duration**: Thursdays, 7-9pm. 8 weeks
 
 
+
+
 ### Course Texts
 
 **JavaScript**: 
@@ -25,8 +27,10 @@ Eloquent Javascript: http://eloquentjavascript.net/
 
 jQuery Fundamentals: http://jqfundamentals.com/chapter/jquery-basics
 
-### Syllabus
 
+
+
+### Syllabus
 Key:
 
 **M** = Mozilla JavaScript Guide
