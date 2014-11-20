@@ -22,31 +22,33 @@ jQuery Fundamentals: http://jqfundamentals.com/chapter/jquery-basics
 
 ### Syllabus
 
+Key:
+
+M = Mozilla JavaScript Guide
+EJ = Eloquent JavaScript
+JQ = jQuery Fundamentals
+
 #### Week 1
-+ theme 
++ capturing user input
+reading: 
 
 #### Week 2
 + theme 
-+ 
 
 #### Week 3
 + theme 
-+ 
 
 #### Week 4
 + theme 
 
 #### Week 5
-+ theme 
++ theme
 
 #### Week 6
-+ theme 
-+ 
++ theme
 
 #### Week 7
-+ theme 
-+ 
++ theme
 
 #### Week 8
-+ theme 
-+   
++ theme
