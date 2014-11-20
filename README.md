@@ -5,7 +5,7 @@ Websites today are no longer a collection of static pages; they behave more like
 
 #### Pre-Requisites:
 
-+ A working knowledge of HTML and CSS and familiarity with the internet are pre-requisites for this class. 
++ A working knowledge of HTML and CSS and familiarity with the internet. 
 + Create a GitHub account to save your work on the web.  
 
 **Start Date**: Jan 15, 2015
