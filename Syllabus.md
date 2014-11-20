@@ -1,5 +1,5 @@
 ## Programming with JavaScript and jQuery
-#### Course Description:
+### Course Description:
 
 Websites today are no longer a collection of static pages; they behave more like desktop applications, responding to user interaction in a complex way. This increased functionality means that JavaScript, the programming language of the browser, is more important than ever. This project-based course will teach you how to turn your HTML pages into dynamic, application-like interfaces with JavaScript and jQuery. 
 
@@ -15,7 +15,7 @@ Websites today are no longer a collection of static pages; they behave more like
 
 
 
-#### Course Texts
+### Course Texts
 
 **JavaScript**: 
 
@@ -30,7 +30,7 @@ jQuery Fundamentals: http://jqfundamentals.com/chapter/jquery-basics
 
 
 
-#### Syllabus
+### Syllabus
 Key:
 
 **M** = Mozilla JavaScript Guide
