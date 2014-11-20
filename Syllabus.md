@@ -8,14 +8,14 @@ Websites today are no longer a collection of static pages; they behave more like
 + A working knowledge of HTML and CSS and familiarity with the internet are pre-requisites for this class. 
 + Create a GitHub account to save your work on the web.  
 
-**Start Date**: | Jan 15, 2015
+**Start Date**: Jan 15, 2015
 
-**Time & Duration**: | Thursdays, 7-9pm. 8 weeks
-
-
+**Time & Duration**: Thursdays, 7-9pm. 8 weeks
 
 
-### Course Texts
+
+
+`### Course Texts`
 ***
 
 **JavaScript**: 
