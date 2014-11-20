@@ -24,9 +24,11 @@ jQuery Fundamentals: http://jqfundamentals.com/chapter/jquery-basics
 
 Key:
 
-M = Mozilla JavaScript Guide
-EJ = Eloquent JavaScript
-JQ = jQuery Fundamentals
+**M** = Mozilla JavaScript Guide
+
+**EJ** = Eloquent JavaScript
+
+**JQ** = jQuery Fundamentals
 
 #### Week 1
 + capturing user input
