@@ -1,16 +1,16 @@
 ## Programming with JavaScript and jQuery
 ### Course Description:
 
-`Websites today are no longer a collection of static pages; they behave more like desktop applications, responding to user interaction in a complex way. This increased functionality means that JavaScript, the programming language of the browser, is more important than ever. This project-based course will teach you how to turn your HTML pages into dynamic, application-like interfaces with JavaScript and jQuery. `
+Websites today are no longer a collection of static pages; they behave more like desktop applications, responding to user interaction in a complex way. This increased functionality means that JavaScript, the programming language of the browser, is more important than ever. This project-based course will teach you how to turn your HTML pages into dynamic, application-like interfaces with JavaScript and jQuery. 
 
 #### Pre-Requisites:
 
 + A working knowledge of HTML and CSS and familiarity with the internet are pre-requisites for this class. 
 + Create a GitHub account to save your work on the web.  
 
-**Start Date**: Jan 15, 2015
+**Start Date**:| Jan 15, 2015
 
-**Time & Duration**: Thursdays, 7-9pm. 8 weeks
+**Time & Duration**:| Thursdays, 7-9pm. 8 weeks
 
 
 
