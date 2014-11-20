@@ -36,20 +36,34 @@ reading:
 #### Week 2
 + theme 
 
+reading: 
+
 #### Week 3
 + theme 
+
+reading: 
 
 #### Week 4
 + theme 
 
+reading: 
+
 #### Week 5
 + theme
+
+reading: 
 
 #### Week 6
 + theme
 
+reading: 
+
 #### Week 7
 + theme
 
+reading: 
+
 #### Week 8
 + theme
+
+
