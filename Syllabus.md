@@ -36,9 +36,11 @@ Key:
 **JQ** = jQuery Fundamentals
 
 #### Week 1
-+ capturing user input
++ theme: understanding our JavaScript Environment, Capturing User Input
 
-reading: 
+#### Reading: 
++ My Introduction to this Course
++ M, chapter 4: Values, Variables and Literals 
 
 #### Week 2
 + theme 
