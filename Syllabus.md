@@ -22,10 +22,12 @@ jQuery Fundamentals: http://jqfundamentals.com/chapter/jquery-basics
 
 ### Syllabus
 
-Key:
+**Key:**
 
 M = Mozilla JavaScript Guide
+
 EJ = Eloquent JavaScript
+
 JQ = jQuery Fundamentals
 
 #### Week 1
