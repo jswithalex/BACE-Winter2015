@@ -5,7 +5,7 @@
 **Time & Duration**: 7-9pm, 8 weeks
 
 
-**Course 'Texts'** (online, free)
+### Course Texts
 
 JavaScript: 
 
