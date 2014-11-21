@@ -41,9 +41,9 @@ jQuery Fundamentals: http://jqfundamentals.com/chapter/jquery-basics
 | **EJS** | Eloquent JavaScript      |
 | **JQF** | jQuery Fundamentals      |
 
-|:------------- |-----|
+
 | Week 1 | Understanding the JavaScript Environment; Taking User Input |
-| ------------- |:-----|
+|:-------------:|:-----|
 | reading       | [My Introduction to This Course](../blob/master/Introduction.md) |
 |               | **EJS**, CH 1: [Values, Types and Operators] (http://eloquentjavascript.net/01_values.html) |
 | assignment    | Try the examples from the reading in your JavaScript console |
