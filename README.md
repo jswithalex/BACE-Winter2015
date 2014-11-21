@@ -43,8 +43,8 @@ Key:
 
 **JQ** = jQuery Fundamentals
 
-#### Week 1
-+ theme: understanding our JavaScript Environment, Capturing User Input
+| #### Week 1 |
++ theme: understanding our JavaScript Environment, Capturing User Input |
 
 #### Reading: 
 + My Introduction to this Course
