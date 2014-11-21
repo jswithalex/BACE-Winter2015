@@ -35,13 +35,11 @@ jQuery Fundamentals: http://jqfundamentals.com/chapter/jquery-basics
 
 ### Syllabus
 ***
-Key:
-
-**MZ** = Mozilla JavaScript Guide
-
-**EJS** = Eloquent JavaScript
-
-**JQF** = jQuery Fundamentals
+| Course Text Key |                  |
+| --------------- | :--------------- |
+| **MZ**  | Mozilla JavaScript Guide | 
+| **EJS** | Eloquent JavaScript      |
+| **JQF** | jQuery Fundamentals      |
 
 | Week 1 | Understanding the JavaScript Environment; Taking User Input |
 | ------------- |:-----|
