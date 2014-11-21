@@ -47,3 +47,4 @@ jQuery Fundamentals: http://jqfundamentals.com/chapter/jquery-basics
 |               | **EJS**, CH 1: [Values, Types and Operators] (http://eloquentjavascript.net/01_values.html) |
 | assignment    | Try the examples from the reading in your JavaScript console |
  
+ 
