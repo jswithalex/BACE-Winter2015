@@ -16,8 +16,9 @@ Websites today are no longer a collection of static pages; they behave more like
 
 
 ### Course Texts
-(**Note:** No need to buy any books unless you'd prefer to.  These texts are free and web-based.)
 ***
+**Note:** You don't need to buy any books for this class unless you'd prefer to.  The resources we will use are free and web-based.)
+
 
 **JavaScript**: 
 
