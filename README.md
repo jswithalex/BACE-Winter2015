@@ -45,5 +45,7 @@ Key:
 
 | Week 1 | Understanding the JavaScript Environment; Taking User Input |
 | ------------- |:-----|
-| reading:      | My Introduction to This Course |
+| reading       | My Introduction to This Course |
 |               | EJS, ch 1. 'Values, Types and Operators' |
+| assignment    | Try the examples from the reading in your JavaScript console |
+ 
