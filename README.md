@@ -43,9 +43,8 @@ Key:
 
 **JQF** = jQuery Fundamentals
 
-| Week 1 | |
+| Week 1 | Understanding the JavaScript Environment; Taking User Input |
 | ------------- |:-----|
-| theme:        | understanding the javascript environment, taking user input |
 | reading:      | My Introduction to This Course |
 |               | EJS, ch 1. 'Values, Types and Operators' |
 
