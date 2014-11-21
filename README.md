@@ -37,24 +37,24 @@ jQuery Fundamentals: http://jqfundamentals.com/chapter/jquery-basics
 ***
 Key:
 
-**M** = Mozilla JavaScript Guide
+**MZ** = Mozilla JavaScript Guide
 
-**EJ** = Eloquent JavaScript
+**EJS** = Eloquent JavaScript
 
-**JQ** = jQuery Fundamentals
+**JQF** = jQuery Fundamentals
 
 | Week 1 | |
-| ------------- |:-----:|
+| ------------- |-----:|
 | theme:        | understanding the javascript environment, taking user input |
-| col 2 is      | centered |
-| zebra stripes | are neat|
+| reading:      | My Introduction to This Course |
+|               | EJS, ch 1. 'Values, Types and Operators' |
 
 #### Week 1 
 + theme: understanding our JavaScript Environment, Capturing User Input 
 
 #### Reading: 
 + My Introduction to this Course
-+ M, chapter 4: Values, Variables and Literals 
++ MZ, chapter 4: Values, Variables and Literals 
 
 #### Week 2
 + theme 
