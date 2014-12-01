@@ -30,6 +30,10 @@ Eloquent Javascript: http://eloquentjavascript.net/
 
 jQuery Fundamentals: http://jqfundamentals.com/chapter/jquery-basics
 
+**Supplementary Resources**
+
+[Crockford on JavaScript] (http://yuiblog.com/crockford/)
+[Named Function Expressions Demystified](http://kangax.github.io/nfe/)
 
 
 
