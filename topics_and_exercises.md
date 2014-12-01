@@ -1,15 +1,14 @@
-## Topics && Exercises
+## Topics & Exercises
 
-Highlevel overview: The Document Object Model vs. The Browser Object Model
+###Highlevel overview: The Document Object Model vs. The Browser Object Model
 
-Bad Habits: inline scripting, everything in one file
++Bad Habits: inline scripting, everything in one file
++Good Habits: separating concerns.
 
-Good Habits: separating concerns.
 
+###EVENT DRIVEN PROGRAMMING IN THE BROWSER
 
-EVENT DRIVEN PROGRAMMING IN THE BROWSER
-
-User Interaction methods
+###User Interaction methods
 
 onMouseOver, onMouseDown, onKeyDown/Press etc.  hover over text to get it's definition
 
