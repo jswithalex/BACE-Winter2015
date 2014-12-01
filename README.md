@@ -34,7 +34,7 @@ Websites today are no longer a collection of static pages; they behave more like
 
 [Crockford on JavaScript] (http://yuiblog.com/crockford/)
 
-[Named Function Expressions Demystified] (http://kangax.github.io/nfe/)
+[Douglas Crockford's Website (lots of good articles) ] (http://javascript.crockford.com/)
 
 
 
