@@ -22,18 +22,19 @@ Websites today are no longer a collection of static pages; they behave more like
 
 **JavaScript**: 
 
-Mozilla JavaScript Guide: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide
+[Mozilla JavaScript Guide]: (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)
 
-Eloquent Javascript: http://eloquentjavascript.net/
+[Eloquent Javascript]: (http://eloquentjavascript.net/)
 
 **jQuery**:
 
-jQuery Fundamentals: http://jqfundamentals.com/chapter/jquery-basics
+[jQuery Fundamentals]: (http://jqfundamentals.com/chapter/jquery-basics)
 
 **Supplementary Resources**
 
 [Crockford on JavaScript] (http://yuiblog.com/crockford/)
-[Named Function Expressions Demystified](http://kangax.github.io/nfe/)
+
+[Named Function Expressions Demystified] (http://kangax.github.io/nfe/)
 
 
 
