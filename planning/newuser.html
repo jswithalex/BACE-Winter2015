@@ -5,16 +5,18 @@
 	<link type="text/css"	rel="stylesheet"	href="style.css">
 </head>
 <body>
-    <h2 id="new-account-title">Create a New Account</h2>
-    <form onsubmit="validate()" id="new-account">
-        <label>username</label>
-        <input name="username" size="50" type="text"></input>
-        <label>password</label>
-        <input name="password" size="50" type="text"></input>
-        <label>confirm password</label>
-        <input name="password_confirm" size="50" type="text"></input>
-        <input type="submit">
-    </form>
+    <div id="container">
+        <h2 id="form-header">Create a New Account</h2>
+        <form id="new-account" onsubmit="validate()" name="new-account-form">
+            <label>username</label>
+            <input name="username" size="50" type="text"></input>
+            <label>password</label>
+            <input name="password" size="50" type="text"></input>
+            <label>confirm password</label>
+            <input name="password_confirm" size="50" type="text"></input>
+            <input type="submit">
+        </form>
+    </div>
 <script src="validate.js"></script>
 </body>
 </html>
