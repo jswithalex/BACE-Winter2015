@@ -1,5 +1,6 @@
-## Project Idea List
+## Topics
 
++ explain the web context, client server, who does what, and how
 + toggle style sheets
 + toggle menus (use that to explain FSMs)
 + image gallery
