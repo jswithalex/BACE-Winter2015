@@ -22,7 +22,7 @@ We will primarily write JavaScript in a separate file and reference it in any HT
 + Client-Server Model and flow of Data
 + The DOM API
 + The Tree Data Structure
-
++ Finite State Machines
 
 
 
