@@ -1,6 +1,6 @@
 ## What is our JavaScript Environment? Where does JS fit in with HTML and CSS?
 
-The JavaScript we are going to be writing runs in a user's **web browser**. The browser could be Chrome, Firefox, IE, or Opera.  Any modern browser supports JavaScript.  The basic story is this: 
+The JavaScript we are going to be writing runs in a user's **web browser**.  It acts on the HTML and CSS elements that the browser has loaded. The browser could be Chrome, Firefox, IE, or Opera, any modern browser supports JavaScript.  The basic story is this: 
 + In Chrome, you click on a link that points to some address, **http://www.tmz.com/year/2001/posts/22**. 
 + Your web browser sends off a request to the server at **http://www.tmz.com** asking for the information at the link you clicked on.
 + The server that lives at **http://www.tmz.com** receives the request and if it has the requested resource **/year/2001/posts/22** and is allowed to serve it, it sends it back to the browser along with the type of content it is (html, plain text, json data, etc).  This type information determines how the browser displays the information.  
