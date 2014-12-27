@@ -24,7 +24,6 @@
 
 ```
 
-+ put js scripts in order of dependency at the end of the body. For example, if your script, script.js, uses jQuery, put your
-jQuery script tag above the script.js script tag
++ put js scripts in order of dependency at the end of the body. In the example above, I'm putting my jQuery script tag above the script.js script tag because the processing is top-down and the script.js file depends on the jquery source.
 
 + end every statement with a semicolon.
