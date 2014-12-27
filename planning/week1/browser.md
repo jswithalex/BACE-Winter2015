@@ -1,3 +1,7 @@
+## The Browser makes a Model out of web data
+
+It is important to know that the Web Browser eats up the server's response HTML and makes a model out of it.  If the server's HTML page contents changed immediately after the browser received it, the browser would not reflect this until you refresh your page.  There is no synchronization with the server going on, it's a simple one-off request system.  In this case, if you were to refresh the webpage, the model that was previously there would be updated to reflect what the browser made of the newer html file received from the server.
+
 ## View Page Source vs. Inspect Element
 
 #### Viewing the Page Source
