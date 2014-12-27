@@ -12,7 +12,7 @@ The JavaScript we are going to be writing runs in a user's **web browser**.  It 
     +  **2)** it constructs a model of the data so that the client-side technologies can make use of it.
 
 
-JS is *the* language used to manipulate data that the web browser receives.  The browser implementation of JavaScript runs in what is called the browser 'sandbox' which is designed to prevent JavaScript code from running anything directly on your computer.  
+JS is used to manipulate the model that the web browser constructs from the data it receives for a given page request.  The browser implementation of JavaScript runs in what is called the browser 'sandbox' which is designed to prevent JavaScript code from running anything directly on your computer.  
 
 ## Our Workflow
 We will primarily write JavaScript in a separate file and reference it in any HTML files that use it, although it is possible to enclose JavaScript code inside a script tag in the HTML head or body.
