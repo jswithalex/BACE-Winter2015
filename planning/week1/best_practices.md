@@ -1,6 +1,9 @@
 #### Best Practices
 
-+ Here is the basic HTML5 structure we should all be using
+1) 
+2) Comment first before you code anything
+3) type out the function blocks before you insert statements into them.
+4) Use a standard HTML5 template for your projects
 
 
 ```html
@@ -24,6 +27,6 @@
 
 ```
 
-+ put js scripts in order of dependency at the end of the body. In the example above, I'm putting my jQuery script tag above the script.js script tag because the processing is top-down and the script.js file depends on the jquery source.
+5) put js scripts in order of dependency at the end of the body. In the example above, I'm putting my jQuery script tag above the script.js script tag because the processing is top-down and the script.js file depends on the jquery source.
 
-+ end every statement with a semicolon.
+6) end every statement with a semicolon (there are a few safe exceptions);
