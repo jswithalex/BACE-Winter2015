@@ -24,8 +24,6 @@ $('container').hover(
 and then put the statements you want to be executed inside:
 
 ```javascript
-
-```javascript
 $('container').hover( 
   /* mouse enter */
   function(){
