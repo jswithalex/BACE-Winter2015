@@ -1,6 +1,12 @@
 #### Best Practices
 
-1) 
+1) keep your variable names consistent.  We are dealing not with one technology or programming language*, but 3 +:
++ HTML
++ CSS
++ JavaScript
+
+So keeping  your variable names consistent and naming them appropriately will be a great help to you.
+
 2) Comment first before you code anything
 3) type out the function blocks before you insert statements into them.
 4) Use a standard HTML5 template for your projects
