@@ -9,16 +9,35 @@ So keeping  your variable names consistent and naming them appropriately will be
 
 2) Outline what you are planning to do with comments before you code anything.  This will help you review your plan to make sure it's sound before you execute it.  Big time saver. Plus, you have a fully commented JavaScript file.
 
-3) type out the function blocks before you insert statements into them. JavaScript is function-heavy, so you will really need to keep your closing brackets and parentheses straight.  The easiest way to do that is to type the function shell out first, e.g.
+3) type out the function blocks before you insert statements into them. JavaScript is function-heavy, so you will really need to keep your closing brackets and parentheses straight.  The easiest way to do that is to type the function 'shells' out first, e.g.
 
 ```javascript
 $('container').hover( 
   /* mouse enter */
-  function(),
+  function(){},
   /* mouseout */
-  function()
+  function(){}
 );
 
+```
+
+and then put the statements you want to be executed inside:
+
+```javascript
+
+```javascript
+$('container').hover( 
+  /* mouse enter */
+  function(){
+    console.log('mouse is entering an element of class container');
+  },
+  /* mouseout */
+  function(){
+    console.log('mouse is leaving an element of class container');
+  }
+);
+
+```
 ```
 
 4) Use a standard HTML5 template for your projects
