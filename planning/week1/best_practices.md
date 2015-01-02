@@ -64,4 +64,18 @@ $('container').hover(
 
 5) put js scripts in order of dependency at the end of the body. In the example above, I'm putting my jQuery script tag above the script.js script tag because the processing is top-down and the script.js file depends on the jquery source.
 
+6) Don't mix your javascript function calls with your HTML as in the following example:
+```javascript
+<button id="button1" onclick="return buttonClick()">Click me!</button>
+```
+Attach an event handler to the element in your script, like this:
+
+```javascript
+  function notify(){
+    console.log('button1 was clicked');
+  }
+  
+  document.getElementById('button1').onclick = notify;
+```
+
 6) end every statement with a semicolon (there are a few safe exceptions);
