@@ -1,15 +1,16 @@
 #### Best Practices
 
-1) keep your variable names consistent.  We are dealing not with one technology or programming language*, but 3 +:
+1) keep your variable names consistent.  We are dealing not with one language the but 3:
+
 + HTML
 + CSS
 + JavaScript
 
-So keeping  your variable names consistent and naming them appropriately will be a great help to you.
+So keeping your variable names consistent and naming them appropriately will be a great help to you.
 
 2) Outline what you are planning to do with comments before you code anything.  This will help you review your plan to make sure it's sound before you execute it.  Big time saver. Plus, you have a fully commented JavaScript file.
 
-3) type out the function blocks before you insert statements into them. JavaScript is function-heavy, so you will really need to keep your closing brackets and parentheses straight.  The easiest way to do that is to type the function 'shells' out first, e.g.
+3) Type out the function blocks before you insert statements into them. JavaScript is function-heavy and functions require braces and brackets , so you'll be doing yourself a favor if you make sure they are correct head of time.  The easiest way to do that is to type the function 'shells' out first, e.g.
 
 ```javascript
 $('container').hover( 
@@ -35,7 +36,6 @@ $('container').hover(
   }
 );
 
-```
 ```
 
 4) Use a standard HTML5 template for your projects
