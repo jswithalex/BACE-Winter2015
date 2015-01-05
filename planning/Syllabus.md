@@ -11,13 +11,14 @@
 
 
 THE DOM
-  + There is a little more to it.  There is a model that lets us hook into browser's internal events.  It's called the **DOM**, or Document Object Model.  
+  + There is very important fourth element in our client-side picture so far. The DOM (document object model).  This is a model of the html page as it exists after being integrated into the browser. 
+  
   + The Story: 
     + we request a page from a web server specified at the link we put into our web browser.
     + the web server responds to our request by sending us back an HTML document
     + our web browser gets this document and builds a big model of what the text represents to your browser.  With     this model, you can programmatically access the html elements.
-    + TAKEAWAY: How much functionality is handled on the endpoints of this client-server communciation model?
-    My answer: most of it.  The DOM is a representation of the HTML elements you received as they are made sense of     by your browser's environment.
+    + TAKEAWAY: How much functionality is handled on the endpoints of this client-server communication model?
+    My answer: most of it.  The html data is pretty light compared to what the web browsers themselves do.  
 + exploring the javascript console: selecting elements, changing their properties
 + javascript language basics: numbers, strings, true/false, arrays, expressions, statements
 
