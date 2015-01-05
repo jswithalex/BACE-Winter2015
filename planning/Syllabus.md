@@ -11,6 +11,7 @@
 
 
 THE DOM
+  + [Dom Ref: MZ Dev Netwk](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)
   + There is very important fourth element in our client-side picture so far. The DOM (document object model).  This is a model of the html page as it exists after being integrated into the browser. 
   
   + The Story: 
