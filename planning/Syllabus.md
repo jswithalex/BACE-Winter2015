@@ -5,7 +5,10 @@
   well, 
   + html provides the basic elements for a web page.
   + css provides the styling
-  + we need a language that can manipulate objects depending on certain states that exist in the browser.
+  + javascript allows us to 
+    + 1) control user interaction with the various features of our web page
+    + 2) write complex application logic to handle the aforementioned events with some fine-grained control.
+## THE DOM
   + There is a little more to it.  There is a model that lets us hook into browser's internal events.  It's called the **DOM**, or Document Object Model.  
   + The Story: 
     + we request a page from a web server specified at the link we put into our web browser.
