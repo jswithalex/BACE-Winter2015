@@ -1,8 +1,13 @@
 
 ## Week 1
-### EXERCISES
-+ **exercise**: create HTML with javascript
-+ **skills involved**: creating variables, basic DOM manipulation, Tree Data Structure
+## Exercises
+
+## Plan
++ [introduction](#topics)
++ js console exercises
++ the client-server story
++ create a html page entirely with js
+
 
 ### Topics
   ##### Why JavaScript?
