@@ -4,16 +4,21 @@
 + [introduction](#introduction)
 + [js console exercises](#js-console-exercises)
 + [the client-server story](#client-server-story)
-+ [create a html page entirely with js](#)
++ [create a html page entirely with js](#create-a-html-page-entirely-with-js)
 
 
 ## Introduction
 
-Why JavaScript?
-  + html provides the basic elements for a web page.
-  + with html5, a lot of nice, convenient features are built-in to the browser.
-  + css provides the styling
-  + javascript allows us to control user interaction with specific objects on a page in a very fine-grained way 
+What is this Course?
+
++ We will do a series of small, focused projects that extend a web page with JavaScript.  
++ 
+
+#### Why JavaScript?
+  + HTML provides the basic elements for a web page. When the browser reads these, it creates a corresponding object.
+  + with html5, a lot more sophisticated and convenient features are built-in to the browser.
+  + CSS provides the styling with new sophisticated capabilities
+  + javascript allows us to exert fine-grained logical control over user and system interactions. This is an abstract way of putting it, so here's an example:  say you're a newspaper and in your website's literature reviews you want to let the user get the definition of a word by hovering over it for a certain length of time.  With JavaScript, you can intercept a hover event that the user initiates with a mouse
   
 #### THE JavaScript Environment
 + The Client-Server Story: 
