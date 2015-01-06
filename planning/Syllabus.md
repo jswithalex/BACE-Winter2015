@@ -3,7 +3,7 @@
 ## Plan
 + [introduction](#introduction)
 + [js console exercises](#js-console-exercises)
-+ [the client-server story](#client-server--story)
++ [the client-server story](#client--server-story)
 + [create a html page entirely with js](#)
 
 
