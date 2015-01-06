@@ -1,17 +1,19 @@
 
-#### Week 1
+## Week 1
+#### EXERCISES
 + **exercise**: create HTML with javascript
-+ why javascript? 
-  well, 
++ **skills involved**: creating variables, basic DOM manipulation, Tree Data Structure
+
+#### Topics
+  ##### Why JavaScript?
   + html provides the basic elements for a web page.
+  + with html5, a lot of nice, convenient features are built-in to the browser.
   + css provides the styling
-  + javascript allows us to 
-    + control user interaction with the various features of our web page
-    + write complex application logic to handle the aforementioned events with some fine-grained control.
-
-
-THE DOM
-  + [Dom Ref: MZ Dev Netwk](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)
+  + javascript allows us to control user interaction with specific objects on a page in a very fine-grained way 
+  
+#### THE JavaScript Environment
+  
+  + [Dom Ref: MZ Developers Network](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)
   + In short: The Dom 'makes web pages accessible to script' (above).
   + There is very important fourth element in our client-side picture so far. The DOM (document object model).  This is a model of the html page as it exists after being integrated into the browser. 
   
