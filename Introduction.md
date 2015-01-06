@@ -2,25 +2,24 @@ This class will explore the basics of javascript and of javascript in the browse
 
 Javascript has some standard building blocks:
 
-numbers
++ numbers
 
-characters
++ characters
 
-series of characters
++ series of characters
 
-true / false
++ true / false
 
-undefined
++ undefined
 
-null
++ null
 
-[ there is a new one now called symbol ]
 
 and composite types:
 
-functions
++ functions
 
-arrays
++ arrays
 
-objects
++ objects
 
