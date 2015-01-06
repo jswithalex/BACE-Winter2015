@@ -1,16 +1,15 @@
-
 ## Week 1
-## Exercises
 
 ## Plan
-+ [introduction](#topics)
-+ js console exercises
-+ the client-server story
-+ create a html page entirely with js
++ [introduction](#introduction)
++ [js console exercises](#js-console-exercises)
++ [the client-server story](#client-server--story)
++ [create a html page entirely with js](#)
 
 
-### Topics
-  ##### Why JavaScript?
+## Introduction
+
+Why JavaScript?
   + html provides the basic elements for a web page.
   + with html5, a lot of nice, convenient features are built-in to the browser.
   + css provides the styling
