@@ -1,6 +1,7 @@
 ## Topics
 
 + [modern (dis/re)appearing header](https://medium.com/@mariusc23/hide-header-on-scroll-down-show-on-scroll-up-67bbaae9a78c)
++ [event delegation](http://davidwalsh.name/event-delegate)
 + browser tools: view source versus inspect element
 + explain the web context, client server, who does what, and how
 + toggle style sheets
