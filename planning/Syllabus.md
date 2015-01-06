@@ -31,7 +31,7 @@ Additionally, we'll cover:
 + problem-solving
 
 #### Why JavaScript?
-  + HTML names the basic static elements for a web page. If a browser parses the html and sees a <div>...</div>, it will create a 'div' in the window.  When the page is loaded, what the browser received and could understand is what we see.
+  + HTML names the basic static elements for a web page. If a browser parses the html and sees a \<div\>...\</div\>, it will create a 'div' in the window.  When the page is loaded, what the browser received and could understand is what we see.
 
   + with HTML5, a lot more sophisticated and convenient features are built-in to the browser.
   + CSS provides the styling, also recently enhanced in CSS3
