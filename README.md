@@ -58,9 +58,8 @@ Websites today are no longer a collection of static pages; they behave more like
 | **JQF** | jQuery Fundamentals      |
 
 
-| Week 1 | Understanding the JavaScript Environment; Taking User Input |
+| Week 1 | The JavaScript Environment, Variables, Assignment, Logging, Conditionals |
 |:-------------:|:-----|
-| reading       | [My Introduction to This Course](../blob/master/Introduction.md) |
-|               | **EJS**, CH 1: [Values, Types and Operators] (http://eloquentjavascript.net/01_values.html) |
+| reading        **EJS**, CH 1: [Values, Types and Operators] (http://eloquentjavascript.net/01_values.html) |
 | assignment    | Try the examples from the reading in your JavaScript console |
  
