@@ -41,8 +41,8 @@ Websites today are no longer a collection of static pages; they behave more like
 
 **Supplementary Resources**
 
-[Douglas Crockford's Website (many are on advanced topics, but some are very informative. Crockford is a leading expert on JS.) ] (http://javascript.crockford.com/)
-
++ [Douglas Crockford's Website (topics range from basic to advanced, but they are all very insightful. Crockford is a leading expert on JS.) ] (http://javascript.crockford.com/)
++ [Html5rocks] (http://www.html5rocks.com/en/)
 
 
 ### Syllabus
