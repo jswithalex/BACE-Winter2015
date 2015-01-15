@@ -1,1 +1,3 @@
-// week 1 class work
+// console exercises
+
+// javascript in html and in external files
