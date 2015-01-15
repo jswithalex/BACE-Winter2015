@@ -1,6 +1,21 @@
-#### Best Practices
+## Best Practices
 
-1) keep your variable names consistent.  We are dealing not with one language the but 3:
+## Variable Names Matter
+
+There is a saying that goes something like "the art of programming is the art of naming your variables".
+This isn't really a joke.  Variable Names are important.  You want them to be descriptive and easy to read so that you can reduce your cognitive load while trying to solve a problem. 
+
+Here's an example:
+
+```js
+var isToggled = false;
+```
+versus 
+```js
+var t = false;
+```
+
+The second one requires you to think and is ambigous. The first is perfectly clear.
 
 + HTML
 + CSS
@@ -8,7 +23,9 @@
 
 So keeping your variable names consistent and naming them appropriately will be a great help to you.
 
-2) Outline what you are planning to do with comments before you code anything.  This will help you review your plan to make sure it's sound before you execute it.  Big time saver. Plus, you have a fully commented JavaScript file.
+## Outline your plan first
+
+Outline what you are planning to do with comments before you code anything.  This will help you review your plan to make sure it's sound before you execute it.  Big time saver. Plus, you have a fully commented JavaScript file.
 
 3) Type out the function blocks before you insert statements into them. JavaScript is function-heavy and functions require braces and brackets , so you'll be doing yourself a favor if you make sure they are correct head of time.  The easiest way to do that is to type the function 'shells' out first, e.g.
 
