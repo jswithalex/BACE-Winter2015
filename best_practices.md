@@ -17,17 +17,21 @@ var t = false;
 
 The second one requires you to think and is ambigous. The first is perfectly clear.
 
+Remember, we are dealing with 3 'languages' here:
+
 + HTML
 + CSS
 + JavaScript
 
-So keeping your variable names consistent and naming them appropriately will be a great help to you.
+So keeping your variable names consistent and naming them appropriately will be a great when your html/css/javascript pages grow.
 
 ## Outline your plan first
 
 Outline what you are planning to do with comments before you code anything.  This will help you review your plan to make sure it's sound before you execute it.  Big time saver. Plus, you have a fully commented JavaScript file.
 
-3) Type out the function blocks before you insert statements into them. JavaScript is function-heavy and functions require braces and brackets , so you'll be doing yourself a favor if you make sure they are correct head of time.  The easiest way to do that is to type the function 'shells' out first, e.g.
+## Type out code block syntax first
+
+Type out the code blocks before you insert statements into them. JavaScript is function-heavy and functions require braces and brackets , so you'll be doing yourself a favor if you make sure they are correct head of time.  The easiest way to do that is to type the function 'shells' out first, e.g.
 
 ```javascript
 $('container').hover( 
