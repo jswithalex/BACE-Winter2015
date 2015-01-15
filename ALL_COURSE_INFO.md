@@ -81,19 +81,20 @@ Websites today are no longer a collection of static pages; they behave more like
 
 What do we do in this course?
 
-We'll do a series of small, focused projects that extend a web page with JavaScript.  
+We'll do a series of small, focused projects that extend a web page with JavaScript.  This list is not definitive. I may change the particular exercises if it seems like there are more appropriate exercises.
 
 + create an html page with just javascript
 + html form validation
 + to-do list
-+ menu hiding
++ menu showing/hiding
 + timed effects
-+ html5 canvas character
++ html5 canvas drawing
  
 Additionally, we'll cover:
 
 + primitive data types, arrays and objects
 + assignment, statements and expressions
++ event-handling
 + logic
 + functions 
 + program structure
