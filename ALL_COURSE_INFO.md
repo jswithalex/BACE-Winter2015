@@ -16,9 +16,13 @@ Websites today are no longer a collection of static pages; they behave more like
 + Create a GitHub account to save your work on the web.  
 
 **Start Date**: Jan 15, 2015
+
 **End Date**: 
+
 **Dates we skip**: February 19th, 2015
+
 **Time & Duration**: Thursdays, 7-9pm. 8 weeks
+
 
 
 
