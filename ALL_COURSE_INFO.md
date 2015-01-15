@@ -1,7 +1,7 @@
 ## Programming with JavaScript and jQuery
 
 ## Table of Contents
-+ [Course Description](#course-reading-material)
++ [Course Description](#course-description)
 + [Syllabus](#syllabus)
 + [Week 1](#week-1)
 
