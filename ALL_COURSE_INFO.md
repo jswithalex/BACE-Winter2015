@@ -2,6 +2,9 @@
 
 ## Table of Contents
 + [Course Description](#course-description)
++ [Syllabus](#syllabus)
++ [Week 1](#week-1)
+
 
 ### Course Description:
 
