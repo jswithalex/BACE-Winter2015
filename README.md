@@ -24,8 +24,6 @@ Websites today are no longer a collection of static pages; they behave more like
 
 
 
-
-
 ### Course Reading Material
 ***
 **Note:** You don't need to buy any books for this class unless you'd prefer to.  The resources we will use are free and web-based.
@@ -60,6 +58,6 @@ Websites today are no longer a collection of static pages; they behave more like
 
 | Week 1 | The JavaScript Environment, Variables, Assignment, Logging, Conditionals |
 |:-------------:|:-----|
-| reading        **EJS**, CH 1: [Values, Types and Operators] (http://eloquentjavascript.net/01_values.html) |
+| reading     |   **EJS**, CH 1: [Values, Types and Operators] (http://eloquentjavascript.net/01_values.html) |
 | assignment    | Try the examples from the reading in your JavaScript console |
  
