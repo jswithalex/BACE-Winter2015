@@ -17,7 +17,7 @@ Websites today are no longer a collection of static pages; they behave more like
 
 **Start Date**: Jan 15, 2015
 
-**End Date**: 
+**End Date**: March 12, 2015
 
 **Dates we skip**: February 19th, 2015
 
