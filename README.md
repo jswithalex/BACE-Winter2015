@@ -57,5 +57,6 @@ Websites today are no longer a collection of static pages; they behave more like
 | Week 1 | The JavaScript Environment, Variables, Assignment, Logging, Conditionals |
 |:-------------:|:-----|
 | reading     |   **EJS**, CH 1: [Values, Types and Operators] (http://eloquentjavascript.net/01_values.html) |
+|             | [html5 review](http://www.tutorialspoint.com/html5/html5_quick_guide.htm) |
 | assignment    | review HTML forms. try out the exercises in the reading above in your JS console. |
  
