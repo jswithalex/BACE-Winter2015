@@ -11,6 +11,7 @@
 x
 
 // this is a variable declaration. It tells the JS environment to create a variable 'x' and keep track of it.
+// always put 'var' in front of any variable when declaring it, or bad things will happen in your code.
 var x
 
 // this is a variable definition. It tells the JS environment that x is now 15.
@@ -35,14 +36,21 @@ y
 alert('x is ' + x)
 
 // this is how you log info to the console
+// also, the '+' operator here is not adding a string to a number, it's converting the number stored in x
+// into a string and putting the two strings together
 console.log('x is ' + x);
 
+// this isn't valid syntax because of the 2x expression.  
 console.log('2 times x is ' + 2x)
 
+// now we have a valid expression: 2*x.
 console.log('2 times x is ' + 2*x)
 
+// this converts each 'x' to a string, but in a way you might not expect
+// it doesn't add the x and the x first
 console.log('x + x is ' + x + x )
 
+// by putting a bracket around the two x's, we can add them before converting them to a string
 console.log('x + x = ' + (x + x) )
 
 var firstName = 'alex'
@@ -53,8 +61,12 @@ var fullName = 'alex' + 'ramsdell'
 
 var fullName = 'alex' + ' ' + 'ramsdell'
 
+// capitalizing the word MAX because it's a constant.  This is a stylistic convention.
+// it makes it easier to tell that this value won't change 
 var MAX = 12;
 
+// this is an if else statement. if the first thing is not true, the code in the 'else' block runs.
+// this is called control flow and it is essential to programming.  
 if (fullName.length > MAX ) {
     console.log('Your name is too long!')
 }
