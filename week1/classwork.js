@@ -17,7 +17,7 @@ var x
 // this is a variable definition. It tells the JS environment that x is now 15.
 x = 15
 
-// this is an alternate way to declare and define a variable in one statement.
+// this is an alternate way to declare and define a variable in a single line.
 var x = 4
 
 // here, we are using the Math library's square root function to get the sqrt of x.
