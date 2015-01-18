@@ -26,7 +26,7 @@ Math.sqrt(x)
 x
 
 // here, y holds the value of the square root of x
-y = Math.sqrt(x)
+var y = Math.sqrt(x)
 
 // now we have x's square root stored in y
 y
