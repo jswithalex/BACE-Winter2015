@@ -1,6 +1,19 @@
 ## Week 2 topics
 + review of week 1 (variables, strings, operators, conditionals)
 + address concepts from reading, questions
++ arrays
+  + collection of elements in an ordered sequence
+  + how are arrays similar to strings?
+    + sequence of elements with length
+    + you can access individual elements with array syntax, e.g. s[0]
+  + how are arrays different from strings?
+    + arrays can hold all types of things, not just characters 
+    + arrays are READ-WRITE after you create them
+      + this means that if you are changing an array element, the array is still the same
+    + strings are READ-ONLY after you create them
+      + if you try to change one or more characters, you will get an error
+      + you need to recreate the string to change just one character
+      
 + HTML forms review
   + purpose of a form
   + purpose of each form element
