@@ -1,7 +1,7 @@
 ## Week 2 topics
 + review of week 1 (variables, strings, operators, conditionals)
-  + address concepts from reading, questions
-  + exercise: 
+  + Address concepts from reading, questions
+  + **Exercise**: 
     + For each of the following brackets in the form i've specified, create a variable for that word and then concatenate them into a sentence and print it
 ```javascript
 FORM: My name is <FIRST NAME> <LAST NAME>.  I am <AGE> years old.  My favorite thing to do is <FAVORITE THING>.
@@ -11,6 +11,14 @@ FORM: My name is <FIRST NAME> <LAST NAME>.  I am <AGE> years old.  My favorite t
 + Arrays: What Are They, How Are They Used?
 
   + Collection of elements in an ordered sequence
+  ``` javascript
+  var names = [];
+  names[0] = 'Sam';
+  names[1] = 'Robert';
+  names[2] = 'Jane';
+  // alternate way, if 
+  names = ['Sam','Robert','Jane'];
+  ```
   + Note: you can depend on the order of elements
   + How are arrays similar to strings?
     + sequence of elements with length
@@ -56,6 +64,13 @@ FORM: My name is <FIRST NAME> <LAST NAME>.  I am <AGE> years old.  My favorite t
       animals.pop('gazelle');
       // ['gazelle','giraffe','human']
     ```
+    + **Exercise**: 
+    + redo the exercise above but create an array 
+```javascript
+FORM: My name is <FIRST NAME> <LAST NAME>.  I am <AGE> years old.  My favorite thing to do is <FAVORITE THING>.
+
+```
+
 + HTML forms review
   + purpose of a form
   + purpose of each form element
