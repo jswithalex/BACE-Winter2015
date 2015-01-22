@@ -47,8 +47,13 @@ typeof f
 **Operator**: A built-in (e.g., you get it for free) function-like object that can change the value of one or more variables
 example operators:
 ```javascript
-+ -> add two numbers **or** concatenate two strings (we call an operator with this dual functionality 'overloaded');
-- -> subtract two numbers
+  1 + 4
+  // 5
+  'abc' + 4 + 5
+  //'abc45'
+  'president' + ' of the ' + 'USA'
+  //'president of the USA'
+
 ```
 
 ```javascript
