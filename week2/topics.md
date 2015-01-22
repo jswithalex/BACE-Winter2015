@@ -1,5 +1,8 @@
 ## Week 2 topics
 + review of week 1 (variables, strings, operators, conditionals)
+  + exercise: 
+     for each of the following brackets in the form i've specified, create a variable for that word and then concatenate them into a sentence and print it
+    **FORM: My name is <FIRST NAME> <LAST NAME>.  I am <AGE> years old.  My favorite thing to do is <FAVORITE THING>.**
 + address concepts from reading, questions
 + arrays
   + collection of elements in an ordered sequence
@@ -13,7 +16,7 @@
     + strings are READ-ONLY after you create them
       + if you try to change one or more characters, you will get an error
       + you need to recreate the string to change just one character
-      
+  
 + HTML forms review
   + purpose of a form
   + purpose of each form element
