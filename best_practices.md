@@ -1,10 +1,6 @@
 ## Best Practices
 
-## Validate your HTML and CSS 
-
-Sometimes, after a long time debugging JavaScript, it turns out that the issue you're seeing is in the HTML, not the JavaScript.  So make sure to validate your HTML when you can.
-
-## Variable Names Matter, so does Design
+## Variable Names Matter (and so does Design)
 
 There is a saying that goes something to the effect of "the hardest part of programming is naming things".
 This isn't really a joke.  Variable Names are important and they are tied up in design (see 'Outline Your Plan first').  At the very least, you want them to be descriptive and easy to read so that you can reduce your cognitive load while trying to solve a problem. 
@@ -66,6 +62,9 @@ $('container').hover(
 );
 
 ```
+## Validate your HTML and CSS 
+
+Sometimes, after a long time debugging JavaScript, it turns out that the issue you're seeing is in the HTML, not the JavaScript.  So make sure to validate your HTML when you can.  Also, having valid HTML is important for your users. They may encounter accessibility and browser-compatibility issues if you're neither writing valid HTML nor testing it in every conceivable browser and browser version
 
 ## Use a standard HTML5 template for your projects
 
@@ -74,6 +73,7 @@ $('container').hover(
 <!doctype html>
 <html lang="en">
 <head>
+  <title>BACE Winter 2015 HTML Template</title>
   <meta charset='UTF-8'>
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
