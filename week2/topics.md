@@ -3,10 +3,10 @@
   + address concepts from reading, questions
   + exercise: 
     + For each of the following brackets in the form i've specified, create a variable for that word and then concatenate them into a sentence and print it
-    ```javascript
-    + FORM: My name is <FIRST NAME> <LAST NAME>.  I am <AGE> years old.  My favorite thing to do is <FAVORITE THING>.
+```javascript
+FORM: My name is <FIRST NAME> <LAST NAME>.  I am <AGE> years old.  My favorite thing to do is <FAVORITE THING>.
 
-    ```
+```
 
 + arrays
   + collection of elements in an ordered sequence
