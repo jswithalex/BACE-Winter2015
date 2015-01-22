@@ -1,5 +1,7 @@
 #### TEMPLATES
 
+**html**
+
 ```html
 <!doctype html>
 <html lang="en">
