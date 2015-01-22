@@ -2,9 +2,12 @@
   HTML FORM VALIDATION WITH JAVASCRIPT
 
 	purpose:
-	  1) to prevent sending bad login information to the server,
-		which helps minimize web traffic and server-side processing.
-		2) to provide useful error information to a user
+	1) to prevent sending invalid login information to the server,
+	which helps minimize web traffic and server-side processing.
+	2) to provide useful error information to a user
+	
+	Q: Does it gracefully degrade for users without JavaScript?
+	
 
 */
 
