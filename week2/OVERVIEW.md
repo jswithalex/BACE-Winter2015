@@ -72,20 +72,29 @@ FORM: My name is <FIRST NAME> <LAST NAME>.  I am <AGE> years old.  My favorite t
 ```
 
 + HTML forms review
-  + purpose of a form
-  + purpose of each form element
-  + relevance of arrays
+  + what is the purpose of a form?
+  + purpose of each form element?
+
++ Form Validation
+  + why form validation?
+  + (small digression on design: other ways of preventing user error)
+  + how do we go about 'validating' user input?
   + how we access the values of the elements
+    + relevance of arrays
     + tools:
       + document.querySelector()
       + document.querySelectorAll()
       + document.getElementById()
       + document.getElementsByClassName()
-  
-+ Form Validation
-  + why form validation?
-  + (small digression: other ways of preventing user error)
-  + how do we go about 'validating' user input?
+
++ Use form template I've supplied and add validation logic
   
 + Dom Tree Structure (Time Permitting)
   + parent / child & sibling relationships
+  + tools:
+    + document.createElement()
+    + document.createTextNode()
+    + el.appendChild()
+    + el.children
+    + el.innerHTML
+  
