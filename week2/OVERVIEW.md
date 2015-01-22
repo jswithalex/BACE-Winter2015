@@ -7,16 +7,19 @@
 
 + Arrays: What Are They, How Are They Used?
 
-  + Collection of elements in an ordered sequence
+  + Collection of elements in an ordered sequence, aka positional
+  + first element is found at location 0. 
+  + The location of a value in an array is called the 'index'.
+  + Think about the difference between counting (cardinal, or natural numbers) and positional indexing
+
   ``` javascript
   var names = [];
-  names[0] = 'Sam';
-  names[1] = 'Robert';
+  names[0] = 'Sam'; //first element, but found at [0]
+  names[1] = 'Robert'; // second element, but found at [1]
   names[2] = 'Jane';
-  // alternate way, if 
-  names = ['Sam','Robert','Jane'];
+  // alternate way of declaring array and defining it in one statement
+  var names = ['Sam','Robert','Jane'];
   ```
-  + Note: you can depend on the order of elements
   + How are arrays similar to strings?
     + sequence of elements with length
     + you can access individual elements with array syntax, e.g. s[0]
