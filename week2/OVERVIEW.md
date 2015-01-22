@@ -3,7 +3,7 @@
   + Address concepts from reading, questions
   + **Exercise**: 
     + For each of the following brackets in the format i've specified below, create a variable for that word and then concatenate them into a sentence and print it
-    + **format**: My name is FIRST_NAME LAST_NAME.  I am AGE years old.  My favorite thing to do is FAVORITE THING.
+    + **format**: My name is **FIRST_NAME** **LAST_NAME**.  I am **AGE** years old.  My favorite thing to do is **FAVORITE_THING**.
 
 + Arrays: What Are They, How Are They Used?
 
