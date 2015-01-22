@@ -1,5 +1,12 @@
 ## Best Practices
 
+## Learn Git
+
+In simple terms, git lets you take snapshots of your work and describe them with a text block so that if you totally mess up a project, you can revert back to an old, functioning version.  The world is a better place now that we have such a great decentralized source control management tool.
+
+references: 
++ [Pro Git](http://git-scm.com/book/en/v2)
++ [Git - The Simple Guide](http://rogerdudler.github.io/git-guide/)
 ## Variable Names Matter (and so does Design)
 
 There is a saying that goes something to the effect of "the hardest part of programming is naming things".
@@ -64,7 +71,7 @@ $('container').hover(
 ```
 ## Validate your HTML and CSS 
 
-Sometimes, after a long time debugging JavaScript, it turns out that the issue you're seeing is in the HTML, not the JavaScript.  So make sure to validate your HTML when you can.  Also, having valid HTML is important for your users. They may encounter accessibility and browser-compatibility issues if you're neither writing valid HTML nor testing it in every conceivable browser and browser version
+Sometimes, after a long time debugging JavaScript, it turns out that the issue you're having is related to the HTML, not the JavaScript.  So make sure to validate your HTML when you can.  Also, having valid HTML is important for your **users**. If you're not writing valid HTML or testing it in every conceivable browser and browser version, users using browser/browser versions or users who rely on accessibility features will have a hard time using your website.  Moreover, it may annoy or exclude them!
 
 ## Use a standard HTML5 template for your projects
 
