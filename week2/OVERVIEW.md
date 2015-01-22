@@ -86,6 +86,8 @@ FORM: My name is <FIRST NAME> <LAST NAME>.  I am <AGE> years old.  My favorite t
       + document.querySelectorAll()
       + document.getElementById()
       + document.getElementsByClassName()
+    + we use these functions to get the DOM nodes
+    + these nodes aren't regular JavaScript arrays, they are nodeLists
 
 + Use form template I've supplied and add validation logic
   + Download the main BACE Winter 2015 repo as a zip from the main github [repo page](https://github.com/jswithalex/BACE-Winter2015) (on the right hand side, half-way down the page)
