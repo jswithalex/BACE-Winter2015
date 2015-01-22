@@ -83,11 +83,10 @@ $('container').hover(
 
 ```
 
-## Call your JavaScript at the end of the body tag
+## Call your JavaScript 1) just before the close of the body tag, and 2) in order of dependency
 
-This is a recently popularized best-practice. 
-
-Put js scripts in order of dependency at the end of the body. This ensures that they run as soon as the DOM is fully loaded. ( Dom is the document object model, our API interface for controlling the page elements) 
++ Put js scripts in order of dependency at the end of the body. 
+  + This ensures that they run as soon as the DOM is fully loaded. The DOM is the **Document , our API interface for controlling the page elements) 
 
 In the example above, I'm putting my jQuery script tag above the script.js script tag because the processing is top-down and the script.js file depends on the jquery source.
 
