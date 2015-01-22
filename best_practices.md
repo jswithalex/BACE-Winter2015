@@ -112,5 +112,4 @@ Attach an event handler to the element in your script, like this:
 
 ## End every statement with a semicolon
 
-if a statement isn't terminated by a semicolon, you may end up tacking the statement on the next line onto the first, which results in very unexpected behavior.
-
+JavaScript uses ASI (Automatic Semicolon Insertion) when it compiles your code.  Do the semi-colon insertion yourself to prevent getting results that you definitely didn't intend. Or \<sarcasm\>...become a master of ASI rules at the expense of your productivity, and also expect your code to break in other people's hands \<\\sarcasm\>
