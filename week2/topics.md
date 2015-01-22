@@ -16,11 +16,22 @@ FORM: My name is <FIRST NAME> <LAST NAME>.  I am <AGE> years old.  My favorite t
   + how are arrays different from strings?
     + arrays can hold all types of things, not just characters 
     + arrays are READ-WRITE after you create them
-      + this means that if you are changing an array element, the array is still the same
+      + this means that if you are changing an array element, the array is still the same array
     + strings are READ-ONLY after you create them
-      + if you try to change one or more characters, you will get an error
+      + if you try to change one or more characters, it won't be saved (but you don't get an error).
       + you need to recreate the string to change just one character
-  
+      ```javascript
+      var s = 'abc';
+      var t = ['a','b','c'];
+      s[0] = 'z';
+      t[0] = 'z';
+      ```
+  + ARRAY METHODS:
+    + **push**: add an element to end
+    + **pop**: remove last element of array
+    + **shift**: remove element from front
+    + **unshift**: add element to front
+
 + HTML forms review
   + purpose of a form
   + purpose of each form element
