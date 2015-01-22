@@ -65,7 +65,7 @@ form.onsubmit = function(e) {
   // a long list of things that need to be true for the form to submit
   // if ANY are false, then it's as if they are ALL FALSE
   // note: if (username.value.length) is the same as if (username.value.length > 0)
-  if (username.value.length && 
+  if (username.value && 
    (username.value.length > USER_MIN) &&
    (pw.value.length > PW_MIN) &&
    (pw.value.length < PW_MAX) && 
