@@ -60,3 +60,7 @@ Websites today are no longer a collection of static pages; they behave more like
 |             | [Shay Howe HTML/CSS](http://learn.shayhowe.com/) |
 | assignment    | review HTML forms. try out the exercises in the reading above in your JS console. |
  
+| Week 2 | Arrays, accessing & manipulating the DOM with JavaScript, HTML form validation |
+|:-------------:|:-----|
+| reading     |   **EJS**, CH 2: [Program Structure] (http://eloquentjavascript.net/02_program_structure.html) |
+| assignment    | practice using only JavaScript to create forms on a blank HTML page with this [template](https://github.com/jswithalex/BACE-Winter2015/blob/master/TEMPLATES.md) |
