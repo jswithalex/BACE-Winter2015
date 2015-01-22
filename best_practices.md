@@ -28,7 +28,7 @@ So keeping your variable names consistent and naming them appropriately will red
 ## Outline your plan first
 
 Outline what you are planning to do with comments before you code anything.  For several reasons: 
-+ This will help you review your plan to make sure it's sound before you execute it.  A big time-saver.
++ This will help you review your assumptions to make sure they're sound before you execute it.  A big time-saver.
 + If you have a good idea of what needs to be done, then you won't be naming variables on the fly and thus renaming them in the middle when you realize that they don't adequately express what you're modeling with your code but instead are actively increasing the amount of thinking you need to do to solve a problem.
 + You have a reasonably-commented JavaScript file at the end.
 
