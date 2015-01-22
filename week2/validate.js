@@ -1,4 +1,4 @@
-/*
+/* 
   HTML FORM VALIDATION WITH JAVASCRIPT
 
 	purpose:
@@ -63,10 +63,8 @@ form.onsubmit = function(e) {
   var errors = [];
 
   // a long list of things that need to be true for the form to submit
-  // if ANY are false, then it's as if they are ALL FALSE
-  // note: if (username.value.length) is the same as if (username.value.length > 0)
-  if (username.value && 
-   (username.value.length > USER_MIN) &&
+  // if ANY are false, then the function goes to the else block
+  if ((username.value.length > USER_MIN) &&
    (pw.value.length > PW_MIN) &&
    (pw.value.length < PW_MAX) && 
    (pw.value === pw_confirm.value)) {
@@ -83,19 +81,19 @@ form.onsubmit = function(e) {
     if (username.value.length < USER_MIN){
       errors.push('usernames must be greater than ' + USER_MIN + ' characters');
     }
-    if (pw.value === 0){
-      errors.push('no password');
+    if (pw.value.length === 0){
+      errors.push('password field is empty');
     }
-    if (pw_confirm.value === 0){
+    if (pw_confirm.value.length === 0){
       errors.push('password confirmation field is empty');
     }
     if (pw.value.length !== pw_confirm.value.length){
-    errors.push("your passwords don't match"); 
+      errors.push("your passwords don't match"); 
     }
 
     // now we go through the list of errors and create list elements
     // and put them inside the error_box ul element
-    if (errors) {
+    if (errors.length > 0) {
       //alert(errors.join(', '));
       error_box.className='error';
       for (var i=0; i<errors.length; i++)
