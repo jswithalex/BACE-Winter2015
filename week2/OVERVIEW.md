@@ -89,8 +89,12 @@ FORM: My name is <FIRST NAME> <LAST NAME>.  I am <AGE> years old.  My favorite t
     + we use these functions to get the DOM nodes
     + these nodes aren't regular JavaScript arrays, they are nodeLists
 
-+ Use form template I've supplied and add validation logic
++ CLASSWORK
   + Download the main BACE Winter 2015 repo as a zip from the main github [repo page](https://github.com/jswithalex/BACE-Winter2015) (on the right hand side, half-way down the page)
+  + open week2/form.html and test it out
+  + open week2/validate.js and delete all of it (don't worry, i have backups)
+  + we write the validation logic as a class
+  + at end, come up with improvements to validation logic
   
 + Dom Tree Structure (Time Permitting)
   + parent / child & sibling relationships
