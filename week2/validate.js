@@ -68,7 +68,7 @@ form.onsubmit = function(e) {
    (pw.value.length > PW_MIN) &&
    (pw.value.length < PW_MAX) && 
    (pw.value === pw_confirm.value)) {
-     return true;
+     ;
   }
 
   // if any of the above are false, the else block executes 
