@@ -8,12 +8,14 @@ FORM: My name is <FIRST NAME> <LAST NAME>.  I am <AGE> years old.  My favorite t
 
 ```
 
-+ arrays
-  + collection of elements in an ordered sequence
-  + how are arrays similar to strings?
++ Arrays: What Are They, How Are They Used?
+
+  + Collection of elements in an ordered sequence
+  + Note: you can depend on the order of elements
+  + How are arrays similar to strings?
     + sequence of elements with length
     + you can access individual elements with array syntax, e.g. s[0]
-  + how are arrays different from strings?
+  + How are arrays different from strings?
     + arrays can hold all types of things, not just characters 
     + arrays are READ-WRITE after you create them
       + this means that if you are changing an array element, the array is still the same array
@@ -26,12 +28,26 @@ FORM: My name is <FIRST NAME> <LAST NAME>.  I am <AGE> years old.  My favorite t
       s[0] = 'z';
       t[0] = 'z';
       ```
-  + ARRAY METHODS:
-    + **push**: add an element to end
-    + **pop**: remove last element of array
-    + **shift**: remove element from front
-    + **unshift**: add element to front
+  + ARRAY METHODS 
 
+    + **push**: add an element to end
+    ```javascript
+      var animals = ['dog','giraffe','human'];
+      animals.push('gazelle');
+      // animals is now ['dog','giraffe','human','gazelle']
+    ```
+    + **pop**: remove last element of array
+    ```javascript
+      animals.pop('gazelle');
+    ```
+    + **shift**: remove element from front
+    ```javascript
+      animals.shift('gazelle');
+    ```
+    + **unshift**: add element to front
+    ```javascript
+      animals.pop('gazelle');
+    ```
 + HTML forms review
   + purpose of a form
   + purpose of each form element
