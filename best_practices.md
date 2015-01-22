@@ -4,9 +4,10 @@
 
 In simple terms, git lets you take snapshots of your work and describe them with a text block so that if you totally mess up a project, you can revert back to an old, functioning version.  The world is a better place now that we have such a great decentralized source control management tool.
 
-references: 
+Git References: 
 + [Pro Git](http://git-scm.com/book/en/v2)
 + [Git - The Simple Guide](http://rogerdudler.github.io/git-guide/)
+
 ## Variable Names Matter (and so does Design)
 
 There is a saying that goes something to the effect of "the hardest part of programming is naming things".
