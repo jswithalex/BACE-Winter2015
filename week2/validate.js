@@ -88,13 +88,12 @@ form.onsubmit = function(e) {
     {
        errors.push('password must be longer than ' + PW_MIN + ' characters');
     }
-
+    if (pw_confirm.value.length === 0){
+      errors.push('password confirmation field is empty');
+    }
     if (pw_confirm.value.length < PW_MIN)
     {
        errors.push('password confirmation must be longer than ' + PW_MIN + ' characters');
-    }
-    if (pw_confirm.value.length === 0){
-      errors.push('password confirmation field is empty');
     }
     if (pw.value.length !== pw_confirm.value.length){
       errors.push("your passwords don't match"); 
