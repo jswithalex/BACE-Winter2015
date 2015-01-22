@@ -1,4 +1,4 @@
-#### Glossary of JavaScript Terms
+#### Glossary of JavaScript Terms We have Used So Far
 
 **Variable**: A name for the value at a particular **location** in memory.  The value of a variable is subject to change, which is why variables are useful.
 
