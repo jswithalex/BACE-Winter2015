@@ -1,9 +1,9 @@
 ## Best Practices
 
-## Variable Names Matter
+## Variable Names Matter, so does Design
 
-There is a saying that goes something like "the art of programming is the art of naming your variables".
-This isn't really a joke.  Variable Names are important.  You want them to be descriptive and easy to read so that you can reduce your cognitive load while trying to solve a problem. 
+There is a saying that goes something to the effect of "the hardest part of programming is naming things".
+This isn't really a joke.  Variable Names are important and they are tied up in design (see 'Outline Your Plan first').  At the very least, you want them to be descriptive and easy to read so that you can reduce your cognitive load while trying to solve a problem. 
 
 Here's an example:
 
@@ -27,7 +27,11 @@ So keeping your variable names consistent and naming them appropriately will be 
 
 ## Outline your plan first
 
-Outline what you are planning to do with comments before you code anything.  This will help you review your plan to make sure it's sound before you execute it.  Big time saver. Plus, you have a fully commented JavaScript file.
+Outline what you are planning to do with comments before you code anything.  For several reasons: 
++ This will help you review your plan to make sure it's sound before you execute it.  A big time-saver.
++ If you have a good idea of what needs to be done, then you won't be naming variables on the fly and thus renaming them in the middle when you realize that they don't adequately express what you're modeling with your code but instead are actively increasing the amount of thinking you need to do to solve a problem.
++ You have a reasonably-commented JavaScript file at the end.
+
 
 ## Type out code block syntax first
 
