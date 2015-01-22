@@ -11,11 +11,31 @@ console.log(a);
 
 ```
 
-**String**: A sequence of characters
+**String**: A sequence of characters.
 
 ```javascript
 var f = 'Douglas';
 var l = 'Crockford';
 typeof f
 // "string"
+```
+
+**Operator**: A built-in (e.g., you get it for free) function-like object that can change the value of one or more variables
+example operators:
+```javascript
++ -> add two numbers **or** concatenate two strings (we call an operator with this dual functionality 'overloaded');
+- -> subtract two numbers
+```
+
+```javascript
+var f = 'Douglas';
+var l = 'Crockford';
+
+console.log(f + ' ' + l);
+//"Douglas Crockford"
+
+var min = 0;
+var max = 12;
+var delta = max - min;
+console.log(delta);
 ```
