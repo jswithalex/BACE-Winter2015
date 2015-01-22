@@ -1,13 +1,15 @@
 #### Glossary of JavaScript Terms We have Used So Far
 
-**Variable**: A name for the value at a particular **location** in memory.  This value is subject to change, which is why variables are useful because they give us a straight-forward way of keeping track of a value that might change.
+**Variable**: A name for the value at a particular **location** in memory.  This value is subject to change, which is why variables are useful because they give us a way to keep track of the container.  This lets you straight-forward way of keeping track of a value that might change.
 
 ```javascript
 var a = 14;
 a = a / 2;
 // 'a' is the name that the JavaScript engine uses to look up a location in memory
 // we access the value of 'a' by referencing 'a' in an expression, like the one below
-console.log(a);
+if (a > 5) {
+  console.log(a);
+}
 // 7
 
 ```
