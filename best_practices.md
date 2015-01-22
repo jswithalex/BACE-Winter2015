@@ -112,4 +112,4 @@ Attach an event handler to the element in your script, like this:
 
 ## End every statement with a semicolon
 
-JavaScript uses ASI (Automatic Semicolon Insertion) when it compiles your code.  Do the semi-colon insertion yourself to prevent getting results that you definitely didn't intend. Or \<sarcasm\>...become a master of ASI rules at the expense of your productivity, and also expect your code to break in other people's hands \<\\sarcasm\>
+JavaScript uses ASI (Automatic Semicolon Insertion) when it compiles your code.  Do the semi-colon insertion yourself to prevent getting results that you definitely didn't intend. Or \<sarcasm\>...become a master of ASI rules at the expense of your productivity, and also expect your code to break in other people's hands \<\\sarcasm\>.  The aim of ASI is to make the code cleaner, but you really should know what you're doing before you consider yourself good enough to drop the semicolons.
