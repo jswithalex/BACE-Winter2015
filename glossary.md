@@ -40,7 +40,6 @@ if (a > 5) {
 
 ```javascript
 var f = 'Douglas';
-var l = 'Crockford';
 typeof f
 // "string"
 ```
