@@ -6,7 +6,7 @@
     ```javascript
     + FORM: My name is <FIRST NAME> <LAST NAME>.  I am <AGE> years old.  My favorite thing to do is <FAVORITE THING>.
 
-```
+    ```
 
 + arrays
   + collection of elements in an ordered sequence
