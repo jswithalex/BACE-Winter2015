@@ -1,5 +1,9 @@
 ## Best Practices
 
+## Validate your HTML and CSS 
+
+Sometimes, after a long time debugging JavaScript, it turns out that the issue you're seeing is in the HTML, not the JavaScript.  So make sure to validate your HTML when you can.
+
 ## Variable Names Matter, so does Design
 
 There is a saying that goes something to the effect of "the hardest part of programming is naming things".
