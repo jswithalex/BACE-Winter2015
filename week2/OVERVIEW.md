@@ -88,6 +88,7 @@ FORM: My name is <FIRST NAME> <LAST NAME>.  I am <AGE> years old.  My favorite t
       + document.getElementsByClassName()
 
 + Use form template I've supplied and add validation logic
+  + Download the main BACE Winter 2015 repo as a zip from the main github [repo page](https://github.com/jswithalex/BACE-Winter2015) (on the right hand side, half-way down the page)
   
 + Dom Tree Structure (Time Permitting)
   + parent / child & sibling relationships
