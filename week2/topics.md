@@ -24,34 +24,43 @@ FORM: My name is <FIRST NAME> <LAST NAME>.  I am <AGE> years old.  My favorite t
       + you need to recreate the string to change just one character
       ```javascript
       var s = 'abc';
-      var t = ['a','b','c'];
       s[0] = 'z';
+      console.log(s);
+      // 'abc'
+      var t = ['a','b','c'];
       t[0] = 'z';
+      console.log(t);
+      // ['z','b','c']
       ```
   + ARRAY METHODS 
-
-    + **push**: add an element to end
     ```javascript
       var animals = ['dog','giraffe','human'];
+    ```
+    + **push**: add an element to end of array
+    ```javascript
       animals.push('gazelle');
-      // animals is now ['dog','giraffe','human','gazelle']
+      // ['dog','giraffe','human','gazelle']
     ```
     + **pop**: remove last element of array
     ```javascript
       animals.pop('gazelle');
+      // ['dog','giraffe','human']
     ```
     + **shift**: remove element from front
     ```javascript
-      animals.shift('gazelle');
+      animals.shift();
+      // ['giraffe','human']
     ```
     + **unshift**: add element to front
     ```javascript
       animals.pop('gazelle');
+      // ['gazelle','giraffe','human']
     ```
 + HTML forms review
   + purpose of a form
   + purpose of each form element
-  + how we access the values of the 
+  + how we access the values of the elements
+  
 + Form Validation
   + why form validation?
   + (small digression: other ways of preventing user error)
