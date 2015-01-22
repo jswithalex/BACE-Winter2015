@@ -8,7 +8,7 @@ This isn't really a joke.  Variable Names are important and they are tied up in 
 Here's an example:
 
 ```js
-var isToggled = false;
+var MenuIsToggled = false;
 ```
 versus 
 ```js
