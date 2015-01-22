@@ -74,7 +74,13 @@ FORM: My name is <FIRST NAME> <LAST NAME>.  I am <AGE> years old.  My favorite t
 + HTML forms review
   + purpose of a form
   + purpose of each form element
+  + relevance of arrays
   + how we access the values of the elements
+    + tools:
+      + document.querySelector()
+      + document.querySelectorAll()
+      + document.getElementById()
+      + document.getElementsByClassName()
   
 + Form Validation
   + why form validation?
