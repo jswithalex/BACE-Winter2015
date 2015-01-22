@@ -39,4 +39,5 @@ var min = 0;
 var max = 12;
 var delta = max - min;
 console.log(delta);
+// 12
 ```
