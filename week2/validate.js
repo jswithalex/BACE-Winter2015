@@ -46,63 +46,65 @@ var USER_MIN = 6;
 // using the form variable I created above
 // i'm specifying the behavior that happens when the form is
 // submitted, aka when the user presses 'submit'
+// note, we haven't covered functions, so the function(e) might be mysterious to you
+// that's okay for now
+
 form.onsubmit = function(e) {
 
   // set innerHTML value of error_box to nothing.
-	// this basically clears the form each time the user hits submit
-	// otherwise, multiple submits would be added to each other,
-	// resulting in an ever-lengthening list of errors
-	error_box.innerHTML = "";
-	error_box.className = "";
+  // this basically clears the form each time the user hits submit
+  // otherwise, multiple submits would be added to each other,
+  // resulting in an ever-lengthening list of errors
+  error_box.innerHTML = "";
+  error_box.className = "";
 
-	// errors is an empty list that we'll add any relevant errors to
-	// when we detect them
+  // errors is an empty list that we'll add any relevant errors to
+  // when we detect them
   var errors = [];
 
-	// a long list of things that need to be true for the form to submit
-	// if ANY are false, then it's as if they are ALL FALSE
-	// note: if (username.value.length) is the same as if (username.value.length > 0)
-	if (username.value.length && 
-	     (username.value.length > USER_MIN) &&
-	     (pw.value.length > PW_MIN) &&
-			 (pw.value.length < PW_MAX) && 
-			 (pw.value === pw_confirm.value)) {
-	  return True;
-	}
+  // a long list of things that need to be true for the form to submit
+  // if ANY are false, then it's as if they are ALL FALSE
+  // note: if (username.value.length) is the same as if (username.value.length > 0)
+  if (username.value.length && 
+   (username.value.length > USER_MIN) &&
+   (pw.value.length > PW_MIN) &&
+   (pw.value.length < PW_MAX) && 
+   (pw.value === pw_confirm.value)) {
+     return true;
+  }
 
   // if any of the above are false, the else block executes 
-	else {
-	  // preventDefault prevents the form from sending data to server
+  else {
+    // preventDefault prevents the form from sending data to server
     e.preventDefault();
-
-		if (username.value.length === 0){
-			errors.push('missing a username');
-		}
-		if (username.value.length < USER_MIN){
+    if (username.value.length === 0){
+      errors.push('missing a username');
+    }
+    if (username.value.length < USER_MIN){
       errors.push('usernames must be greater than ' + USER_MIN + ' characters');
-		}
-		if (pw.value === 0){
-			errors.push('no password');
-		}
-		if (pw_confirm.value === 0){
-			errors.push('password confirmation field is empty');
-		}
-		if (pw.value.length !== pw_confirm.value.length){
-			errors.push("your passwords don't match"); 
-		}
+    }
+    if (pw.value === 0){
+      errors.push('no password');
+    }
+    if (pw_confirm.value === 0){
+      errors.push('password confirmation field is empty');
+    }
+    if (pw.value.length !== pw_confirm.value.length){
+    errors.push("your passwords don't match"); 
+  }
 
-		// now we go through the list of errors and create list elements
-		// and put them inside the error_box ul element
-		if (errors) {
-			//alert(errors.join(', '));
-			error_box.className='error';
-			for (var i=0; i<errors.length; i++)
-			{
-			  var txt_node = document.createTextNode(errors[i]);
-				var li = document.createElement('li');
-				li.appendChild(txt_node);
-			  error_box.appendChild(li);
-		  } 
-		}
-	}
+  // now we go through the list of errors and create list elements
+  // and put them inside the error_box ul element
+  if (errors) {
+    //alert(errors.join(', '));
+    error_box.className='error';
+    for (var i=0; i<errors.length; i++)
+    {
+      var txt_node = document.createTextNode(errors[i]);
+      var li = document.createElement('li');
+      li.appendChild(txt_node);
+      error_box.appendChild(li);
+    }
+  }
+}
 };
