@@ -23,7 +23,7 @@ Remember, we are dealing with 3 'languages' here:
 + CSS
 + JavaScript
 
-So keeping your variable names consistent and naming them appropriately will be a great when your html/css/javascript pages grow.
+So keeping your variable names consistent and naming them appropriately will reduce complexity as your html/css/javascript pages grow.
 
 ## Outline your plan first
 
