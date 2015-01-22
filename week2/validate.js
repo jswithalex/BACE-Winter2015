@@ -91,20 +91,20 @@ form.onsubmit = function(e) {
     }
     if (pw.value.length !== pw_confirm.value.length){
     errors.push("your passwords don't match"); 
-  }
+    }
 
-  // now we go through the list of errors and create list elements
-  // and put them inside the error_box ul element
-  if (errors) {
-    //alert(errors.join(', '));
-    error_box.className='error';
-    for (var i=0; i<errors.length; i++)
-    {
-      var txt_node = document.createTextNode(errors[i]);
-      var li = document.createElement('li');
-      li.appendChild(txt_node);
-      error_box.appendChild(li);
+    // now we go through the list of errors and create list elements
+    // and put them inside the error_box ul element
+    if (errors) {
+      //alert(errors.join(', '));
+      error_box.className='error';
+      for (var i=0; i<errors.length; i++)
+      {
+        var txt_node = document.createTextNode(errors[i]);
+        var li = document.createElement('li');
+        li.appendChild(txt_node);
+        error_box.appendChild(li);
+      }
     }
   }
-}
 };
