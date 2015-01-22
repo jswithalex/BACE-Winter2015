@@ -64,11 +64,11 @@ form.onsubmit = function(e) {
 
   // a long list of things that need to be true for the form to submit
   // if ANY are false, then the function goes to the else block
-  if ((username.value.length > USER_MIN) &&
-   (pw.value.length > PW_MIN) &&
-   (pw.value.length < PW_MAX) && 
-   (pw.value === pw_confirm.value)) {
-     ;
+  if ( (username.value.length > USER_MIN) &&
+       (pw.value === pw_confirm.value) &&
+       (pw.value.length > PW_MIN) &&
+       (pw.value.length < PW_MAX) ) {
+       console.log('all good');
   }
 
   // if any of the above are false, the else block executes 
@@ -82,7 +82,16 @@ form.onsubmit = function(e) {
       errors.push('usernames must be greater than ' + USER_MIN + ' characters');
     }
     if (pw.value.length === 0){
-      errors.push('password field is empty');
+	  errors.push('password field is empty');
+    }
+    if (pw.value.length < PW_MIN)
+    {
+       errors.push('password must be longer than ' + PW_MIN + ' characters');
+    }
+
+    if (pw_confirm.value.length < PW_MIN)
+    {
+       errors.push('password confirmation must be longer than ' + PW_MIN + ' characters');
     }
     if (pw_confirm.value.length === 0){
       errors.push('password confirmation field is empty');
