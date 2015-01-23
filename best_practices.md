@@ -4,8 +4,8 @@
 
 + Git lets you take snapshots of your work and it makes it easy to revert to those or just look at the files.  
 + It is a form of backup system as well as a tool that encourages you to take risks (you can revert to previous changes if you really mess something up).  
-+ If the thing you want to save is storable as a text file, then git supports version control over it.  
-+ This means that not only every programming projects but also written projects like novels, essays, and to some extent research papers, can be backed up and version-controlled. 
++ You can make alternate branches of a project and switch between them. I do this with web-layouts so I can switch between multiple versions of a website by just typing a phrase on the command line.
++ If the thing you want to save is storable as a text file, then git supports version control over it.  This means that not only every programming projects but also written projects like novels, essays, and to some extent research papers, can be backed up and version-controlled. Git rulz.
 
 Git References: 
 + [Pro Git](http://git-scm.com/book/en/v2)
@@ -13,8 +13,7 @@ Git References:
 
 ## Variable Names Matter (and so does Design)
 
-There is a saying that goes something to the effect of "the hardest part of programming is naming things".
-This isn't really a joke.  Variable Names are important and they are tied up in design (see 'Outline Your Plan first').  At the very least, you want them to be descriptive and easy to read so that you can reduce your cognitive load while trying to solve a problem. 
+There is a saying that goes something like "the hardest part of programming is naming things". It is so true because naming a variable affects how you think about it in relation to other variables in your program and also to the program's overall design.  So, how do we avoid this problem?  In the long term, you want to be thinking about the overarching design of your program so that the names are meaningful and non-contradictory.  In the short and long term, you want them to be descriptive and easy to read so that you can reduce your and others' cognitive load while trying to solve a problem. 
 
 Here's an example:
 
