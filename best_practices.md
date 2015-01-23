@@ -2,7 +2,10 @@
 
 ## Learn Git
 
-In simple terms, git lets you take snapshots of your work and describe them with a text block so that if you totally mess up a project, you can revert back to an old, functioning version.  The world is a better place now that we have such a great decentralized source control management tool.
++ Git lets you take snapshots of your work and it makes it easy to revert to those or just look at the files.  
++ It is a form of backup system as well as a tool that encourages you to take risks (you can revert to previous changes if you really mess something up).  
++ If the thing you want to save is storable as a text file, then git supports version control over it.  
++ This means that not only every programming projects but also written projects like novels, essays, and to some extent research papers, can be backed up and version-controlled. 
 
 Git References: 
 + [Pro Git](http://git-scm.com/book/en/v2)
