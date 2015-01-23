@@ -2,10 +2,10 @@
 
 ## Learn Git
 
-+ Git lets you take snapshots of your work and it makes it easy to revert to those or just look at the files.  
-+ It is a form of backup system as well as a tool that encourages you to take risks (you can revert to previous changes if you really mess something up).  
++ Git lets you take snapshots of the state of your work and it makes it easy to return to those states, or to just look at the files.  
++ It is a form of backup system as well, and a tool that encourages you to take risks (you can revert to previous changes if you really mess something up).  
 + You can make alternate branches of a project and switch between them. I do this with web-layouts so I can switch between multiple versions of a website by just typing a phrase on the command line.
-+ If the thing you want to save is storable as a text file, then git supports version control over it.  This means that not only every programming projects but also written projects like novels, essays, and to some extent research papers, can be backed up and version-controlled. Git rulz.
++ If the thing you want to save is storable as a text file, then git supports version control over it.  This means that not only every programming projects but also written projects like novels, essays, and to some extent research papers (not so sure about equations), can be backed up and version-controlled. 
 
 Git References: 
 + [Pro Git](http://git-scm.com/book/en/v2)
