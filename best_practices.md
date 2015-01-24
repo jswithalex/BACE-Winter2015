@@ -19,7 +19,7 @@ There is a saying that goes something like "the hardest part of programming is n
 Here's an example:
 
 ```js
-var MenuIsToggled = false;
+var menuIsToggled = false;
 ```
 versus 
 ```js
