@@ -1,5 +1,6 @@
 ## Best Practices
 
+
 ## Learn Git
 
 + Git lets you take snapshots of the state of your work and it makes it easy to return to those states, or to just look at the files.  
