@@ -8,8 +8,9 @@
 + If the thing you want to save is storable as a text file, then git supports version control over it.  This means that not only every programming projects but also written projects like novels, essays, and to some extent research papers (not so sure about equations), can be backed up and version-controlled. 
 
 Git References: 
-+ [Pro Git](http://git-scm.com/book/en/v2)
 + [Git - The Simple Guide](http://rogerdudler.github.io/git-guide/)
++ [Pro Git](http://git-scm.com/book/en/v2)
+
 
 ## Variable Names Matter (and so does Design)
 
