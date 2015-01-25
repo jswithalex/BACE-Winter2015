@@ -1,5 +1,5 @@
 // get a handle on each element of the form
-var form = document.getElementsByTagName('form');
+var form = document.getElementsByTagName('form')[0];
 var username = document.getElementsByTagName('input')[0];
 var password = document.getElementsByTagName('input')[1];
 var password_confirm = document.getElementsByTagName('input')[2];
