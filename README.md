@@ -40,9 +40,9 @@ Websites today are no longer a collection of static pages; they behave more like
 [jQuery Fundamentals] : (http://jqfundamentals.com/chapter/jquery-basics)
 
 **Supplementary Resources**
-
-+ [Douglas Crockford's Website (topics range from basic to advanced, but they are all very insightful. Crockford is a leading expert on JS.) ] (http://javascript.crockford.com/)
-+ [Html5rocks] (http://www.html5rocks.com/en/)
++ [Quirks Mode - JavaScript Introduction](http://www.quirksmode.org/js/intro.html)
++ [Douglas Crockford's Website (topics range from basic to advanced, but they are all very insightful. Crockford is a leading expert on JS.) ](http://javascript.crockford.com/)
++ [Html5rocks](http://www.html5rocks.com/en/)
 
 
 ### Syllabus
