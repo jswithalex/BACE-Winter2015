@@ -43,6 +43,7 @@ Websites today are no longer a collection of static pages; they behave more like
 + [Quirks Mode - JavaScript Introduction](http://www.quirksmode.org/js/intro.html)
 + [Douglas Crockford's Website (topics range from basic to advanced, but they are all very insightful. Crockford is a leading expert on JS.) ](http://javascript.crockford.com/)
 + [Html5rocks](http://www.html5rocks.com/en/)
++ [Script Loading](http://www.html5rocks.com/en/tutorials/speed/script-loading/)
 
 
 ### Syllabus
