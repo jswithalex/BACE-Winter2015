@@ -65,3 +65,9 @@ Websites today are no longer a collection of static pages; they behave more like
 | reading     |   **EJS**, CH 2: [Program Structure] (http://eloquentjavascript.net/02_program_structure.html) |
 | assignment    | Practice creating forms on a blank HTML page using ONLY JAVASCRIPT and this [template](https://github.com/jswithalex/BACE-Winter2015/blob/master/TEMPLATES.md) |
 |     | Check out [my approach to HTML form validation](https://github.com/jswithalex/BACE-Winter2015/blob/master/week2/validate.js) if you are stuck |
+
+| Week 3 | HTML form validation continued, Tree exercises, Image Gallery |
+|:-------------:|:-----|
+| reading     |   MZN, Functions (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions) |
+| assignment    | Make your own image Gallery from scratch, using our classwork to help you if needed|
+
