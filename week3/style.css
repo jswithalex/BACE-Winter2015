@@ -1,9 +1,43 @@
-html  *
+
+html *
 {
-  font-family: sans-serif, Arial;
+  font-family: sans-serif, "Lato";
   font-weight: 200;
-  font-size:1em;
+  font-size: 100%;
   box-sizing: border-box;
+}
+
+a
+{
+  text-decoration: none;
+}
+/* unvisited link */
+a:link {
+    color: black;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+}
+
+/* mouse over link */
+a:hover {
+    color: rgb(204,0,0);
+}
+
+/* selected link */
+a:active {
+    color: black;
+} 
+
+
+
+article
+{
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
 }
 
 body
@@ -12,36 +46,22 @@ body
   margin-top: 150px;
 }
 
-div
+.gallery
 {
   margin: 0 auto;
-  border: 2px gray solid;
-  width: 50%;
+  border: 2px gray rgb(204,0,0);
+  width: 80%;
 }
 
-.error 
-{
-  border: 1px red solid;
-  padding: 3px;
-}
-
-form
-{
-  margin: 0 auto;
-  padding: 20px;
-}
 
 h1
 {
   font-size: 2em;
-  color: black;
   font-weight: 200;
   text-align: center;
-}
-
-.hidden
-{
-  display: none;
+  border:  5px solid rgba(204,0,0,.8);
+  padding: 10px;
+  border-radius: 5px;
 }
 
 input
@@ -55,21 +75,19 @@ input
   padding: 10px;
 }
 
-/* input type that starts with password. Targets password and password confirm because they both start with 'password' */
-input[type^=password]
+li 
 {
-  -webkit-text-security: disc;
+  list-style-type: none;
+  text-align: left;
+  margin: 5px;
 }
 
-input[type=submit]
+img
 {
-  background: LightCoral;
-  color: black;
-}
+  padding-top: 20px;
+  padding-left: 40px;
 
-input[type=submit]:hover
-{
-  background: white;
-  color: rgb(255,0,0);
+  float:left;
+
 }
 
