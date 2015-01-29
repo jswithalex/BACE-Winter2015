@@ -68,7 +68,6 @@ Websites today are no longer a collection of static pages; they behave more like
 
 | Week 3 | HTML form validation continued, Tree exercises, Image Gallery |
 |:-------------:|:-----|
-| reading     |   **MZ**, [Functions] (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions) (Try the examples in your browser console!) |
-|             |   **EJS**, [Functions] (http://eloquentjavascript.net/03_functions.html) (Try the examples in your browser console!)  |
+| reading     |   + **MZ**, [Functions] (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions) (Try the examples in your browser console!) + **EJS**, [Functions] (http://eloquentjavascript.net/03_functions.html) (Try the examples in your browser console!)  | |
 | assignment    | Make your own image Gallery from scratch, using our classwork to help you if needed|
 
