@@ -1,0 +1,1 @@
+/*  Image Gallery JavaScript goes here */
