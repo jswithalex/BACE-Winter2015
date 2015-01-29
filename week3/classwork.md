@@ -1,23 +1,14 @@
 #### HTML Tree Exercises
 
-Turn tree structure into HTML
-hierarchy:
+Turn a description of a tree structure into HTML
 
-a
-p
+description:
+a <span> tag nested inside of a <p> tag
 
-a <p> tag is the parent of <span> tag.
+description:
 
-<p>Today I went to <span>the store<span>.</p>
+a <body> tag that contains a <header>, which itself contains an <h2> tag.
 
+description:
 
-body
-header
-h2
-
-the body contains a header that contains 
-<body>
-  <header>
-    <h2>Web Site</h2>
-  </header>
-</body>
+a <ul> tag has 4 <li> children. each of those children has an anchor tag, except the last one, which is just text.
