@@ -15,6 +15,9 @@ a \<body\> tag that contains a \<header\>, which itself contains an \<h2\> tag.
 
 a \<ul\> tag has 4 \<li\> children. each of those children has an anchor tag, except the last one, which is just text.
 
+
+#### FINAL IN-CLASS CODE FOR THE FORM VALIDATION
+
 ```javascript
 // get a handle on each element of the form
 var form = document.getElementsByTagName('form')[0];
