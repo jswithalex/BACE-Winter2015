@@ -1,7 +1,7 @@
 #### Glossary of JavaScript Terms We have Used So Far
 
 
-**expression**: A sequence of one or more operations that results in single value after it is evaluated, e.g.:
+**Expression**: A sequence of one or more operations that results in single value after it is evaluated, e.g.:
 
 ```javascript
   Math.sqrt(9) + 4;
@@ -9,9 +9,10 @@
   // 4 is 4
   // 3 + 4 is 7, a single value
   // but as it is, this isn't saved anywhere, so it is discarded
+  
 ```
 
-**statement**: an instruction to the computer to assign a name (on left) to a value (on right)
+**Statement**: an instruction to the computer to assign a name (on left) to a value (on right)
 
 ```javascript
   var sum = Math.sqrt(9) + 4;
