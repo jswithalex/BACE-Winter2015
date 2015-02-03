@@ -1,16 +1,4 @@
-Hi Everyone, 
-
-On  Thursday, we:
-
-+ Finished the form validation exercise from week 2
-+ Made a simple image gallery
-+ Got a head start on functions
-
-I urge you to look at the image gallery code because it demonstrates some useful techniques and is fairly short and straightforward. 
-
-We will be spending a fair amount of time on functions because they are the heart of JavaScript, but I will try to cover the essentials here for you, in case the reading isn't making it clear:
-
-Functions
+#### Functions
 
 First, here is what a section of code involving a function would look like:
 
@@ -31,10 +19,11 @@ squareN(n);
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-What is the purpose of a function?
+**What is the purpose of a function?**
 
 A function is a reusable section of code that contains 1 or more statements. Every time it runs, it executes those exact same statements, so you don't need to rewrite them every time you need to run them. 
 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 // first, define the function
 function squareN(n)
@@ -47,8 +36,9 @@ var n = 2;
 // then call it
 squareN(n);
 // alerts 4
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-what do i need to do to write my own functions?
+**What do I need to do to write my own functions?**
 
 1. you need a reason for the function (e.g. i want to square a number)
 2. write the definition of the function
@@ -74,7 +64,7 @@ function squareN(n)
    alert(product);
 }
 
-some functions have return values. what is that?
+**Some functions have return values. What is that?**
 
 a return value looks like this:
 
