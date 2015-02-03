@@ -9,11 +9,9 @@ function squareN(n)
     // this is a statement inside of a function
     alert(n*n);
 }
-// 
-var n = 2;
-// then call it with 'n' as an argument
-// we could have passed it the literal, 2
-squareN(n);
+
+// give the function an argument and call it
+squareN(2);
 // alerts 4
 ```
 
