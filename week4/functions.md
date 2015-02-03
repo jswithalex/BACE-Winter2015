@@ -40,7 +40,7 @@ squareN(n);
 
 **What do I need to do to write my own functions?**
 
-1. you need a reason for the function (e.g. i want to square a number)
+1. you need a reason for the function (e.g. to square a number)
 2. write the definition of the function
 2. call it
 
@@ -51,34 +51,45 @@ e.g. function squareN(n)
 
 the function body: 1 or more statements inside '{}', e.g.
 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 {
    var product = n*n;
    alert(product);
 }
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 so here is the whole function definition again
 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 function squareN(n)
 }
    var product = n*n;
    alert(product);
 }
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Some functions have return values. What is that?**
 
 a return value looks like this:
 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 return n;
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 when the function encounters this, it immediately exits and replaces the function call with the value returned.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 function squareN(n)
 }
    var product = n*n;
    return product;
 }
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 before the function runs, the code is
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 var n = 2;
 var result = squareN(n); // this will be replaced with return value
@@ -88,6 +99,7 @@ and after, it is
 var n = 2;
 result = 4; // function call replaced by return val
 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The truth is, every function has a return value, but if you dont explicitly set one, it defaults to undefined. So if you took the first function and assigned its result to a variable, that result variable would be undefined.  if you added a final return value statement to the end, it would instead hold the value of its argument, squared.
 
