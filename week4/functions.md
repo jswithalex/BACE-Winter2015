@@ -1,4 +1,4 @@
-#### Functions
+#### Introduction to Functions
 
 First, here is what a section of code involving a function would look like:
 
