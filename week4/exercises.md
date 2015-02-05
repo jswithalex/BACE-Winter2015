@@ -12,9 +12,11 @@ resources: Beachball image URL: http://www.clipartbest.com/cliparts/McL/LXB/McLL
 
 #### Functions that use other Functions
 
-resources:
+resources: [My Functions Introduction](https://github.com/jswithalex/BACE-Winter2015/blob/master/week4/functions.md)
 
 
-+ Write a function called **isEven** that returns true or false depending on whether the input value is even
-+ write a function called **squareN** that prints the square of the result of its input
-+ finally, write a
++ Write a function called **isEven** that takes a number and if it is even, returns true. If it is false, it returns false.
++ write a function called **squareN** takes input and squares that number and **logs the result** to the console, but does not return anything
++ finally, write a script that uses these two functions in the following way:
+  + if n is even, then square the result and log it to the console
+  + if n is odd, log 'n is odd' to the console
