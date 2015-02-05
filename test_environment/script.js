@@ -1,5 +1,12 @@
+/*
+	A Simple Test Environment for Learning Function Basics
+*/
 var form = document.forms[0];
-
+console.log = function(msg)
+{
+	var results = document.getElementById('results');
+	results.innerHTML = msg;
+}
 // DEFINE YOUR FUNCTIONS HERE
 
 
@@ -18,10 +25,9 @@ form.onsubmit = function(e) {
   if (!num)
     return;
 
-  // WRITE YOUR CONDITIONAL LOGIC HERE
+  // CALL FUNCTIONS HERE
 
+    
 
-
-
-  // END OF YOUR CONDITIONAL LOGIC
+  // END CALL FUNCTIONS
 }
