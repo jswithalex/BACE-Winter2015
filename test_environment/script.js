@@ -2,15 +2,6 @@ var form = document.forms[0];
 
 // DEFINE YOUR FUNCTIONS HERE
 
-function isEven(n)
-{
-  return n%2 === 0;
-}
-
-function squareN(n)
-{
-  return n*n;
-}
 
 
 // END OF FUNCTION DEFINITIONS
@@ -29,15 +20,6 @@ form.onsubmit = function(e) {
 
   // WRITE YOUR CONDITIONAL LOGIC HERE
 
-  if ( isEven(num) )
-  {
-    var result = squareN(num);
-    results.innerHTML = result;
-  }
-  else
-  {
-    results.innerHTML = num + ' is not even';
-  }
 
 
 
