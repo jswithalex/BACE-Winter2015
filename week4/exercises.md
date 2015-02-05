@@ -20,3 +20,4 @@ resources: [My Functions Introduction](https://github.com/jswithalex/BACE-Winter
 + finally, write a script that uses these two functions in the following way:
   + if n is even, then square the result and log it to the console
   + if n is odd, log 'n is odd' to the console
+  + hint: you might approach this with more clarity if you write out what you need to do before you start coding
