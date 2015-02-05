@@ -4,7 +4,7 @@
 
 ##### resources: 
 | resources |
-|:-------------:|
+|:-------------|
 | Beachball image URL: http://www.clipartbest.com/cliparts/McL/LXB/McLLXBXca.svg |
 
 + go to www.google.com
@@ -15,7 +15,7 @@
 
 #### 2) Functions that use other Functions
 | resources |
-|:-------------:|
+|:-------------|
 | [My Functions Introduction](https://github.com/jswithalex/BACE-Winter2015/blob/master/week4/functions.md) |
 | [A simple test environment](https://github.com/jswithalex/BACE-Winter2015/tree/master/test_environment) |
 
