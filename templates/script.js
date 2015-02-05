@@ -1,2 +1,4 @@
 // put your javascript here.  
-//the index.html file is already linked to this file, so you should be able to run it immediately if there aren't any errors
+// the index.html file is already linked to this file
+
+// also, note that you can use jQuery in this file, because the index.html file links to a jQuery CDN.
