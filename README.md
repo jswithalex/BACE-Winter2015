@@ -72,3 +72,7 @@ Websites today are no longer a collection of static pages; they behave more like
 | reading     |   A head start on functions: **MZ**, [Functions] (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions), **EJS**, [Functions] (http://eloquentjavascript.net/03_functions.html) (Try the examples in your browser console!) |
 | assignment    | Make your own image Gallery from scratch, using our classwork to help you if needed|
 
+| Week 3 | HTML form validation continued, Tree exercises, Image Gallery |
+|:-------------:|:-----|
+| reading     |   Reading: **MZ**, [Control Flow] (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Statements)|
+| assignment    | Start thinking about a potential project you could build yourself |
