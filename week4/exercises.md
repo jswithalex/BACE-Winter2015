@@ -1,6 +1,6 @@
 ## Week 4 Exercises
 
-#### Replace the Google Main Image with a Beach Ball
+#### 1) Replace the Google Main Image with a Beach Ball
 
 resources: Beachball image URL: http://www.clipartbest.com/cliparts/McL/LXB/McLLXBXca.svg
 
@@ -10,7 +10,7 @@ resources: Beachball image URL: http://www.clipartbest.com/cliparts/McL/LXB/McLL
 + create a variable that holds the Google main image element (using a document.getElement_______ function)
 + give the image node a new **src** attribute by setting the variable's .src attribute to the URL of the beach ball image 
 
-#### Functions that use other Functions
+#### 2) Functions that use other Functions
 
 resources: [My Functions Introduction](https://github.com/jswithalex/BACE-Winter2015/blob/master/week4/functions.md)
 
