@@ -12,7 +12,9 @@
 
 #### 2) Functions that use other Functions
 
-[ resources: [My Functions Introduction](https://github.com/jswithalex/BACE-Winter2015/blob/master/week4/functions.md) ]
+  resources: 
++ [My Functions Introduction](https://github.com/jswithalex/BACE-Winter2015/blob/master/week4/functions.md) 
++ [A simple test environment](https://github.com/jswithalex/BACE-Winter2015/tree/master/test_environment) 
 
 
 + Write a function called **isEven** that takes a number and if it is even, returns true. If it is false, it returns false.
