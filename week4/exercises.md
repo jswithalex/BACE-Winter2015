@@ -2,7 +2,6 @@
 
 #### 1) Replace the Google Main Image with a Beach Ball
 
-##### resources: 
 | resources |
 |:-------------|
 | Beachball image URL: http://www.clipartbest.com/cliparts/McL/LXB/McLLXBXca.svg |
@@ -14,6 +13,7 @@
 + give the image node a new **src** attribute by setting the variable's .src attribute to the URL of the beach ball image 
 
 #### 2) Functions that use other Functions
+
 | resources |
 |:-------------|
 | [My Functions Introduction](https://github.com/jswithalex/BACE-Winter2015/blob/master/week4/functions.md) |
