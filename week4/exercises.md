@@ -17,9 +17,7 @@
 | resources |
 |:-------------|
 | [My Functions Introduction](https://github.com/jswithalex/BACE-Winter2015/blob/master/week4/functions.md) |
-| [A simple test environment](https://github.com/jswithalex/BACE-Winter2015/tree/master/test_environment) |
 
-+ download [the course repo](https://github.com/jswithalex/BACE-Winter2015/archive/master.zip) and put your functions in 'BACE-Winter-2105/test_environment/script.js'.  There are clearly commented sections where your code should go.
 + Write a function called **isEven** that takes a number and if it is even, returns true. If it is false, it returns false.
 + write a function called **squareN** takes input and squares that number and **logs the result** to the console, but does not return anything
 + finally, write a script that uses these two functions in the following way:
