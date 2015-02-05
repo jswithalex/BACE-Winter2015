@@ -2,7 +2,7 @@
 
 #### 1) Replace the Google Main Image with a Beach Ball
 
-resources: Beachball image URL: http://www.clipartbest.com/cliparts/McL/LXB/McLLXBXca.svg
+[ resources: Beachball image URL: http://www.clipartbest.com/cliparts/McL/LXB/McLLXBXca.svg ]
 
 + go to www.google.com
 + open your JavaScript Console (⌘ + Option + J in chrome, ⌘ + Option + K in Firefox)
@@ -12,7 +12,7 @@ resources: Beachball image URL: http://www.clipartbest.com/cliparts/McL/LXB/McLL
 
 #### 2) Functions that use other Functions
 
-resources: [My Functions Introduction](https://github.com/jswithalex/BACE-Winter2015/blob/master/week4/functions.md)
+[ resources: [My Functions Introduction](https://github.com/jswithalex/BACE-Winter2015/blob/master/week4/functions.md) ]
 
 
 + Write a function called **isEven** that takes a number and if it is even, returns true. If it is false, it returns false.
