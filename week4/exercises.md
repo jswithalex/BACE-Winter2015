@@ -7,7 +7,7 @@ resources: Beachball image URL: http://www.clipartbest.com/cliparts/McL/LXB/McLL
 + go to www.google.com
 + open your JavaScript Console (⌘ + Option + J in chrome, ⌘ + Option + K in Firefox)
 + Find the ID attribute of the main Google Image by right clicking on the image and clicking 'inspect element'
-+ create a variable that holds the Google main image element (using document.getElement ... )
++ create a variable that holds the Google main image element (using a document.getElement_______ function)
 + give the image node a new **src** attribute by setting the variable's .src attribute to the URL of the beach ball image 
 
 #### Functions that use other Functions
