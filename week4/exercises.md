@@ -13,7 +13,7 @@
 
 #### 2) Functions that use other Functions
 
-#### resources: 
+##### resources: 
 1) [My Functions Introduction](https://github.com/jswithalex/BACE-Winter2015/blob/master/week4/functions.md) 
 
 2) [A simple test environment](https://github.com/jswithalex/BACE-Winter2015/tree/master/test_environment) 
