@@ -80,8 +80,14 @@ A few things about methods:
 + A function is not necessarily a method ( see the diagram above).
 + A **method** is always ***bound to an object***.
 + The object to which the **method** is attached is called it's **context**.
-+ METHOD TEST: If you see a function call that involves a **.** somewhere in the variable name, that's a method.
-+ FUNCTION TEST: If you don't see a **.** in the function call, it's not a method
+
+**METHOD TEST**
+
+If you see a function call that involves a **.** somewhere in the variable name, that's a method.
+
+**FUNCTION TEST**
+
+If you don't see a **.** in the function call, it's not a method
 
 ````javascript
 car.drive() // a method
