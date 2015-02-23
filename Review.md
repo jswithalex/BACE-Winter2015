@@ -33,11 +33,28 @@ function robotGreeting()
   robotGreeting() // "I am a robot."
 ````
 
-+ A function's name is a variable like any other. It binds a human-readable label to a set of statements in memory, effectively remembering them so that they can be called in the order you specify them in the definition. 
++ A function's name is a variable like any other (except we use the **function** and not the **var** keyword to identify a function). It binds a human-readable label to a set of statements in memory, effectively remembering them so that they can be called in the order you specified them in your function definition. 
 
-robotGreeting ---> 1) var typeOfBeing = 'robot';
-                   2) console.log('I am a ', typeOfBeing,'.');
++ In JavaScript, referring to the function by its variable name alone gets you the block of code that you defined.
++ Putting a set of parentheses at the end of the function name runs the code
 
+````javascript
+robotGreeting; // does not run the function
+robotGreeting(); // runs the function
+var functionAlias = robotGreeting;
+functionAlias(); // runs the function code inside robotGreeting.  
+functionAlias; // does not run the function
+
+var badFunctionAlias = robotGreeting();
+badFunctionAlias(); // error! badFunctionAlias is not a function, it's an undefined variable. Can you figure out why?
+
+````
+
+````javascript
+robotGreeting ---> |  1) var typeOfBeing = 'robot';
+                   |  2) console.log('I am a ', typeOfBeing,'.');
+                   |  3) (return undefined;) 
+````
 #### Dom Methods
 
 ````javascript 
