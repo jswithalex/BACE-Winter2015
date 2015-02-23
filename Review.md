@@ -35,8 +35,9 @@ function robotGreeting()
 
 + A function's name is a variable like any other (except we use the **function** and not the **var** keyword to identify a function). It binds a human-readable label to a set of statements in memory, effectively remembering them so that they can be called in the order you specified them in your function definition. 
 
-+ In JavaScript, referring to the function by its variable name alone gets you the block of code that you defined.
-+ Putting a set of parentheses at the end of the function name runs the code
++ In JavaScript, referring to ```` robotGreeting ```` by its variable name alone gets you the literal block of code that you defined.
++ Putting a set of parentheses at the end of the function name ( ```` robotGreeting() ````` ) runs the code
++ So, think of the ````()```` as an instruction to the JavaScript engine to execute the statements referred to by the ````robotGreeting```` variable name to which the ````()```` is attached.
 
 ````javascript
 robotGreeting; // does not run the function
