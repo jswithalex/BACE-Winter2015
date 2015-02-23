@@ -66,7 +66,7 @@ A Venn-Diagram of Functions and Methods
 _________________________
 |     Functions         |
 |                       |
-|   ---------------     |
+|   ----------------    |
 |   |              |    |
 |   |    Methods   |    |
 |   |              |    |
