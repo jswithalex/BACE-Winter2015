@@ -41,7 +41,7 @@ And this is how you call a function:
 
 + In JavaScript, referring to ```` robotGreeting ```` by its variable name alone will ask the JavaScript engine to fetch the literal block of code that you defined. But it won't call/execute the function.
 
-+ Putting a set of parentheses at the end of the function name ( ````robotGreeting()```` ) runs the code.
++ Putting a set of parentheses at the end of the function name, e.g. ````robotGreeting()```` , runs the code.
 + So, think of the ````()```` as an instruction to the JavaScript engine to execute the statements referred to by the ````robotGreeting```` variable name to which the ````()```` is attached.
 
 ````javascript
