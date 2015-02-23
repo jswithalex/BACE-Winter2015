@@ -43,26 +43,24 @@ function robotGreeting()
 
 + In JavaScript, referring to ```` robotGreeting ```` by its variable name alone will ask the JavaScript engine to fetch the literal block of code that you defined. But it won't call/execute the function.
 
-+ Putting a set of parentheses at the end of the function name ( ```` robotGreeting() ````` ) runs the code.
++ Putting a set of parentheses at the end of the function name ( ````robotGreeting()```` ) runs the code.
 + So, think of the ````()```` as an instruction to the JavaScript engine to execute the statements referred to by the ````robotGreeting```` variable name to which the ````()```` is attached.
 
 ````javascript
 robotGreeting; // does not run the function
-robotGreeting(); // runs the function
+robotGreeting(); // runs the function, outputting 'I am a robot.'
 var functionAlias = robotGreeting;
 functionAlias(); // runs the function code inside robotGreeting.  
-functionAlias; // does not run the function
+functionAlias; // does not run the function inside robotGreeting.
 
 var badFunctionAlias = robotGreeting();
-badFunctionAlias(); // error! badFunctionAlias is not a function, it's an undefined variable. Can you figure out why?
+badFunctionAlias;  // does nothing. badFunctionAlias is a variable name that is bound to 'undefined'.
+badFunctionAlias(); // error! badFunctionAlias is not a function. 
+// Can you figure out why these last two lines of code don't work?
 
 ````
 
-````javascript
-robotGreeting ---> |  1) var typeOfBeing = 'robot';
-                   |  2) console.log('I am a ', typeOfBeing,'.');
-                   |  3) (return undefined;) 
-````
+
 #### Dom Methods
 
 ````javascript 
