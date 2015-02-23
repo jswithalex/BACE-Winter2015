@@ -61,10 +61,23 @@ badFunctionAlias(); // error! badFunctionAlias is not a function.
 
 
 #### Dom Methods
+````
+A Venn-Diagram of Functions and Methods
+________________________
+|     Functions         |
+|                       |
+|   ---------------     |
+|   |              |    |
+|   |    Methods   |    |
+|   |              |    |
+|   ----------------    |
+|                       |
+------------------------|
 
+````
 A few things about methods:
 + A **method** is a function.
-+ A function is not necessarily a method.
++ A function is not necessarily a method ( see the diagram above).
 + A **method** is always ***bound to an object***.
 + The object to which the **method** is attached is called it's **context**.
 + METHOD TEST: If you see a function call that involves a **.** somewhere in the variable name, that's a method.
