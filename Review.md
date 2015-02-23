@@ -12,6 +12,32 @@ console.log(a); // referencing a later in the program
 
 ````
 
+#### Functions
+
+A **function** is a self-contained set of expressions and/or statements that are executed when the function is called.
+
+A function needs two things to be of use to you, the programmer:
+
++ it needs to be **defined** as a function using the **function** keyword.
+
+````javascript
+function robotGreeting()
+{
+  var typeOfBeing = 'robot';
+  console.log('I am a ', typeOfBeing,'.');
+}
+````
++ it needs to be **called**
+
+````javascript
+  robotGreeting() // "I am a robot."
+````
+
++ A function's name is a variable like any other. It binds a human-readable label to a set of statements in memory, effectively remembering them so that they can be called in the order you specify them in the definition. 
+
+robotGreeting ---> 1) var typeOfBeing = 'robot';
+                   2) console.log('I am a ', typeOfBeing,'.');
+
 #### Dom Methods
 
 ````javascript 
