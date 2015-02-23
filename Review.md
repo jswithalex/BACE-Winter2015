@@ -1,9 +1,10 @@
-## Review of Dom Methods
+## Review
+
+#### Dom Methods
 
 ````javascript 
-document.getElementById(''); // returns at most one Dom node.
+document.getElementById('#main-menu'); // returns at most one Dom node.
 document.getElementsByClassName('menu-item'); // returns an array of Dom nodes.
 document.querySelector('#main-menu li'); // returns one match for the provided selector
 document.querySelectorAll('#main-menu li'); // returns an array containing all matches of the provided selector
-
 ````
