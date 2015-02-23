@@ -9,7 +9,6 @@ var b = Math.sqrt(10); // b is now a reference to the value returned by Math.sqr
 var a = Math.sqrt(8); // a is now a reference to the value returned by Math.sqrt(8)
 console.log(b); // referencing b later in the program
 console.log(a); // referencing a later in the program
-
 ````
 
 ### Arrays
@@ -18,8 +17,16 @@ Arrays are containers for storing 0 or more objects.  In JavaScript, an array is
 
 ````javascript
 var things = [ 'book', 30, false, [] ];
-things.push(['one','two']);
+console.log(things); // [ 'book', 30, false, [] ]
+````
+
+Arrays have properties and methods ('attached' functions):
+
+
+````javascript
+things.push(['one','two']); // 
 console.log(things); // [ 'book', 30, false, [], [ 'one', 'two' ] ]
+console.log(things.length()); // 5
 ````
 
 The syntax for accessing items in an array is to use the array name with ````[N] ```` appended to the end, where ````N```` is either a non-zero integer or an expression that evaluates to a non-zero integer, e.g. ````things[2]````.
