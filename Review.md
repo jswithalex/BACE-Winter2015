@@ -17,14 +17,10 @@ console.log(a); // referencing a later in the program
 **What is a Function?**
 
 + A **function** is a self-contained set of expressions and/or statements that are executed in the order they are defined when the function is called.
-+ A function lets 1) you **reuse** code, and 2) write your programs with **modular** pieces of self-contained code.
-+ There are two major ways of considering your functions:
-    + **internally**: Test your functions to ensure that they produce the results we expect.
-    + **externally**: Ignore the interal details of a function and instead think of them as 'black boxes' about which you know nothing other than the simple fact that function x does y.
++ A function lets you 1) **reuse** code, and 2) write your programs with **modular** pieces of self-contained code.
 
-A function needs two things to be of use to you, the programmer:
+A function needs a definition using the **function** keyword:
 
-1 ) It needs to be **defined** as a function using the **function** keyword.
   ````javascript
   function robotGreeting()
   {
@@ -32,7 +28,8 @@ A function needs two things to be of use to you, the programmer:
     console.log('I am a ', typeOfBeing,'.');
   }
   ````
-2 ) It needs to be **called**
+
+And this is how you call a function:
 
 ````javascript
   robotGreeting() // "I am a robot."
