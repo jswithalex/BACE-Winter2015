@@ -14,11 +14,15 @@ console.log(a); // referencing a later in the program
 
 #### Functions
 
+**What a Function Is**
+
 A **function** is a self-contained set of expressions and/or statements that are executed when the function is called.
+
+**How To Use a Function**
 
 A function needs two things to be of use to you, the programmer:
 
-+ it needs to be **defined** as a function using the **function** keyword.
+1. it needs to be **defined** as a function using the **function** keyword.
 
 ````javascript
 function robotGreeting()
@@ -27,16 +31,19 @@ function robotGreeting()
   console.log('I am a ', typeOfBeing,'.');
 }
 ````
-+ it needs to be **called**
+2. it needs to be **called**
 
 ````javascript
   robotGreeting() // "I am a robot."
 ````
 
-+ A function's name is a variable like any other (except we use the **function** and not the **var** keyword to identify a function). It binds a human-readable label to a set of statements in memory, effectively remembering them so that they can be called in the order you specified them in your function definition. 
+**Function's Code versus a Function's Execution**
 
-+ In JavaScript, referring to ```` robotGreeting ```` by its variable name alone gets you the literal block of code that you defined.
-+ Putting a set of parentheses at the end of the function name ( ```` robotGreeting() ````` ) runs the code
++ Think of a function's name like a **variable** that we create using **function** and not the **var** keyword. It binds a human-readable label to a set of statements in memory, effectively remembering them so that they can be called in the order you specified them in your function definition. 
+
++ In JavaScript, referring to ```` robotGreeting ```` by its variable name alone will ask the JavaScript engine to fetch the literal block of code that you defined. But it won't call/execute the function.
+
++ Putting a set of parentheses at the end of the function name ( ```` robotGreeting() ````` ) runs the code.
 + So, think of the ````()```` as an instruction to the JavaScript engine to execute the statements referred to by the ````robotGreeting```` variable name to which the ````()```` is attached.
 
 ````javascript
