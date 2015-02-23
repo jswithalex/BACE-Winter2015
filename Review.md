@@ -24,9 +24,9 @@ Arrays have properties and methods ('attached' functions):
 
 
 ````javascript
-things.push(['one','two']); // 
+things.push(['one','two']); // 5
 console.log(things); // [ 'book', 30, false, [], [ 'one', 'two' ] ]
-console.log(things.length()); // 5
+console.log(things.length); // 5
 ````
 
 The syntax for accessing items in an array is to use the array name with ````[N] ```` appended to the end, where ````N```` is either a non-zero integer or an expression that evaluates to a non-zero integer, e.g. ````things[2]````.
