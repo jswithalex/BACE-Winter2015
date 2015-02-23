@@ -12,6 +12,18 @@ console.log(a); // referencing a later in the program
 
 ````
 
+### Arrays
+
+Arrays are containers for storing 0 or more objects.  In JavaScript, an array is flexible in size and can contain a variety of different types of data.
+
+````javascript
+var things = [ 'book', 30, false, [] ];
+things.push(['one','two']);
+console.log(things); // [ 'book', 30, false, [], [ 'one', 'two' ] ]
+````
+
+The syntax for accessing items in an array is to use the array name with ````[N] ```` appended to the end, where ````N```` is either a non-zero integer or an expression that evaluates to a non-zero integer, e.g. ````things[2]````.
+
 ### Functions
 
 **What is a Function?**
