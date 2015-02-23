@@ -22,16 +22,15 @@ A **function** is a self-contained set of expressions and/or statements that are
 
 A function needs two things to be of use to you, the programmer:
 
-1. it needs to be **defined** as a function using the **function** keyword.
-
-````javascript
-function robotGreeting()
-{
-  var typeOfBeing = 'robot';
-  console.log('I am a ', typeOfBeing,'.');
-}
-````
-2. it needs to be **called**
+1 ) It needs to be **defined** as a function using the **function** keyword.
+  ````javascript
+  function robotGreeting()
+  {
+    var typeOfBeing = 'robot';
+    console.log('I am a ', typeOfBeing,'.');
+  }
+  ````
+2 ) It needs to be **called**
 
 ````javascript
   robotGreeting() // "I am a robot."
