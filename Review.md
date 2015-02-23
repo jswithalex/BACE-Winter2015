@@ -1,6 +1,6 @@
-## Review
+# Review
 
-#### Variables
+### Variables
 
 A **variable** represents a binding to a value when the program runs.  When you assign a value to a variable, you are telling the JavaScript environment to hold onto that value in memory and not to let that memory address be overwritten or freed, aka 'garbage collected'.  This binding allows us to reference and act upon that value during the program's execution.
 
@@ -12,7 +12,7 @@ console.log(a); // referencing a later in the program
 
 ````
 
-#### Functions
+### Functions
 
 **What a Function Is**
 
@@ -60,7 +60,7 @@ badFunctionAlias(); // error! badFunctionAlias is not a function.
 ````
 
 
-#### Dom Methods
+### Dom Methods
 ````
 A Venn-Diagram of Functions and Methods
 _________________________
