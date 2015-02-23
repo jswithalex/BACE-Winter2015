@@ -63,7 +63,7 @@ badFunctionAlias(); // error! badFunctionAlias is not a function.
 #### Dom Methods
 ````
 A Venn-Diagram of Functions and Methods
-________________________
+_________________________
 |     Functions         |
 |                       |
 |   ---------------     |
@@ -72,7 +72,7 @@ ________________________
 |   |              |    |
 |   ----------------    |
 |                       |
-------------------------|
+-------------------------
 
 ````
 A few things about methods:
