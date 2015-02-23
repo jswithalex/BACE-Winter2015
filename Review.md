@@ -75,10 +75,9 @@ _________________________
 
 ````
 A few things about methods:
-+ A **method** is a function.
++ A method is a function.
 + A function is not necessarily a method ( see the diagram above).
-+ A **method** is always ***bound to an object***.
-+ The object to which the **method** is attached is called it's **context**.
++ A method is always bound to an object.
 
 **METHOD TEST**
 
