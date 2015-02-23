@@ -89,6 +89,7 @@ If you don't see a **.** in the function call, it's not a method
 
 ````javascript
 car.drive() // a method
+document.getElementById('quick-links') // a method
 robotGreeting() // not a method
 
 ```` 
