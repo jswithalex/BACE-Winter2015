@@ -2,7 +2,7 @@
 
 ### Variables
 
-A **variable** represents a binding to a value when the program runs.  When you assign a value to a variable, you are telling the JavaScript environment to hold onto that value in memory and not to let that memory address be overwritten or freed, aka 'garbage collected'.  This binding allows us to reference and act upon that value during the program's execution.
+A **variable** represents a binding to a place in memory when the program runs.  When you assign a value to a variable, you are telling the JavaScript environment to update that place in memory with that value, and not to let that memory address be reused in another assignment.  This binding allows us to reference and act upon that value during the program's execution.
 
 ```javascript
 var b = Math.sqrt(10); // b is now a reference to the value returned by Math.sqrt(10)
@@ -10,6 +10,8 @@ var a = Math.sqrt(8); // a is now a reference to the value returned by Math.sqrt
 console.log(b); // referencing b later in the program
 console.log(a); // referencing a later in the program
 ````
+
+A variable 
 
 ### Arrays
 
