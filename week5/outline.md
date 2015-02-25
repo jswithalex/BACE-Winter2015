@@ -14,6 +14,7 @@
 + Functions
 + AJAX
 + GET requests
++ namespacing with ````var app = app || {}:````
 
 #### Comprehension Questions 
 
