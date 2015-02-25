@@ -8,11 +8,11 @@
     + comparisons with JavaScript code
     + common functions
 + CDNs for script sourcing
-+ Callback function
 + API definition
 + JSON
 + Functions
-+ AJAX
++ AJAX and Asynchronous events
++ Callback function
 + GET requests
 + namespacing with ````var app = app || {}:````
 
