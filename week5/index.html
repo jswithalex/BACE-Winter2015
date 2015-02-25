@@ -1,17 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <link type="text/css" rel="stylesheet"  href="style.css">
+	<meta charset="UTF-8">
+	<link type="text/css"	rel="stylesheet"	href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="js/script.js"></script>
 </head>
 <body>
-<h1><span id="city">Boston</span>, <span id="state">Massachusetts</span></h1>
-<h2><span id="temp">30° F</span>, <span id="short-desc">Sky is Clear</span></h2>
 
-<footer>
-<span>powered by <a href="www.ip-api.com">ip-api.com</a> </span>
-</footer>
+  <h1>
+	  <span id="city">Unknown City</span>,
+		<span id="state">Unknown State</span>,
+		<span id="country">Unknown Country</span>
+		<img id="#icon"></img>
+	</h1>
+  <h2>
+	  <span id="temp">Unknown Temp</span> 
+		<span id="unit"> F°</span>,
+		<span id="desc">Unknown Weather</span>, 
+		<span id="humidity"></span>
+	</h2>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <footer>
+    <span>powered by <a href="http://ip-api.com">ip-api.com</a> and <a href="http://openweathermap.org">OpenWeatherMap.org</a> </span>
+  </footer>
 </body>
 </html>
