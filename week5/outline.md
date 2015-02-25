@@ -7,10 +7,10 @@
     + relationship with JavaScript
     + comparisons with JavaScript code
     + common functions
-+ JSON
 + CDNs for script sourcing
 + Callback function
 + API definition
++ JSON
 + Functions
 + AJAX
 + GET requests
