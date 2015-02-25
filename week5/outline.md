@@ -1,7 +1,13 @@
 ## Weather & Location API
 
 #### Outline of Topics
++ Objects 
++ Objects vs Arrays
 + jQuery
+    + relationship with JavaScript
+    + comparisons with JavaScript code
+    + common functions
+
 + CDN
 + Callback function
 + API definition
