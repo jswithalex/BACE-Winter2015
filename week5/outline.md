@@ -27,3 +27,4 @@
 #### Important Links for This Exercise
 + [Register with OpenWeatherMap to get an API Key](http://openweathermap.org/register)
 + [How to Use the OpenWeatherMap API Key](http://openweathermap.org/appid#use)
++ [Get Weather for One Location](http://openweathermap.org/forecast#one)
