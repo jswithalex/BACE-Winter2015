@@ -7,8 +7,8 @@
     + relationship with JavaScript
     + comparisons with JavaScript code
     + common functions
-
-+ CDN
++ JSON
++ CDNs for script sourcing
 + Callback function
 + API definition
 + Functions
