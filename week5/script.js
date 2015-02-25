@@ -41,9 +41,3 @@ $.getJSON('http://ip-api.com/json', function (response)
 	ldata.countryCode =  response.countryCode;
   insertLocationData(ldata);
 });
-
-
-/*
-var base_url = "http://openweathermap.com/data/2.5/weather?q=";
-var API_KEY = "61beaf11b206ba345f116d0ebe6205c2";
-*/
