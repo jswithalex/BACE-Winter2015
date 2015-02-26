@@ -2,8 +2,6 @@
 
 
 
-**Note:** Adding inline styles to dom elements is possible with JS and jQuery, but it isn't advised.  You are **coupling** your javascript with your style when they should ideally be as independent of each other as possible. JavaScript is supposed to control the ***behavior*** of the page.
-
 ###### The Base jQuery function
 ````javascript
 jQuery(); // the jQuery function. It takes as arguments a CSS selector string.
@@ -21,6 +19,9 @@ $("#city a"); // return all anchor tags that descend from a dom node with the id
 
 
 ###### Adding a Class to an Element and Toggling it Off/On
+
+**Note:** Adding inline styles to DOM elements is possible with JS and jQuery, but it isn't a good practice.  You are effectively **coupling** your javascript with your style, which means that the JavaScript is now involved in the styling of your page, where it is conventially accepted to use it exclusively for behavior (to the extent that this is possible). When a site gets large enough and/or has enough people working on separate parts of it, a JS change can then have unexpected consequences on the style.  The solution here is to toggle CSS selectors with JS/jQuery and not to add inline styles with ````$('body').css('background','red');````.
+
 ````javascript
 // add the .blue CSS class to the body
 $('body').addClass('blue'); // bg is blue
