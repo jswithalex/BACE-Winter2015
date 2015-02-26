@@ -1,0 +1,3 @@
+````javascript
+$('body').addClass('blue');
+````
