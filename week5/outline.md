@@ -103,12 +103,15 @@ $("body *"); // return all descendants of the body tag in an array
 $("#city a"); // return all anchor tags that descend from a dom node with the id 'city'
 ````
 
-###### The basic jQuery function
+###### Adding a Class, Toggling a Class, removing a Class
 ````javascript
 $('body').addClass('blue'); // 
 $('body').toggleClass('blue');
+$('body').removeClass('blue');
 
 ````
+
+###### Appending Elements to an existing Element
 
 #### Comprehension Questions 
 
