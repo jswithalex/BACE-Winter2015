@@ -89,6 +89,39 @@ The problem with using an array for this example is that I need to personally re
 
 jQuery is a DOM manipulation library that is pure JavaScript.  It was written to solve cross-browser inconsistencies.  It exists as a function in your code once you've sourced it with the script tag.  Today, more and more developers, especially developers who are writing single page apps who are concerned about performance, argue that the browser inconsistencies do not pose the same sort of problem any more so jQuery may not be worth the extra kilobytes in download heft. However, it is widely in use, it really speeds up productivity and it has great AJAX (to be explained later) functions, so you should know how to use it if you want to work with JavaScript.  See the [demo](https://github.com/jswithalex/BACE-Winter2015/blob/master/week5/jQuery_Demo/demo.md) for common jQuery uses.
 
+#### CDNs
+
+CDN is short for Content Distribution Network. CDNs are distributed duplicates of a server that offer the same service. It means that we can request a copy of jQuery and the nearest CDN server will give it to us. Netflix is a good example of this sort of content delivery strategy, which explains how they can effectively serve their content to so many people.  
+
+The main benefit of a CDN for our purposes is that, since they are a public shared resource, it increases the likelihood that the end user has already downloaded the jquery source.  We are using the CDN's popularity to our advantage.
+
+#### APIs 
+
+###### A definition
+
+An API is an interface that an organization offers so that its users can take advantage of that organization's resources in a structured and supported way.  Here's a fabricated example of the value of an API: If you wanted to get the top stories from the New York Times, you could take the naive approach and do what is called 'web scraping' which means that you essentially download the New York Times' main page and comb through the text to isolate the important HTML nodes that have the information that you want, eg. the H1 tags and their subheadings. 
+
+###### A more direct approach
+
+If you are building an app that depends on this information, you won't get very far because parsing HTML is a very unreliable method. If the HTML changes, your app ceases to work.  A better method, if possible, is to use the (fabricated) New York Times API, which lets you access the information more directly by providing an interface for you to do queries on their actual database. You send a request to the url for the New York Times API, appending the proper query strings to fetch the data you want. 
+
+#### Accessing an API
+
+This is usually done via AJAX, which is an asynchronous method of getting data from a remote server.  
+
+**Asynchronous** means that the function is called but the JS engine doesn't wait until it finishes to move on.  This means that you can't rely on when the information will be returned.  Our programming approach has to change so that we aren't trying to access the API data before it gets to us.
+
+It returns the data in the format you've requested (usually JSON or JSONP), and you turn that data into information that your app delivers.
+
+#### What is JSON ?
+
+I won't go too much into what JSON is, per se, because I think that's not in the scope of our class.  
+
+**A brief, practical definition**: JSON is short for JavaScript Object Notation.  It uses JavaScript's object syntax as a format for transmitting data to remote services.  We need to convert this data when we receive it from a server.
+
+
+
+
 
 #### Comprehension Questions 
 
