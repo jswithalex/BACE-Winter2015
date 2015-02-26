@@ -81,4 +81,4 @@ Websites today are no longer a collection of static pages; they behave more like
 | Week 5 | APIs, jQuery, Objects |
 |:-------------|:-----|
 | reading      |   Reading: **JQF**, [jQuery Basics] (http://jqfundamentals.com/chapter/jquery-basics)|
-|              | Practice your jQuery! Use the previous exercises from week 1-4 if you like. |
+| assignment   | Practice your jQuery! Use the previous exercises from week 1-4 if you like. |
