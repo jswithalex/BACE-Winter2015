@@ -24,6 +24,7 @@ You can use JavaScript and jQuery to set the css style of an element.  This is n
   + Letting JavaScript become partially responsible for your document's style, which is not the purpose of JavaScript. JavaScript is supposed to control the ***behavior*** of the page.
 
 **Q**: What is the solution?
+
 **A**: Write CSS styles and engage them with JavaScript.
 
 ````javascript
