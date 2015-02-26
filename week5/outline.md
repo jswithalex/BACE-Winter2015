@@ -98,11 +98,17 @@ The main benefit of a CDN for our purposes is that, since they are a public shar
 
 ###### A definition
 
-An API is an interface that an organization offers so that its users can take advantage of that organization's resources in a structured and supported way.  Here's a fabricated example of the value of an API: If you wanted to get the top stories from the New York Times, you could take the naive approach and do what is called 'web scraping' which means that you essentially download the New York Times' main page and comb through the text to isolate the important HTML nodes that have the information that you want, eg. the H1 tags and their subheadings. 
+An API is an interface that an organization offers so that its users can take advantage of that organization's resources in a structured and supported way.  Here's a fabricated example to illustrate the value of an API: If you wanted to get the top stories from the New York Times, you could take the DIY approach and do what is called 'web scraping' which means that you essentially download the New York Times' main page and comb through the page source to isolate the important HTML tags that have the information that you want, eg. the H1 tags and their subheadings. 
 
 ###### A more direct approach
 
-If you are building an app that depends on this information, you won't get very far because parsing HTML is a very unreliable method. If the HTML changes, your app ceases to work.  A better method, if possible, is to use the (fabricated) New York Times API, which lets you access the information more directly by providing an interface for you to do queries on their actual database. You send a request to the url for the New York Times API, appending the proper query strings to fetch the data you want. 
+If you are building an app that depends on this information, you won't get very far because parsing HTML is a very unreliable method. If the HTML changes, your app won't pull in any data.  Also, you might just get your IP address banned from the site.  A better method, if possible, would be to use the (made up) New York Times API, which lets you access the information more directly by providing an interface for you to do queries on their actual database. You send a request to the url for the New York Times API with the proper query strings embeded in it in order to get the data you want.  
+
+###### Requirements and Terms
+
+Today, many APIs require an **API key** that you put in your search query string. It lets the organization identify your use of the particular resource you are using. It prevents abuse and allows them to offer levels of service, ranging from free to many levels of paid service.
+
+APIs also often require you to read their terms of service which describe proper use of the API.  Here's an [example](http://openweathermap.org/appid).
 
 #### Accessing an API
 
