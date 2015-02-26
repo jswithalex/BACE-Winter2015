@@ -29,14 +29,14 @@ $('body').toggleClass('blue') // bg is blue
 $('body').toggleClass('blue') // bg is white
 
 ````
-#### adding a new element to a list 
+###### adding a new element to a list 
 ````javascript
 // add the .blue CSS class to the body
 $('ul').append('<li>four</li>'); // equivalent to setting the innerHTML to '<li>four</li>'
 
 ````
 
-#### do something to each element returned by a jQuery selection
+###### Log Each Element Returned by a jQuery selection
 ````
          $('li')
 jquery   returns    function
@@ -52,6 +52,15 @@ $.each(  $('li'),  function(index,value){
 // 0 : <li>one</li>
 // 1 : <li>two</li>
 // 2 : <li>three</li>
+````
+
+###### Remove All List Items
+
+```javascript
+$.each(  $('li'),  function(){
+  $(this).remove();
+});
+
 
 ````
 
