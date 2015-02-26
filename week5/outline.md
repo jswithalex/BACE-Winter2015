@@ -84,6 +84,27 @@ I could put the same Franklin Benjamin data in an array, but see if you can gues
 
 The problem with using an array for this example is that I need to personally remember the position of each item in order to know what the data ***means*** (i.e. if this 'name' looking thing is a first name or last name).  With an object, we can write data to an object under the label of 'firstName' and thus we will later know that what we are getting back is the first name.
 
+
+#### jQuery
+
+jQuery is a JavaScript library written to solve cross-browser inconsistencies.  It is a pure JavaScript library that exists as a function in your code once you've referred to it with the script tag.  Today, more and more developers, especially developers who are writing single page apps who are concerned about performance, argue that the browser inconsistencies do not pose the same sort of problem any longer, and that jQuery is not worth the extra kilobytes in download heft. However, it is widely in use and really speeds up productivity, so you should know how to use it if you want to work in JavaScript.  Here is a primer on the basic jQuery functions:
+
+###### The basic jQuery function
+````javascript
+jQuery(); // the jQuery function. It takes as arguments a CSS selector string.
+$(); // this is the same thing as above.  It is more prevalent due to it's brief, distinct syntax.
+````
+###### The basic jQuery function
+````javascript
+jQuery(); // the jQuery function. It takes as arguments a CSS selector string.
+$(); // this is the same thing as above.  It is more prevalent due to it's brief, distinct syntax.
+````
+###### The basic jQuery function
+````javascript
+jQuery(); // the jQuery function. It takes as arguments a CSS selector string.
+$(); // this is the same thing as above.  It is more prevalent due to it's brief, distinct syntax.
+````
+
 #### Comprehension Questions 
 
 + How does jQuery differ from JavaScript?
