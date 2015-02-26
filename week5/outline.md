@@ -20,7 +20,7 @@
 
 Objects are a data structure that supports accessing values by a **key string**.  If I wanted to store a bunch of data about a person, I could put it in an object, using humanly readable string labels for all of the data items.  Here's an example:
 
-````
+````javascript
     var person = {}; // initializing the object with '{}', the empty object literal
     person['firstName'] = 'Alex';
     person['lastName'] = 'Ramsdell';
