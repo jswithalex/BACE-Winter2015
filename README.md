@@ -78,7 +78,7 @@ Websites today are no longer a collection of static pages; they behave more like
 | |**note**: for this reading, only worry about while loops, do while loops and for loops   |
 | assignment    | Start thinking about a potential project you could build yourself |
 
-| Week 5 | APIs, jQuery, Objects |
+| Week 5 | APIs, jQuery, Asynchronous Functions, Objects |
 |:-------------|:-----|
 | reading      |   Reading: **JQF**, [jQuery Basics] (http://jqfundamentals.com/chapter/jquery-basics)|
 | assignment   | Practice your jQuery! Use the previous exercises from week 1-4 if you like. |
