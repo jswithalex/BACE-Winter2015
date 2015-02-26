@@ -98,4 +98,15 @@ $.each(  $('li'),  function(){
   $(this).text('element ' + $(this).text());
 });
 ````
-###### Appending Elements to an existing Element
+
+###### Getting JSON data from a Geolocation Server using their API
+
+````javascript
+$.getJSON('http://ip-api.com/json', function(data) {
+    var lat, lon;
+    lat = data['lat'];
+    lon = data['lon'];
+    var text = 'You are roughly located at ' + lat + ',' + lon + '.';
+    $('body').append('<h3>' + text + '</h3');
+});
+````
