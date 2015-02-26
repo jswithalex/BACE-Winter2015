@@ -1,5 +1,10 @@
 ## Best Practices
 
+## Table of Contents
++ Git
++ Naming Variables
++ Styling Elements with JavaScript (or, Not Exactly 'Styling' Elements with JavaScript)
+
 
 ## Learn Git
 
@@ -12,7 +17,23 @@ Git References:
 + [Git - The Simple Guide](http://rogerdudler.github.io/git-guide/)
 + [Pro Git](http://git-scm.com/book/en/v2)
 
+## Styling Elements with JavaScript (or, Not Exactly 'Styling' Elements with JavaScript)
 
+You can use JavaScript and jQuery to set the css style of an element.  This is not a good practice.  When you change styles this way, you are doing two undesirable things:
+  + generating ***inline styles*** in your HTML markup
+  + Letting JavaScript become partially responsible for your document's style, which is not the purpose of JavaScript. JavaScript is supposed to control the ***behavior*** of the page.
+
+**Q**: What is the solution?
+**A**: Write CSS styles and engage them with JavaScript.
+
+````javascript
+var body = document.querySelector('body');
+// plain JavaScript method
+body.className += "blue"; // to prevent erasing the other classes, i use += instead of =
+// jQuery Method
+body.addClass('blue');
+body.removeClass('blue');
+````
 ## Variable Names Matter (and so does Design)
 
 There is a saying that goes something like "the hardest part of programming is naming things". It is so true because naming a variable affects how you think about it in relation to other variables in your program and also to the program's overall design.  So, how do we avoid this problem?  In the long term, you want to be thinking about the overarching design of your program so that the names are meaningful and non-contradictory.  In the short term, you want them to be descriptive and easy to read so that you can reduce your and others' cognitive load while trying to solve a problem. 
