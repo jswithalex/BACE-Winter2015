@@ -38,7 +38,12 @@ $('ul').append('<li>four</li>'); // equivalent to setting the innerHTML to '<li>
 
 #### do something to each element returned by a jQuery selection
 ````javascript
-$.each( $('li'),function(index,value){
+
+jquery  returns    function
+method  a list     applied to returned list
+   |      |          | 
+   v      v          v
+$.each( $('li'),  function(index,value){
   console.log(index,value)
 });
 // 0 : <li>one</li>
