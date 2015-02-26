@@ -18,15 +18,29 @@
 
 #### Objects 
 
-Objects are a data structure that supports accessing values by a **key string**.  If I wanted to store a bunch of data about a person, I could put it in an object, using humanly readable string labels for all of the data items.  Here's an example:
+Objects are a data structure that supports accessing values by a **key string**.  If I wanted to store a bunch of data about a person, I could put it in an object, using humanly readable string labels for all of the data items.  Here's an example, which uses a fictional founding father named Franklin Benjamin:
 
 ````javascript
     var person = {}; // initializing the object with '{}', the empty object literal
-    person['firstName'] = 'Alex';
-    person['lastName'] = 'Ramsdell';
-    person['age'] = 84;
-    
+    person['firstName'] = 'Franklin';
+    person['lastName'] = 'Benjamin';
+    person['age'] = 275;
+    console.log(person);
+    // { firstName: 'Alex', lastName: 'Ramsdell', age: 84 }
 ````
+
+I could put the same data in an array, but see if you can guess why it's not the best data structure for this:
+
+````javascript
+    var person = []; // initializing the object with '[]', the empty array literal
+    person.push('Franklin');
+    person.push('Benjamin');
+    person.push(84);
+    console.log(person);
+    // [ 'Franklin', 'Benjamin', 275 ]
+
+````
+The problem with using an array for this example is that we need to remember the position of each item in order to know what the data ***means***.  With the object, we can look up 'firstName' in the person object and know that what we are getting back is the first name, thus disambiguating the search results.
 
 #### Objects vs Arrays
 
