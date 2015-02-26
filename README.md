@@ -77,3 +77,9 @@ Websites today are no longer a collection of static pages; they behave more like
 | reading     |   Reading: **MZ**, [Control Flow] (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Statements)|
 | |**note**: for this reading, only worry about while loops, do while loops and for loops   |
 | assignment    | Start thinking about a potential project you could build yourself |
+
+| Week 5 | APIs, jQuery, Objects |
+|:-------------|:-----|
+| reading     |   Reading: **JQF**, [jQuery Basics] (http://jqfundamentals.com/chapter/jquery-basics)|
+| | |
+| | Practice your jQuery! Use the previous exercises from week 1-4 if you like. |
