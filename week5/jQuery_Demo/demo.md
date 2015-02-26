@@ -20,7 +20,7 @@ $("#city a"); // return all anchor tags that descend from a dom node with the id
 
 ###### Adding a Class to an Element and Toggling it Off/On
 
-**Note:** Adding inline styles to DOM elements is possible with JS and jQuery, but it isn't a good practice.  You are effectively **coupling** your javascript with your style, which means that the JavaScript is now involved in the styling of your page, where it is conventially accepted to use it exclusively for behavior (to the extent that this is possible). When a site gets large enough and/or has enough people working on separate parts of it, a JS change can then have unexpected consequences on the style.  The solution here is to toggle CSS selectors with JS/jQuery and not to add inline styles with ````$('body').css('background','red');````.
+**Note:** Adding inline styles to DOM elements is possible with JS and jQuery, but it isn't a good practice.  You are effectively **coupling** your javascript with your style, which means that the JavaScript is now involved in the styling of your page, where it is conventially accepted to use it exclusively for behavior (to the extent that this is possible). When a site gets large enough and/or has enough people working on separate parts of it, a JS change can then have unexpected consequences on the style.  The solution here is to toggle CSS selectors with JS/jQuery and not to add inline styles with ````$('body').css('background','red');````.  This way, the JS controls whether that style is engaged or not, but has no control over the style specifics, which are located in the CSS as expected.
 
 ````javascript
 // add the .blue CSS class to the body
