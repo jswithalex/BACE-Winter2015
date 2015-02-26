@@ -39,6 +39,7 @@ $('ul').append('<li>four</li>'); // equivalent to setting the innerHTML to '<li>
 
 ###### Log Each Element Returned by a jQuery selection
 ````
+$.Each takes two arguments: an array and a function to apply to each element of the array
          $('li')
 jquery   returns    function
 method   a list     applied to returned list
