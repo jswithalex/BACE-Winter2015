@@ -55,7 +55,14 @@ $.each(  $('li'),  function(index,value){
 ````
 
 ###### Remove All List Items
-
+````
+         $('li')
+jquery   returns    - function gets each element
+method   a list     - refers to it as this
+         of li's    - deletes this
+   |       |          | 
+   v       v          v
+````
 ```javascript
 $.each(  $('li'),  function(){
   $(this).remove();
