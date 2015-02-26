@@ -89,15 +89,16 @@ The problem with using an array for this example is that I need to personally re
 
 jQuery is a JavaScript library written to solve cross-browser inconsistencies.  It is a pure JavaScript library that exists as a function in your code once you've referred to it with the script tag.  Today, more and more developers, especially developers who are writing single page apps who are concerned about performance, argue that the browser inconsistencies do not pose the same sort of problem any longer, and that jQuery is not worth the extra kilobytes in download heft. However, it is widely in use and really speeds up productivity, so you should know how to use it if you want to work in JavaScript.  Here is a primer on the basic jQuery functions:
 
-###### The basic jQuery function
+###### The Base jQuery function
 ````javascript
 jQuery(); // the jQuery function. It takes as arguments a CSS selector string.
 $(); // this is the same thing as above.  It is more prevalent due to it's brief, distinct syntax.
 ````
-###### The basic jQuery function
+###### Selecting Elements
+
+You select elements in the same way that you'd do with document.queryStringAll in 'vanilla' JavaScript.
 ````javascript
-jQuery(); // the jQuery function. It takes as arguments a CSS selector string.
-$(); // this is the same thing as above.  It is more prevalent due to it's brief, distinct syntax.
+jQuery("body div"); // select all divs that are contained within the body
 ````
 ###### The basic jQuery function
 ````javascript
