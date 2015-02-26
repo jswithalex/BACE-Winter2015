@@ -67,9 +67,34 @@ method   a list     - refers to it as this
 $.each(  $('li'),  function(){
   $(this).remove();
 });
-
-
 ````
 
+###### Create Nodes and Append them
+````javascript
+var ul = '<ul><li>test</li></ul>'
+$('body').append('<div>' + ul + '</div>');
+````
 
+###### Accessing and Changing Text 
+````
+// gets first element of each ul with li elements
+$('li:first-child').text() // returns each ul's first li element's text
+$('li:first-child').text('modified first list element');
+````
+
+###### Change Text in Each List Item
+````
+         $('li')
+jquery   returns    - function gets each element
+method   a list     - refers to it as this
+         of li's    - sets this.text() to be 'element ' plus the current $(this).text() value 
+   |       |          | 
+   v       v          v
+````
+
+```javascript
+$.each(  $('li'),  function(){
+  $(this).text('element ' + $(this).text());
+});
+````
 ###### Appending Elements to an existing Element
