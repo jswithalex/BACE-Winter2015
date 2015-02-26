@@ -106,13 +106,13 @@ If you are building an app that depends on this information, you won't get very 
 
 ###### Requirements and Terms
 
-Today, many APIs require an **API key** that you put in your search query string. It lets the organization identify your use of the particular resource you are using. It prevents abuse and allows them to offer levels of service, ranging from free to many levels of paid service.
+Today, many APIs require an **API key** that you put in your search query string. It lets the organization tie you to the particular resource you are using, preventing anonymouse abuse of the service and allowing them to offer various levels of service, ranging from free to many levels of paid service.
 
 APIs also often require you to read their terms of service which describe proper use of the API.  Here's an [example](http://openweathermap.org/appid).
 
 #### Accessing an API
 
-This is usually done via AJAX, which is an asynchronous method of getting data from a remote server.  
+This is usually done in JavaScript via AJAX calls.  Ajax provides an asynchronous method of getting data from a remote server.  
 
 **Asynchronous** means that the function is called but the JS engine doesn't wait until it finishes to move on.  This means that you can't rely on when the information will be returned.  Our programming approach has to change so that we aren't trying to access the API data before it gets to us.
 
