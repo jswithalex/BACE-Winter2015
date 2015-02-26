@@ -20,7 +20,7 @@ $("#city a"); // return all anchor tags that descend from a dom node with the id
 ````
 
 
-#### adding a class to an element and toggling it off and on
+###### Adding a Class to an Element and Toggling it Off/On
 ````javascript
 // add the .blue CSS class to the body
 $('body').addClass('blue'); // bg is blue
