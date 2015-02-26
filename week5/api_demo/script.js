@@ -1,3 +1,4 @@
+// API DEMO SCRIPT VERSION 1
 function insertWeatherData(wdata)
 {
   $('#temp').text(wdata.temp);
