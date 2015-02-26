@@ -14,7 +14,6 @@
 + AJAX and Asynchronous events
 + Callback function
 + GET requests
-+ namespacing with ````var app = app || {}:````
 
 #### Objects 
 
