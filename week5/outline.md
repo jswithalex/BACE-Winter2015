@@ -62,10 +62,10 @@ The difference between the two is that the second method of assigning values to 
 
 #### Objects vs Arrays
 
-Objects, like arrays, are containers for data. Objects and arrays have some similarities: both are objects in JavaScript, both allow a similar syntax for accessing their data. But they ultimately serve different purposes. Arrays are useful in situations where the order of elements is relevant. Objects are useful containers for logically grouping data together under a single name, but data that you do not need to access in a particular order.
+Objects are a special sort of array that does not guarantee order but allows you to look up data by a string instead of a non-negative integer. It is important to consider their difference in practical use. Arrays are appropriate when the sequential order of elements is important. Objects are useful containers for logically grouping data together under a single name, but data that you do not need to access in a particular order.
 
 
-I could put the same data in an array, but see if you can guess why it's not the best data structure for this:
+I could put the same Franklin Benjamin data in an array, but see if you can guess why it's not the best data structure for this:
 
 ````javascript
     var person = []; // initializing the object with '[]', the empty array literal
@@ -78,7 +78,7 @@ I could put the same data in an array, but see if you can guess why it's not the
 ````
 
 
-The problem with using an array for this example is that we need to remember the position of each item in order to know what the data ***means***.  With the object, we can look up 'firstName' in the person object and know that what we are getting back is the first name.
+The problem with using an array for this example is that I need to personally remember the position of each item in order to know what the data ***means*** (i.e. if this 'name' looking thing is a first name or last name).  With an object, we can write data to an object under the label of 'firstName' and thus we will later know that what we are getting back is the first name.
 
 #### Comprehension Questions 
 
