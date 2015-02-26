@@ -22,6 +22,9 @@ Objects are a data structure that supports accessing values by a **key string**.
 The technical definition of an object is an associative array, meaning a container for **mapping property names to values**.
 
 ```javascript
+dictionary['property name'] ----> 'value'
+dictionary['value'] -- X --> 'property name'
+
 person['firstName'] // 'Franklin'
 person['Franklin'] // undefined, no key by that name
 
