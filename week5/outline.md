@@ -87,7 +87,7 @@ The problem with using an array for this example is that I need to personally re
 
 #### jQuery
 
-jQuery is a JavaScript library written to solve cross-browser inconsistencies.  It is a pure JavaScript library that exists as a function in your code once you've referred to it with the script tag.  Today, more and more developers, especially developers who are writing single page apps who are concerned about performance, argue that the browser inconsistencies do not pose the same sort of problem any longer, and that jQuery is not worth the extra kilobytes in download heft. However, it is widely in use, it really speeds up productivity and it has great AJAX (to be explained) functions, so you should know how to use it if you want to work in JavaScript.  Here is a primer on the basic jQuery functions:
+jQuery is a DOM manipulation library that is pure JavaScript.  It was written to solve cross-browser inconsistencies.  It exists as a function in your code once you've sourced it with the script tag.  Today, more and more developers, especially developers who are writing single page apps who are concerned about performance, argue that the browser inconsistencies do not pose the same sort of problem any more so jQuery may not be worth the extra kilobytes in download heft. However, it is widely in use, it really speeds up productivity and it has great AJAX (to be explained later) functions, so you should know how to use it if you want to work with JavaScript.  See the [demo](https://github.com/jswithalex/BACE-Winter2015/blob/master/week5/jQuery_Demo/demo.md) for common jQuery uses.
 
 
 #### Comprehension Questions 
