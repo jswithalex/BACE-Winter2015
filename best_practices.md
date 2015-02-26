@@ -28,10 +28,13 @@ You can use JavaScript and jQuery to set the css style of an element.  This is n
 **A**: Write CSS styles and engage them with JavaScript.
 
 ````javascript
-var body = document.querySelector('body');
 // plain JavaScript method
+var body = document.querySelector('body');
 body.className += "blue"; // to prevent erasing the other classes, i use += instead of =
+body.className = body.className.replace('blue',''); // not safe if you have other classes with 'blue' in their names.
+
 // jQuery Method
+var body = $('body');
 body.addClass('blue');
 body.removeClass('blue');
 ````
