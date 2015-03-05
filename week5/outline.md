@@ -49,22 +49,21 @@ You can also declare object with dot syntax, as long as the key doesn't contain 
     // { firstName: 'Alex', lastName: 'Ramsdell', age: 84 }
 ````
 
-The difference between the two is that the second method of assigning values to an object will not allow certain characters in the key, such as '-'.  Because the key string isn't yet a string, it needs to be parsed, and the JavaScript engine won't parse '-' as a dash, but as the minus operator.  so ...
+The difference between the two is that the dot-syntax method of assigning values to an object will not allow certain characters in the key, such as '-'.  The JavaScript engine will parse '-' as the minus operator and attempt to subtract the second object from the first.
 
 ````javascript
 
     person.firstName; // yes
     person['firstName']; // yes
     person['first-name']; // yes
-    person.first-name; // no, error: 'name is not defined'
+    person.first-name; // no, a key error: 'name is not defined'
 
 ````
 
 
 #### Objects vs Arrays
 
-Objects are a special sort of array that does not guarantee order but allows you to look up data by a string instead of a non-negative integer. It is important to consider their difference in practical use. Arrays are appropriate when the sequential order of elements is important. Objects are useful containers for logically grouping data together under a single name, but data that you do not need to access in a particular order.
-
+Objects are a special sort of array that do not guarantee order but allow you to look up data by a string. Arrays let you look up values by a non-negative integer. It is important to consider their difference in practical use. Arrays are appropriate when the sequential order of elements is important ( e.g., 5 most recent wordpress posts). Objects are useful containers for logically grouping data together under a single name, but data that you do not need to access in a particular order.
 
 I could put the same Franklin Benjamin data in an array, but see if you can guess why it's not the best data structure for this:
 
@@ -77,7 +76,6 @@ I could put the same Franklin Benjamin data in an array, but see if you can gues
     // [ 'Franklin', 'Benjamin', 275 ]
 
 ````
-
 
 The problem with using an array for this example is that I need to personally remember the position of each item in order to know what the data ***means*** (i.e. if this 'name' looking thing is a first name or last name).  With an object, we can write data to an object under the label of 'firstName' and thus we will later know that what we are getting back is the first name.
 
