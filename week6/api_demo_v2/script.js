@@ -52,8 +52,10 @@ $.getJSON('http://ip-api.com/json').then(function(locData) {
     - because we need the location data for the weather, we have one stage that depends on another
     - due to the nature of asynchronous function calls, we do call the first function,
     use the .then() method on it in order to delay until it returns the data, and then we call the 
-    second function with the data we got from the first.
-    - we substituted the data into the page as soon as we could and didn't wait until the end to do it
+    second function with the data we got from the first. Finally, we used .then() on the second function
+    in order to ensure that the insertion of the weather data happened once the openweathermap data returned 
+    to us.
+    - We substituted the data into the page as soon as we could and didn't wait until the end to do it
     using the $.getJSON function, we requested that 
    
 */
