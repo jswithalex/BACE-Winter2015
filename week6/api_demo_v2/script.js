@@ -1,5 +1,5 @@
 /*
-  JavaScript BACE 
+  JavaScript BACE - Spring 2015
   Weather API Demo using jQuery's getJSON method.
 
   ** General Overview **
@@ -14,10 +14,7 @@ var API_KEY = '61beaf11b206ba345f116d0ebe6205c2';
 
 // We Get IP location data from ip-api.com using jquery's getJSON method
 // This method is an AJAX request that converts the JSON response data for you
-
 $.getJSON('http://ip-api.com/json').then(function(locData) {
-
-  // the first function that's called is $.getJSON.
 
   // IMPORTANT: The 'then' function that is called after that ensures that the 
   // data is received by us before the next code is run
@@ -36,14 +33,14 @@ $.getJSON('http://ip-api.com/json').then(function(locData) {
     return $.getJSON(weatherMapGETurl);
   }).then(function(weatherData) {
 
-  // at this point, both api's should have returned their data. This is what 'then' ensures for us.
+    // at this point, both api's should have returned their data. This is what 'then' ensures for us.
 
-  // insert the weather into the HTML page
-  $('#temp').text(weatherData['main']['temp']);
-  $('#humidity').text(weatherData['main']['humidity']);
-  $('#description').text(weatherData['weather'][0]['description']);
+    // insert the weather into the HTML page
+    $('#temp').text(weatherData['main']['temp']);
+    $('#humidity').text(weatherData['main']['humidity']);
+    $('#description').text(weatherData['weather'][0]['description']);
 
-  // we give the img's source the source of the weatherdata icon
-  $('img').attr('src','http://openweathermap.org/img/w/'+ weatherData['weather'][0]['icon'] + '.png');
+    // we give the img's source the source of the weatherdata icon
+    $('img').attr('src','http://openweathermap.org/img/w/'+ weatherData['weather'][0]['icon'] + '.png');
 
   });
