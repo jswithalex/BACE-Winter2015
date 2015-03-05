@@ -27,19 +27,24 @@ If I wanted to store a bunch of data about a person, I could put it in an object
     person['firstName'] = 'Franklin';
     person['lastName'] = 'Benjamin';
     person['age'] = 275;
-    console.log(person);
-    // { firstName: 'Alex', lastName: 'Ramsdell', age: 84 }
     console.log(person['firstName']) // 'Franklin'
     console.log(person['Franklin']) // undefined, no key by that name
+    console.log(person['age']) // 275
 ````
 
-A syntactic variation for assigning data to an object goes like this:
+You can also declare object with dot syntax, as long as the key doesn't contain special characters (e.g., '-'):
 
 ````javascript
     var person = {}; // initializing the object with '{}', the empty object literal
     person.firstName = 'Franklin'; // assigning firstName using dot notation
-    person.lastName = 'Benjamin';
+    person.lastName = 'Benjamin'; // assigning lastName using dot notation
     person.age = 275;
+    person.is-nice = true; // error: invalid left-hand assignment 
+    person['is-nice'] = true; // no problem here!
+    console.log(person.is-nice); // error: nice is not defined ( compiler is trying to subtract 'nice' from 'is' )
+    person.is = 4
+    var nice = 3
+    console.log(person.is-nice); // 1 --- 
     console.log(person);
     // { firstName: 'Alex', lastName: 'Ramsdell', age: 84 }
 ````
