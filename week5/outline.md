@@ -77,7 +77,7 @@ I could put the same Franklin Benjamin data in an array, but see if you can gues
 
 ````
 
-The problem with using an array for this example is that I need to personally remember the position of each item in order to know what the data ***means*** (i.e. if this 'name' looking thing is a first name or last name).  With an object, we can write data to an object under the label of 'firstName' and thus we will later know that what we are getting back is the first name.
+The problem with using an array for this example is that I need to personally remember the position of each item in order to know what the data ***means*** (i.e. if this 'name' looking thing is a first name or last name).  With an object, we can store data in a collection under the label of 'firstName' and thus we will later know that what we are getting back is the first name.
 
 
 #### jQuery
