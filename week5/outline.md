@@ -21,12 +21,12 @@ Objects are a data structure that supports accessing values by a **key string**.
 The technical definition of an object is an associative array, meaning a container for **mapping property names to values**.
 
 ```javascript
-PROPERTY NAME ==> VALUE // YES
-VALUE ==> PROPERTY NAME // NO
-dictionary['value'] -- X --> 'property name'
+var person = {}
+person['firstName'] = 'Franklin';
+person['lastName'] = 'Benjamin';
 
-person['firstName'] // 'Franklin'
-person['Franklin'] // undefined, no key by that name
+console.log(person['firstName']) // 'Franklin'
+console.log(person['Franklin']) // undefined, no key by that name
 
 ````
 
