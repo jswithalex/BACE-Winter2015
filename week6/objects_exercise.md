@@ -7,3 +7,4 @@
 + use the json formatter to help you write the following code to log the requested information to the console:
     - longitude and latitude
     - any weather descriptions
+    - humidity, temp, min temp and max temp
