@@ -19,26 +19,20 @@
 
 The JavaScript Object is a container for data that lets you store values and look them up by a **key**, which is always a string (it can be a variable that evaluates to a string).  Objects are sort of a 'blob' of data that isn't guaranteed to be in any order, but allows very fast access to data via the string **key**.
 
-```javascript
-var person = {}
-person['firstName'] = 'Franklin';
-person['lastName'] = 'Benjamin';
-
-console.log(person['firstName']) // 'Franklin'
-console.log(person['Franklin']) // undefined, no key by that name
-
-````
 
 If I wanted to store a bunch of data about a person, I could put it in an object, using humanly readable string labels for all of the data items.  Here's an example, which uses a fictional founding father named Franklin Benjamin:
 
 ````javascript
-    var person = {}; // initializing the object with '{}', the empty object literal
-    person['firstName'] = 'Franklin'; // assinging using bracket syntax for ['firstName']
+    var person = {}
+    person['firstName'] = 'Franklin';
     person['lastName'] = 'Benjamin';
     person['age'] = 275;
     console.log(person);
     // { firstName: 'Alex', lastName: 'Ramsdell', age: 84 }
+    console.log(person['firstName']) // 'Franklin'
+    console.log(person['Franklin']) // undefined, no key by that name
 ````
+
 A syntactic variation for assigning data to an object goes like this:
 
 ````javascript
