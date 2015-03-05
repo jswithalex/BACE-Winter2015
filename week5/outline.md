@@ -17,8 +17,7 @@
 
 #### Objects 
 
-Objects are a data structure that supports accessing values by a **key string**.  
-The technical definition of an object is an associative array, meaning a container for **mapping property names to values**.
+The JavaScript Object is a container for data that lets you store values and look them up by a **key**, which is always a string (it can be a variable that evaluates to a string).  Objects are sort of a 'blob' of data that isn't guaranteed to be in any order, but allows very fast access to data via the string **key**.
 
 ```javascript
 var person = {}
