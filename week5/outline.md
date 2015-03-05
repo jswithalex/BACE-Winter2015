@@ -44,7 +44,7 @@ You can also declare object with dot syntax, as long as the key doesn't contain 
     console.log(person.is-nice); // error: nice is not defined ( compiler is trying to subtract 'nice' from 'is' )
     person.is = 4
     var nice = 3
-    console.log(person.is-nice); // 1 --- 
+    console.log(person.is-nice); // 1 --- why do you think this logs '1' ?
     console.log(person);
     // { firstName: 'Alex', lastName: 'Ramsdell', age: 84 }
 ````
