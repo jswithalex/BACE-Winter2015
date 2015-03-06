@@ -49,14 +49,14 @@ You can also declare object with dot syntax, as long as the key doesn't contain 
     // { firstName: 'Alex', lastName: 'Ramsdell', age: 84 }
 ````
 
-The difference between the two is that the dot-syntax method of assigning values to an object will not allow certain characters in the key, such as '-'.  The JavaScript engine will parse '-' as the minus operator and attempt to subtract the second object from the first.
+The difference between the two is that the dot-syntax method of assigning values to an object will not allow certain characters in the key, such as '-' because the JavaScript engine parses '-' as the minus operator and attempts to subtract the second object from the first.  This is why we get a name error because we are asking the engine to look up 'name' and do something with it.  But 'name' doesn't exist.
 
 ````javascript
 
     person.firstName; // yes
     person['firstName']; // yes
     person['first-name']; // yes
-    person.first-name; // no, a key error: 'name is not defined'
+    person.first-name; // error: name is not defined
 
 ````
 
