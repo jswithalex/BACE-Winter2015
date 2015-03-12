@@ -73,3 +73,13 @@ $('.box').on('mouseenter mouseleave', function() {
   }, 3000);
 });
 */
+
+/*
+$('.box').on('mouseenter mouseleave', function() {
+  console.log('click');
+  $('.box').animate({
+    'left': '+=50px',
+    'opacity':'0.0',
+  }, 1000);
+});
+*/
