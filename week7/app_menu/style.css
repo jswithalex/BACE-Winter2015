@@ -1,0 +1,127 @@
+html, body
+{
+  margin: 0px;
+  padding: 0px;
+  font-size: 100%;
+}
+
+.container
+{
+  margin: 0;
+  padding: 0; 
+}
+
+h1
+{
+  margin: 0;
+  line-height: 200px;
+  font-size: 2vw;
+}
+header
+{
+  position: relative;
+  top: 0;
+  height: 200px;
+  background: darksalmon;
+}
+nav ul
+{
+  margin: 0;
+}
+nav 
+{
+  float: left; /* IMPORTANT */
+  padding-top: 10px;
+  position: relative;
+  left:0;
+  width:40%;
+  max-width: 40%;
+}
+
+.content
+{
+  width: 50%;
+  margin-left: 50%;
+}
+
+.sticky
+{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+
+.nav_list 
+{
+  display: none;
+}
+
+.visible
+{
+  display: block;
+}
+
+
+li
+{
+  list-style-type: none;
+}
+
+.content_box
+{
+  height: 500px;
+}
+
+/* 
+each list always has a blue bg, but they are hidden
+*/
+
+.nav_list:nth-child(1)
+{
+  background: lightblue;
+}
+
+
+.content_box:nth-child(1)
+{
+  background: blue;
+}
+
+.content_box:nth-child(2)
+{
+  background: coral; 
+}
+
+.content_box:nth-child(3)
+{
+  background: red; 
+}
+.content_box:nth-child(4)
+{
+  background: lightyellow; 
+}
+
+.content_box:nth-child(5)
+{
+  background: gray; 
+}
+.content_box:nth-child(6)
+{
+  background: lightgreen; 
+  
+}
+
+.content_box:nth-child(7)
+{
+  background: darkblue; 
+}
+
+.content_box:nth-child(8)
+{
+  background: lightblue; 
+}
+
+.content_box:nth-child(9)
+{
+  background: lemonchiffon;
+}
