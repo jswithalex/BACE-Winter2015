@@ -8,7 +8,6 @@ $('.box').on('click', animation);
 function animation() {
   $('.box').animate(
 	  {'opacity': op[i++%2] },
-	  // i++
 	  1000,
 	  animation
 	);
