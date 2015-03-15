@@ -65,7 +65,7 @@ This class will teach you how to make your websites interactive using HTML, CSS,
 | Week 2 | Arrays, accessing & manipulating the DOM with JavaScript, HTML form validation |
 |:-------------:|:-----|
 | reading     |   **EJS**, CH 2: [Program Structure] (http://eloquentjavascript.net/02_program_structure.html) |
-| assignment    | Practice creating forms on a blank HTML page using ONLY JAVASCRIPT and this [template](https://github.com/jswithalex/BACE-Winter2015/blob/master/TEMPLATES.md) |
+| assignment    | Practice creating forms on a blank HTML page using only JavaScript and this [template](https://github.com/jswithalex/BACE-Winter2015/blob/master/TEMPLATES.md) |
 |     | Check out [my approach to HTML form validation](https://github.com/jswithalex/BACE-Winter2015/blob/master/week2/validate.js) if you are stuck |
 
 | Week 3 | HTML form validation continued, Tree exercises, Image Gallery |
