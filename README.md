@@ -84,9 +84,9 @@ This class will teach you how to make your websites interactive using HTML, CSS,
 | reading      |   Reading: **JQF**, [jQuery Basics] (http://jqfundamentals.com/chapter/jquery-basics)|
 | assignment   | Practice your jQuery! Use the previous exercises from week 1-4 if you like. |
 
-| Week 6 | APIs, jQuery, Asynchronous Functions, Objects |
+| Week 6 | Objects, Type Conversion, Negation |
 |:-------------|:-----|
-| reading      |   Reading: **JQF**, [jQuery Basics] (http://jqfundamentals.com/chapter/jquery-basics)|
+| reading      |   Reading: **JQF**, [Traversal and Manipulation] (http://jqfundamentals.com/chapter/traversing-manipulating)|
 | assignment   | Practice your jQuery! Use the previous exercises from week 1-4 if you like. |
 
 | Week 7 | APIs, jQuery, Asynchronous Functions, Objects |
