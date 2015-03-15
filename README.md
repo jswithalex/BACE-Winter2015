@@ -61,6 +61,7 @@ Websites today are no longer a collection of static pages; they behave more like
 |             | [Shay Howe HTML/CSS](http://learn.shayhowe.com/) |
 | assignment    | review HTML forms. try out the exercises in the reading above in your JS console. |
  
+ 
 | Week 2 | Arrays, accessing & manipulating the DOM with JavaScript, HTML form validation |
 |:-------------:|:-----|
 | reading     |   **EJS**, CH 2: [Program Structure] (http://eloquentjavascript.net/02_program_structure.html) |
@@ -82,3 +83,18 @@ Websites today are no longer a collection of static pages; they behave more like
 |:-------------|:-----|
 | reading      |   Reading: **JQF**, [jQuery Basics] (http://jqfundamentals.com/chapter/jquery-basics)|
 | assignment   | Practice your jQuery! Use the previous exercises from week 1-4 if you like. |
+
+| Week 6 | APIs, jQuery, Asynchronous Functions, Objects |
+|:-------------|:-----|
+| reading      |   Reading: **JQF**, [jQuery Basics] (http://jqfundamentals.com/chapter/jquery-basics)|
+| assignment   | Practice your jQuery! Use the previous exercises from week 1-4 if you like. |
+
+| Week 7 | APIs, jQuery, Asynchronous Functions, Objects |
+|:-------------|:-----|
+| reading      |   Reading: **JQF**, [jQuery Basics] (http://jqfundamentals.com/chapter/jquery-basics)|
+| assignment   | Practice your jQuery! Use the previous exercises from week 1-4 if you like. |
+
+| Week 8 | APIs, jQuery, Asynchronous Functions, Objects |
+|:-------------|:-----|
+| reading      |   Reading: **JQF**, [jQuery Basics] (http://jqfundamentals.com/chapter/jquery-basics)|
+| assignment   | If you enjoyed this class, take a look at the [further directions]() list |
