@@ -87,7 +87,7 @@ This class will teach you how to make your websites interactive using HTML, CSS,
 | Week 6 | Objects, Type Conversion, Negation |
 |:-------------|:-----|
 | reading      |   Reading: **JQF**, [Traversal and Manipulation] (http://jqfundamentals.com/chapter/traversing-manipulating)|
-| assignment   |  |
+| assignment   | none: other than the usual 'practice each day'. |
 
 | Week 7 | Building a Widget: The 'application-style' Menu |
 |:-------------|:-----|
