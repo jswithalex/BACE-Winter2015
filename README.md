@@ -87,7 +87,7 @@ This class will teach you how to make your websites interactive using HTML, CSS,
 | Week 6 | Objects, Type Conversion, Negation |
 |:-------------|:-----|
 | reading      |   Reading: **JQF**, [Traversal and Manipulation] (http://jqfundamentals.com/chapter/traversing-manipulating)|
-| assignment   | Practice your jQuery! Use the previous exercises from week 1-4 if you like. |
+| assignment   |  |
 
 | Week 7 | APIs, jQuery, Asynchronous Functions, Objects |
 |:-------------|:-----|
