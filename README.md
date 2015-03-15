@@ -25,7 +25,7 @@ This class will teach you how to make your websites interactive using HTML, CSS,
 
 
 ### Course Reading Material
-***
+
 **Note:** You don't need to buy any books for this class unless you'd prefer to.  The resources we will use are free and web-based.
 
 
@@ -89,12 +89,12 @@ This class will teach you how to make your websites interactive using HTML, CSS,
 | reading      |   Reading: **JQF**, [Traversal and Manipulation] (http://jqfundamentals.com/chapter/traversing-manipulating)|
 | assignment   | none: other than the usual 'practice each day'. |
 
-| Week 7 | Building a Widget: The 'application-style' Menu |
+| Week 7 | Animations, Making an 'application-style' menu |
 |:-------------|:-----|
 | reading      |   Reading: **JQF**, [jQuery Effects] (http://jqfundamentals.com/chapter/effects)|
 | assignment   | Go looking for websites with specific features you admire.  Try to make a list of 10.  |
 
-| Week 8 | Wrap-up, Review of Key Concepts, Further Directions, Something New |
+| Week 8 | Wrap-up, Review of Key Concepts, Further Directions |
 |:-------------|:-----|
 | reading      |   Reading: [The Definitive Guide to Object Oriented JavaScript] (https://www.youtube.com/watch?v=PMfcsYzj-9M)|
 | assignment   | If you enjoyed this class, take a look at the [further directions]() list to  |
