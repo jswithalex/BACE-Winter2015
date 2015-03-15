@@ -89,12 +89,12 @@ This class will teach you how to make your websites interactive using HTML, CSS,
 | reading      |   Reading: **JQF**, [Traversal and Manipulation] (http://jqfundamentals.com/chapter/traversing-manipulating)|
 | assignment   |  |
 
-| Week 7 | APIs, jQuery, Asynchronous Functions, Objects |
+| Week 7 | Building a Widget: The 'application-style' Menu |
 |:-------------|:-----|
-| reading      |   Reading: **JQF**, [jQuery Basics] (http://jqfundamentals.com/chapter/jquery-basics)|
-| assignment   | Practice your jQuery! Use the previous exercises from week 1-4 if you like. |
+| reading      |   Reading: **JQF**, [jQuery Effects] (http://jqfundamentals.com/chapter/effects)|
+| assignment   | Go looking for websites with specific features you admire.  Try to make a list of 10.  |
 
-| Week 8 | APIs, jQuery, Asynchronous Functions, Objects |
+| Week 8 | Wrap-up, Review of Key Concepts, Further Directions, Something New |
 |:-------------|:-----|
-| reading      |   Reading: **JQF**, [jQuery Basics] (http://jqfundamentals.com/chapter/jquery-basics)|
-| assignment   | If you enjoyed this class, take a look at the [further directions]() list |
+| reading      |   Reading: [The Definitive Guide to Object Oriented JavaScript] (https://www.youtube.com/watch?v=PMfcsYzj-9M)|
+| assignment   | If you enjoyed this class, take a look at the [further directions]() list to  |
