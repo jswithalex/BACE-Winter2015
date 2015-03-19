@@ -2,19 +2,34 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+ <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 	<link type="text/css"	rel="stylesheet"	href="css/layout.css">
 	<link type="text/css"	rel="stylesheet"	href="css/keyframes.css">
 	<link type="text/css"	rel="stylesheet"	href="css/pageTransitions.css">
 </head>
 <body>
 <!-- Every smoothState container needs an id -->
+    <header>
+      <h1>Igneous Kerfuffle</h1>     
+      <h2>UX Designer</h2>
+    </header>
+
     <div id="main" class="m-scene">
-      <!-- Every link should return a full layout -->
+      <!-- Every link should point to a full HTML page -->
+
+    <div class="scene_element scene_element--fadeinright">
+     <div class="projects_container">
+       <div class="project_box"></div>
+       <div class="project_box"></div>
+       <div class="project_box"></div>
+     </div>
+    </div>
+
     <div class="scene_element scene_element--fadein">
-      <div class="column">
+      <div class="row">
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
+          <li><a href="index.html"><i class="fa fa-home"></i></a></li>
+          <li><a href="about.html"><i class="fa fa-info-circle"></i></a></li>
         </ul>
         <!-- Contents of the page... -->
       </div>
