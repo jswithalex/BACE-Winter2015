@@ -94,7 +94,7 @@ This class will teach you how to make your websites interactive using HTML, CSS,
 | reading      |   Reading: **JQF**, [jQuery Effects] (http://jqfundamentals.com/chapter/effects)|
 | assignment   | Go looking for websites with specific features you admire.  Try to make a list of 10.  |
 
-| Week 8 | Objects in more Depth, Review of Key Concepts, Further Directions |
+| Week 8 | Libraries, Review of Key Concepts, Further Directions |
 |:-------------|:-----|
 | reading      |   Reading: [The Definitive Guide to Object Oriented JavaScript] (https://www.youtube.com/watch?v=PMfcsYzj-9M)|
 | assignment   | If you enjoyed this class, take a look at the [further directions]() list to  |
