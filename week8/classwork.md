@@ -55,8 +55,7 @@ The DOM is not the only environment for JavaScript, though.  Node.js is a server
 
 #### How to Call your JavaScript scripts
 
-Put them at the very end of your document's body section, in order of dependency.
-The accepted method used to be to wrap your code in a $(document).ready() function, but this is becoming less popular because of the nature of the document ready event, which may not fire when you think it does.  Putting the scripts at the end of the body ensures that you 
+In our class, I've suggested we put ```` <script></script>```` tags at the very end of your document's body section, in order of dependency. The accepted method used to be to wrap your code in a $(document).ready() function.  The $(document).ready() function fires once the entire DOM is loaded, meaning that all of the resources you've requested are available.  But the $(document).ready() function may not actually fire as soon as the DOM is loaded, so, for our purposes (i.e., we are not writing JS applications which may make more intensive and varied resource demands), putting our scripts at the bottom of the body ensures that our JS scripts immediately fire after the DOM elements are all loaded.  
 
 #### Accessing Elements in the DOM
 
