@@ -96,3 +96,6 @@ $('body .nav-item').addClass('underline');
 
 Notice the difference between the initial thing we pass jQuery, which is in the form of a CSS rule, and the way we specify a classname as such.  With the ````.addClass()```` method, we are adding the **name** of a class, not the CSS notation, ````'.underline'````.  
 
+#### jQuery Return Values
+
+jQuery generally returns null when your selector string doesn't match and a list of elements when it does match (even in the case of an id selector, which should technically only match the first element found on the page).
