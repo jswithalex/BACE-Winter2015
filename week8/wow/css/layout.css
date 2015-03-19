@@ -1,0 +1,37 @@
+html, body
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-weight: 700;
+}
+
+.container
+{
+  margin: 0 auto;
+  text-align: center;
+}
+
+div
+{
+  height: 600px;
+  width: 600px;
+  visibility: hidden;
+  border-radius: 50%;
+}
+
+div:nth-child(1) {background: rgb(255, 92, 92)}
+div:nth-child(2) {background: blue}
+div:nth-child(3) {background: orange}
+div:nth-child(4) {background: lightgray}
+
+p
+{
+  margin: 0 auto;
+  text-align: center;
+  line-height: 600px;
+  font-size: 40px;
+}
+
+div:nth-child(2) p {color: white}
