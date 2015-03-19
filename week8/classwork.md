@@ -75,7 +75,7 @@ if (result) // aka. 'if result is not null, undefined, an empty string, or zero,
 
 ````
 
-This works due to the nature of an if block.  'If' essentially is short for 'if the following expression is true'.  This means that the expression inside the if block eventually must ultimately reduce to a boolean value.  Thus, the terms are coerced / converted to a true or false value.  A given term's truthiness or falsiness is determined by whether it is convertable to ```true```` or ````false```` in a Boolean context.  ````Console.log(result)```` and ````Math.sqrt(result)```` are familiar examples of contexts that do not require Boolean values to proceed.
+This works due to the nature of an if block.  'If' essentially is short for 'if the following expression is true'.  This means that the expression inside the if block eventually must ultimately reduce to a boolean value.  Thus, the terms are coerced / converted to a true or false value.  A given term's truthiness or falsiness is determined by whether it is convertable to ````true```` or ````false```` in a Boolean context.  ````Console.log(result)```` and ````Math.sqrt(result)```` are familiar examples of contexts that do not require Boolean values to proceed.
 
 
 #### The DOM
