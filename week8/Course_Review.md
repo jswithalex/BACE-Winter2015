@@ -66,7 +66,7 @@ var e = 'elephant';
 console.log(e.length); // 8
 ````
 
-### Arrays
+#### Arrays
 
 Arrays are containers for storing 0 or more objects.  In JavaScript, an array is flexible in size and can contain a variety of different types of data.
 
