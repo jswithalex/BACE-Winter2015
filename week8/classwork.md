@@ -2,7 +2,7 @@
 
 #### Preamble
 
-This course showed you ways to extend your websites with JavaScript.  Our endeavors overlapped with the fundmentals of JavaScript, but I should note that there are some foundational things that every JavaScript programmer should know that we haven't talked about due to time and theme constraints on the class.  Topics in the 'not covered' area are things like scope, mutability/immutability, Object Oriented JavaScript and inheritance.  I encourage you to explore those topics if you have enjoyed programming in JavaScript.  Mastering them will be essential to writing more complete JavaScript applications or scripts.  See the [References]() section if you would like help finding pedagogically sound JavaScript learning resources.  
+This course showed you ways to extend your websites with JavaScript.  Our endeavors overlapped with the fundmentals of JavaScript, but I should note that there are some foundational things that every JavaScript programmer should know that we haven't talked about due to time and theme constraints on the class.  Topics we didn't cover include the inner workings of primitive and object type methods, scope, mutability/immutability, functions in depth, Object Oriented JavaScript and various inheritance models.  I encourage you to explore those topics if you have enjoyed programming with JavaScript.  Mastering them will be essential to writing more complete JavaScript applications or scripts.  See the [References]() section if you would like help finding pedagogically sound JavaScript learning resources.  
 
 #### Language versus Implementation
 
@@ -42,6 +42,10 @@ Object Types:
 + Array
 + Function
 + Object
+
+#### Comparisons
+
+JavaScript gives us the '==' and '===' binary operators for performing comparisons between entities.  The first operator tests whether the value of the two entities are the same.  The second tests whether the value AND type of the two entities are the same.  Why use one over the other? Well, '==' will return true if the entities compared are, say, 0 and false.  The strict equality operator ('===') will return false if the types are different, so no implicit conversion of elements is performed.  The strict operator is definitely the safer way to program.  Also, if you are interested in doing explicit conversions
 
 #### Truthiness, Falsiness
 
