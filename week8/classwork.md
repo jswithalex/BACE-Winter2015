@@ -43,15 +43,6 @@ Object Types:
 + Function
 + Object
 
-#### The DOM
-
-In this class, we used JavaScript in the browser environment.  We request a page via the browser, the webserver responds to our browser with information sent over the internet in the form of HTML.  The browser parses this HTML and uses the valid (note, the valid ones only) 'directives' to generate the requested elements in the user's browser.  The information that is sent between client and server is very thin, it's just markup and css etc, not the code to create the actual visual elements.  I assume that code is all C++ and internal to the browser.   
-
-Anyway, when the browser receives this information and creates the validly requested elements, it also constructs a model of the page.  This is the DOM, or the Document Object Model. There is also something called the BOM, or Browser Object Model, which 
-
-The DOM as we know it is like an API in that it is an interface between the user and the browser's internal information.  It provides us with all sorts of interesting and useful capabilities, like the ability to handle user interaction, to detect where an element is on the page, and to inspect object properties thoroughly.
-
-The DOM is not the only environment for JavaScript, though.  Node.js is a server-side implementation of JavaScript.  
 #### Truthiness, Falsiness
 
 The boolean values ```` true ```` and ```` false ```` are technically the only true or false values.  But JavaScript does a lot of implicit type conversion (be careful here), and we can use it to our advantage.  If we want to know whether a value is something other than null, undefined or zero, we can use an if block like this:
@@ -65,6 +56,17 @@ if (result)
 }
 
 ````
+
+#### The DOM
+
+In this class, we used JavaScript in the browser environment.  We request a page via the browser, the webserver responds to our browser with information sent over the internet in the form of HTML.  The browser parses this HTML and uses the valid (note, the valid ones only) 'directives' to generate the requested elements in the user's browser.  The information that is sent between client and server is very thin, it's just markup and css etc, not the code to create the actual visual elements.  I assume that code is all C++ and internal to the browser.   
+
+Anyway, when the browser receives this information and creates the validly requested elements, it also constructs a model of the page.  This is the DOM, or the Document Object Model. There is also something called the BOM, or Browser Object Model, which 
+
+The DOM as we know it is like an API in that it is an interface between the user and the browser's internal information.  It provides us with all sorts of interesting and useful capabilities, like the ability to handle user interaction, to detect where an element is on the page, and to inspect object properties thoroughly.
+
+The DOM is not the only environment for JavaScript, though.  Node.js is a server-side implementation of JavaScript.  
+
 
 #### How to Call your JavaScript scripts
 
