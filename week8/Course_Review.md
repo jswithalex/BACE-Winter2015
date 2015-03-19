@@ -48,6 +48,90 @@ Object Types:
 + Function
 + Object
 
+## Strings
+
+Strings are immutable sequences of characters.  Strings have a length property that is very useful.  You can use the '+' operator with strings, but not the '*' operator.
+
+````javascript
+var s = 'elephant';
+var x = s + 14;
+console.log(x); // elephant14
+
+````
+
+Strings have a length method that comes in very handy.  You access it like this:
+
+````javascript
+var e = 'elephant';
+console.log(e.length); // 8
+````
+
+### Arrays
+
+Arrays are containers for storing 0 or more objects.  In JavaScript, an array is flexible in size and can contain a variety of different types of data.
+
+````javascript
+var things = [ 'book', 30, false, [] ];
+console.log(things); // [ 'book', 30, false, [] ]
+````
+
+Arrays have properties and methods ('attached' functions):
+
+
+````javascript
+things.push(['one','two']); // 5
+console.log(things); // [ 'book', 30, false, [], [ 'one', 'two' ] ]
+console.log(things.length); // 5
+````
+
+The syntax for accessing items in an array is to use the array name with ````[N] ```` appended to the end, where ````N```` is either a non-zero integer or an expression that evaluates to a non-zero integer, e.g. ````things[2]````.
+
+### Functions
+
+**What is a Function?**
+
++ A **function** is a self-contained set of expressions and/or statements that are executed in the order they are defined when the function is called.
++ A function lets you 1) **reuse** code, and 2) write your programs with **modular** pieces of self-contained code.
+
+A function needs a definition using the **function** keyword:
+
+  ````javascript
+  function robotGreeting()
+  {
+    var typeOfBeing = 'robot';
+    console.log('I am a ', typeOfBeing,'.');
+  }
+  ````
+
+And this is how you call a function:
+
+````javascript
+  robotGreeting() // "I am a robot."
+````
+
+**Function's Code versus a Function's Execution**
+
++ Think of a function's name like a **variable** that we create using **function** and not the **var** keyword. It binds a human-readable label to a set of statements in memory, effectively remembering them so that they can be called in the order you specified them in your function definition. 
+
++ In JavaScript, referring to ```` robotGreeting ```` by its variable name alone will ask the JavaScript engine to fetch the literal block of code that you defined. But it won't call/execute the function.
+
++ Putting a set of parentheses at the end of the function name, e.g. ````robotGreeting()```` , runs the code.
++ So, think of the ````()```` as an instruction to the JavaScript engine to execute the statements referred to by the ````robotGreeting```` variable name to which the ````()```` is attached.
+
+````javascript
+robotGreeting; // does not run the function
+robotGreeting(); // runs the function, outputting 'I am a robot.'
+var functionAlias = robotGreeting;
+functionAlias(); // runs the function code inside robotGreeting.  
+functionAlias; // does not run the function inside robotGreeting.
+
+var badFunctionAlias = robotGreeting();
+badFunctionAlias;  // does nothing. badFunctionAlias is a variable name that is bound to 'undefined'.
+badFunctionAlias(); // error! badFunctionAlias is not a function. 
+// Can you figure out why these last two lines of code don't work?
+
+````
+
 #### Comparisons
 
 JavaScript gives us the '==' and '===' binary operators for performing comparisons between entities.  The first operator tests whether the value of the two entities are the same.  The second tests whether the value AND type of the two entities are the same.  Why use one over the other? Well, '==' will return true if the entities compared are, say, 0 and false.  The strict equality operator ('===') will return false if the types are different, so no implicit conversion of elements is performed.  The strict operator is definitely the safer way to program if you don't have a specific reason to use '=='.  
@@ -62,8 +146,9 @@ console.log(null === undefined); //false
 
 #### Truthiness, Falsiness
 
-truthy: objects, a non-empty string, any non-zero number
-falsy: null, undefined, 0, empty string
+**truthy**: objects, a non-empty string, any non-zero number
+
+**falsy**: null, undefined, 0, empty string
 
 The boolean values ```` true ```` and ```` false ```` are technically the only true or false values.  But JavaScript does a lot of implicit type conversion (be careful here), and we can use it to our advantage.  If we want to know whether a value is something other than null, undefined, an empty string, or zero, we can use our knowledge of true / false conversions in a clever way inside an if block.  Here's an example:
 
