@@ -45,7 +45,15 @@ Object Types:
 
 #### Comparisons
 
-JavaScript gives us the '==' and '===' binary operators for performing comparisons between entities.  The first operator tests whether the value of the two entities are the same.  The second tests whether the value AND type of the two entities are the same.  Why use one over the other? Well, '==' will return true if the entities compared are, say, 0 and false.  The strict equality operator ('===') will return false if the types are different, so no implicit conversion of elements is performed.  The strict operator is definitely the safer way to program.  Also, if you are interested in doing explicit conversions
+JavaScript gives us the '==' and '===' binary operators for performing comparisons between entities.  The first operator tests whether the value of the two entities are the same.  The second tests whether the value AND type of the two entities are the same.  Why use one over the other? Well, '==' will return true if the entities compared are, say, 0 and false.  The strict equality operator ('===') will return false if the types are different, so no implicit conversion of elements is performed.  The strict operator is definitely the safer way to program if you don't have a specific reason to use '=='.  
+
+````javascript
+console.log(1 == true); // true
+console.log(1 === true); // false
+console.log(null == undefined); //true
+console.log(null === undefined); //false
+
+````
 
 #### Truthiness, Falsiness
 
