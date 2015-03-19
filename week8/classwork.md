@@ -45,12 +45,15 @@ Object Types:
 
 #### Truthiness, Falsiness
 
-The boolean values ```` true ```` and ```` false ```` are technically the only true or false values.  But JavaScript does a lot of implicit type conversion (be careful here), and we can use it to our advantage.  If we want to know whether a value is something other than null, undefined or zero, we can use an if block like this:
+The boolean values ```` true ```` and ```` false ```` are technically the only true or false values.  But JavaScript does a lot of implicit type conversion (be careful here), and we can use it to our advantage.  If we want to know whether a value is something other than null, undefined, an empty string, or zero, we can use our knowledge of true / false conversions in a clever way inside an if block.  Here's an example:
 
 ````javascript
 
+// we don't know what mysterious_function returns
+// lets see by assigning the result to a var called ... result!
 var result = mysterious_function();
-if (result)
+
+if (result) // aka. 'if result is not null, undefined, an empty string, or zero, run the block of code'
 {
   console.log(result);
 }
