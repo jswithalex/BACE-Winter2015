@@ -298,5 +298,3 @@ $(body).on('click', function() {
   console.log(body.text()); // log all the text in the body
 });
 ````
-
-#### Event Delegation
