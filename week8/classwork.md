@@ -71,5 +71,27 @@ Methods that use the jQuery JavaScript library:
 
 $('#main') // returns selects the element with an id of main 
 
-#### Cache-ing and jQuery
+#### jQuery
+
+$() is shorthand for jQuery(). Both represent the jQuery library function that we use to target elements on our pages. 
+
+Finding elements
+
+The jQuery syntax for targeting elements on the page is similar to the document.querySelector() method available to us in 'vanilla' JavaScript.  jQuery takes in a **query** in the same form that you use to style elements with CSS.  
+
+In CSS, if you wanted every anchor inside of the body, you would use the following rule
+````css
+body .nav-item
+{
+  list-style-type: underline;
+}
+````
+
+in jQuery, you would target these elements like this:
+
+````javascript
+$('body .nav-item').addClass('underline');
+````
+
+Notice the difference between the initial thing we pass jQuery, which is in the form of a CSS rule, and the way we specify a class as such.  With the ````.addClass()```` method, we are adding the **name** of a class, not the CSS rule notation (which would need a '.' preceding 'underline', e.g. '.underline').
 
