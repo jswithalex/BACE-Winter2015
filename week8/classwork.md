@@ -57,6 +57,9 @@ console.log(null === undefined); //false
 
 #### Truthiness, Falsiness
 
+truthy: objects, a non-empty string, any non-zero number
+falsy: null, undefined, 0, empty string
+
 The boolean values ```` true ```` and ```` false ```` are technically the only true or false values.  But JavaScript does a lot of implicit type conversion (be careful here), and we can use it to our advantage.  If we want to know whether a value is something other than null, undefined, an empty string, or zero, we can use our knowledge of true / false conversions in a clever way inside an if block.  Here's an example:
 
 ````javascript
@@ -71,6 +74,9 @@ if (result) // aka. 'if result is not null, undefined, an empty string, or zero,
 }
 
 ````
+
+This works due to the nature of an if block.  'If' essentially is short for 'if the following expression is true'.  This means that the expression inside the if block eventually must ultimately reduce to a boolean value.  Thus, the terms are coerced / converted to a true or false value.  A given term's truthiness or falsiness is determined by whether it is convertable to ```true```` or ````false```` in a Boolean context.  ````Console.log(result)```` and ````Math.sqrt(result)```` are familiar examples of contexts that do not require Boolean values to proceed.
+
 
 #### The DOM
 
