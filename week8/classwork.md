@@ -4,7 +4,10 @@
 
 This course showed you ways to extend your websites with JavaScript.  We've learned how to target and manipulate elements on a page, how to attach onclick elements to capture user interaction programmatically, how to write asynchronous scripts that fetch data using 3rd party API services, and how to build a more comprehensive application-style menu that reflects our location on the current page.  
 
-Our endeavors overlapped with the fundmentals of JavaScript, but I should note that there are some foundational things that every JavaScript programmer should know that we haven't talked about due to the nature and objectives of the class.  Topics we didn't cover, or covered in very little detail,  include the inner workings of primitive and object type methods, scope, mutability/immutability, functions in depth, Object Oriented JavaScript and various inheritance models.  I encourage you to explore those topics if you enjoyed working with JavaScript.  Mastering them will be essential and empowering if you want to build more complex JavaScript applications or scripts (for example, using the HTML5 canvas is one example of where you'd need to know the basics of Object Oriented programming).  See the [References]() section if you would like help finding pedagogically sound JavaScript learning resources.  
+Our endeavors overlapped with the fundmentals of JavaScript, but I should note that there are some foundational things that every JavaScript programmer should know that we haven't talked about due to the nature and objectives of the class.  Topics we didn't cover, or covered in very little detail,  include the inner workings of primitive and object type methods, scope, mutability/immutability, functions in depth, Object Oriented JavaScript and various inheritance models.  
+
+I encourage you to explore those topics if you enjoyed working with JavaScript.  Mastering them will be essential and empowering if you want to build more complex JavaScript applications or scripts (for example, using the HTML5 canvas is one example of where you'd need to know the basics of Object Oriented programming).  See the [References]() section if you would like help finding pedagogically sound JavaScript learning resources.  
+
 
 #### Language versus Implementation
 
@@ -206,6 +209,9 @@ jQuery does not come without a performance cost.  One method of keeping the perf
 var anchors = $('body a');
 var body = $('body');
 
+$(body).on('click', function() {
+  console.log(body.text()); // log all the text in the body
+});
 ````
 
-The drawback here is that you have static references to lists of items on your page.  Say 
+#### Event Delegation
