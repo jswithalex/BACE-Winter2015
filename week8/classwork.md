@@ -79,7 +79,8 @@ Finding elements
 
 The jQuery syntax for targeting elements on the page is similar to the document.querySelector() method available to us in 'vanilla' JavaScript.  jQuery takes in a **query** in the same form that you use to style elements with CSS.  
 
-In CSS, if you wanted every anchor inside of the body, you would use the following rule
+In CSS, if you wanted every element with a class name of 'nav-item' inside of the body, you would use the following rule format:
+
 ````css
 body .nav-item
 {
@@ -87,11 +88,11 @@ body .nav-item
 }
 ````
 
-in jQuery, you would target these elements like this:
+in jQuery, if you wanted to target all items inside the body with the classname 'nav-item', you would call the jQuery function like this:
 
 ````javascript
 $('body .nav-item').addClass('underline');
 ````
 
-Notice the difference between the initial thing we pass jQuery, which is in the form of a CSS rule, and the way we specify a class as such.  With the ````.addClass()```` method, we are adding the **name** of a class, not the CSS rule notation (which would need a '.' preceding 'underline', e.g. '.underline').
+Notice the difference between the initial thing we pass jQuery, which is in the form of a CSS rule, and the way we specify a classname as such.  With the ````.addClass()```` method, we are adding the **name** of a class, not the CSS notation, ````'.underline'````.  
 
