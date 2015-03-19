@@ -2,7 +2,7 @@
 
 #### Preamble
 
-This course introduced you to the fundamentals of extending your websites with JavaScript.  This overlaps with the fundmentals of JavaScript, but I should note that there are some foundational things that every JavaScript programmer should know that we haven't talked about due to time and theme constraints on the class.  Topics in the 'not covered' area are things like scope, mutability/immutability, Object Oriented JavaScript and inheritance.  I encourage you to explore those topics if you have enjoyed programming in JavaScript.  See the [References]() section if you would like help finding pedagogically sound JavaScript learning resources.  
+This course showed you ways to extend your websites with JavaScript.  Our endeavors overlapped with the fundmentals of JavaScript, but I should note that there are some foundational things that every JavaScript programmer should know that we haven't talked about due to time and theme constraints on the class.  Topics in the 'not covered' area are things like scope, mutability/immutability, Object Oriented JavaScript and inheritance.  I encourage you to explore those topics if you have enjoyed programming in JavaScript.  Mastering them will be essential to writing more complete JavaScript applications or scripts.  See the [References]() section if you would like help finding pedagogically sound JavaScript learning resources.  
 
 #### Variables
 
@@ -33,4 +33,10 @@ Object Types:
 + Function
 + Object
 
-#### 
+#### The DOM
+
+In this class, we used JavaScript in the browser environment.  We request a page via the browser, the webserver responds to our browser with information sent over the internet in the form of HTML.  The browser parses this HTML and uses the valid (note, the valid ones only) 'directives' to generate the requested elements in the user's browser.  The information that is sent between client and server is very thin, it's just markup and css etc, not the code to create the actual visual elements.  I assume that code is all C++ and internal to the browser.   
+
+Anyway, when the browser receives this information and creates the validly requested elements, it also constructs a model of the page.  This is the DOM, or the Document Object Model. 
+
+The DOM as we know it is like an API in that it is an interface between the user and the browser's internal information.  It provides us with all sorts of interesting and useful capabilities, like the ability to handle user interaction, to detect where an element is on the page, and to inspect object properties thoroughly.
