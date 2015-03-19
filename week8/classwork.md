@@ -52,6 +52,19 @@ Anyway, when the browser receives this information and creates the validly reque
 The DOM as we know it is like an API in that it is an interface between the user and the browser's internal information.  It provides us with all sorts of interesting and useful capabilities, like the ability to handle user interaction, to detect where an element is on the page, and to inspect object properties thoroughly.
 
 The DOM is not the only environment for JavaScript, though.  Node.js is a server-side implementation of JavaScript.  
+#### Truthiness, Falsiness
+
+The boolean values ```` true ```` and ```` false ```` are technically the only true or false values.  But JavaScript does a lot of implicit type conversion (be careful here), and we can use it to our advantage.  If we want to know whether a value is something other than null, undefined or zero, we can use an if block like this:
+
+````javascript
+
+var result = mysterious_function();
+if (result)
+{
+  console.log(result);
+}
+
+````
 
 #### How to Call your JavaScript scripts
 
@@ -98,4 +111,26 @@ Notice the difference between the initial thing we pass jQuery, which is in the 
 
 #### jQuery Return Values
 
-jQuery generally returns null when your selector string doesn't match and a list of elements when it does match (even in the case of an id selector, which should technically only match the first element found on the page).
+jQuery returns an array object whether it found what you were looking for or not.  When your selector string doesn't match, the array is empty.   When it does match (even in the case of an id selector, which should technically only match the first element found on the page), it should have all of the elements that matched the query string on the given page.  This is important to note if you intend on using 'truthiness'/'falsiness' to your advantage when writing conditional statements that run only when jQuery returns elements.  Here's an example:
+
+````javascript
+var uls = $('body > ul');
+if (uls) {
+  console.log('uls!');
+}
+else {
+  console.log('no uls');
+}
+````
+
+The code above will always run the first block in the conditional because jQuery returns objects always.  Objects always are coerced to the value ````true```` when appropriate.  What you need to do is query the object's length, which is a simple data type and as such obeys 'truthiness' and 'falsiness' coercion.  This is how you would leverage type coercion with objects:
+
+````javascript
+var uls = $('body > ul');
+if (uls.length) { // using .length here. if length is 0, the else block runs
+  console.log('uls!');
+}
+else {
+  console.log('no uls');
+}
+````
