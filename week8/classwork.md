@@ -134,7 +134,7 @@ Notice the difference between the initial thing we pass jQuery, which is in the 
 
 #### jQuery Return Values
 
-jQuery returns an array object whether it found what you were looking for or not.  When your selector string doesn't match, the array is empty.   When it does match (even in the case of an id selector, which should technically only match the first element found on the page), it should have all of the elements that matched the query string on the given page.  This is important to note if you intend on using 'truthiness'/'falsiness' to your advantage when writing conditional statements that run only when jQuery returns elements.  Here's an example:
+jQuery returns an array object containing 0 or more matching DOM nodes, which is to say it returns an object whether it found what you were looking for or not.  When your selector string doesn't match, the array is empty.   When it does match (even in the case of an id selector, which should technically only match the first element found on the page), it should have all of the elements that matched the query string on the given page.  The fact that the return value is always an object is important to note if you intend on using 'truthiness'/'falsiness' to your advantage when writing conditional statements that run only when jQuery returns elements.  Here's an example:
 
 ````javascript
 var uls = $('body > ul');
@@ -157,3 +157,53 @@ else {
   console.log('no uls');
 }
 ````
+
+#### jQuery and manipulating CSS styles
+
+I'd consider it a better practice to toggle your CSS rules with jQuery/JavaScript instead of adding properties to selected elements with JavaScript.  It keeps separation of style and behavior separate which makes projects easier to debug and less complex in general.  Additionally, manipulating the CSS directly with JavaScript gives you inline styles in your HTML, which at this point in time, is anathema unless you have some sort of extenuatingn circumstance that calls for it.  
+
+````javascript
+
+// prefer this 
+$('header ul li').toggleClass('visible');
+
+// to this
+$('header ul li').css('display','block');
+
+
+````
+
+#### jQuery arrays
+
+jQuery returns an array of elements, but the jQuery function doesn't support array indexing with these nodes like you'd expect with 'vanilla' JavaScript.  The proper way to index into the arrays returned is to use the .eq() method.  Here's an example:
+
+````javascript
+var divs = $('div');
+console.log( divs.eq(1).css('height') ); // height of first div matched by your jQuery selector, e.g.  '140px';
+
+````
+
+#### Constructing Queries Programmatically
+
+Constructing jQuery selections programmatically is sometimes necessary.  To do this, just remember that jQuery takes a string, like document.querySelector and document.querySelectorAll do.  You can construct longer strings by concatenating a string with any other value and the end result will become a string (via implicit conversion).
+
+````javascript
+
+var div = 'div';
+var divs_on_page = $(div);
+var divs_on_page_containing_ul = $(div + ' ul');
+
+````
+
+#### Caching in jQuery
+
+jQuery does not come without a performance cost.  One method of keeping the performance hit of lookups under control is to cache your jQuery variables.  This means that, if possible, you do your jQuery selections once at the beginning, instead of using the $('body a') selector over and over again in your function code. Here's an example:
+
+````javascript
+
+var anchors = $('body a');
+var body = $('body');
+
+````
+
+The drawback here is that you have static references to lists of items on your page.  Say 
