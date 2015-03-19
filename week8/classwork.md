@@ -2,14 +2,15 @@
 
 #### Data Types
 
-There are 5 primitive data types:
-+ integer
-+ float 
-+ boolean
-+ null
-+ undefined
+Primitive Data Types: 
 
-There are 3 complex data types:
++ numbers
++ string 
++ boolean
+
+Object Types:
+
 + Array
 + Function
 + Object
+
