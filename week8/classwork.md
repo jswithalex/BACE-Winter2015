@@ -8,7 +8,9 @@ This course showed you ways to extend your websites with JavaScript.  Our endeav
 
 JavaScript is actually an informal term for the various implementations of the ECMAScript language standard.  This standard is a specification to which the various JavaScript engines attempt to adhere.
 
-This means that not all JavaScripts are created equally.  There are in fact many implementations of JavaScript, some more noteworthy than others.  A popular one is Google's V8 JavaScript engine, which is found in Chrome, node.js and V8.NET [Ref](http://en.wikipedia.org/wiki/List_of_ECMAScript_engines)
+This means that not all JavaScripts are created equally.  There are in fact many implementations of JavaScript, some more noteworthy than others.  A popular one is Google's V8 JavaScript engine, which is found in Chrome, node.js and V8.NET 
+
+[[Here's a list of JavaScript engines for the curious](http://en.wikipedia.org/wiki/List_of_ECMAScript_engines)]
 
 #### Variables
 
