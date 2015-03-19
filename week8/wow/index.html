@@ -13,9 +13,14 @@
       <div class="wow zoomInDown"><p>I'm an orange circle</p></div>
       <div class="wow rollIn"><p>I'm dizzy.</p></div>
   </div>
-    
+
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.0.3/wow.min.js"></script>
-<script src="js/functions.js"></script><!-- initialize the WOW object -->
+
+<script>
+new WOW({
+  offset: 80
+}).init();
+</script>
 </body>
 </html>
