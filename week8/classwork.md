@@ -18,9 +18,9 @@ With this said, there is a 'core' language specification that attempts to layout
 
 #### Variables
 
-A variable is a human-readable label for looking up stored values.  It is essential to assigning a value to a variable and always occurs on the left hand side of any assignment statement.
+A variable is a human-readable label for storing and referencing values that are important.  In a variable assignment, the variable name always occurs on the left hand side and the value always occurs on the right.
 
-Think of the left hand side of an assignment statement as 'how to find the value', and the right hand side as 'the value itself'.  The right hand side can be an expression made up of one or more literal values, or it can be one ore more expressions involving variables that ultimately resolve to a single value.
+Think of the left hand side of an assignment statement as 'how to find the value', and the right hand side as 'the value itself'.  Note, the right hand side can be an expression made up of one or more literal values, or it can be one or more expressions involving variables that ultimately resolve to a single value.
 
 ````javascript
 /* var HOW_TO_FIND_THE_VALUE = VALUE; */
